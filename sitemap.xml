@@ -38,6 +38,31 @@
   </url>
   
   <url>
+    <loc>https://jeremyworsfold.github.io/pss/yisheng/</loc>
+    <lastmod>2020-12-03T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/category/measure-theory/</loc>
+    <lastmod>2020-12-03T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/category/probability-theory/</loc>
+    <lastmod>2020-12-03T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/category/topology/</loc>
+    <lastmod>2020-12-03T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/author/yi-sheng-lim/</loc>
+    <lastmod>2020-12-03T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jeremyworsfold.github.io/post/post1/</loc>
     <lastmod>2020-11-06T21:01:52+00:00</lastmod>
   </url>
@@ -63,7 +88,15 @@
   </url>
   
   <url>
+    <loc>https://jeremyworsfold.github.io/tutoring/ma20220/week1/</loc>
+  </url>
+  
+  <url>
     <loc>https://jeremyworsfold.github.io/author/jeremy-worsfold/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tutoring/ma20220/</loc>
   </url>
   
   <url>
@@ -80,6 +113,10 @@
   
   <url>
     <loc>https://jeremyworsfold.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tutoring/</loc>
   </url>
   
 </urlset>
