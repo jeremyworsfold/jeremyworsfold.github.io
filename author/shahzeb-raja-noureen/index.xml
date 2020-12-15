@@ -5,7 +5,7 @@
     <link>https://jeremyworsfold.github.io/author/shahzeb-raja-noureen/</link>
       <atom:link href="https://jeremyworsfold.github.io/author/shahzeb-raja-noureen/index.xml" rel="self" type="application/rss+xml" />
     <description>Shahzeb Raja Noureen</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Dec 2020 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 10 Dec 2020 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Shahzeb Raja Noureen</title>
@@ -17,8 +17,15 @@
       <link>https://jeremyworsfold.github.io/pss/shahzeb/</link>
       <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/pss/shahzeb/</guid>
-      <description>&lt;p&gt;The development of hair follicles starts in the early embryonic days. In this talk, I will take you through an exciting journey of what contributes to the formation of hair follicles and how pigment (colour) producing cell behave in response to these follicles to form cool periodic patterns. Don’t need an A* in GCSE biology or any complicated maths as you will see how complex biological behaviours can be modelled using some simple mathematical tools.&lt;/p&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling hair follicle development and formation of periodic patterns of cells.</title>
+      <link>https://jeremyworsfold.github.io/talk/example/</link>
+      <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/talk/example/</guid>
+      <description></description>
     </item>
     
   </channel>

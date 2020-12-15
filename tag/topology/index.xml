@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Topology | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/tag/topology/</link>
+      <atom:link href="https://jeremyworsfold.github.io/tag/topology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Topology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 03 Dec 2020 10:15:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <title>Topology</title>
+      <link>https://jeremyworsfold.github.io/tag/topology/</link>
+    </image>
+    
+    <item>
+      <title>An Invitation to Probability Theory</title>
+      <link>https://jeremyworsfold.github.io/pss/yisheng/</link>
+      <pubDate>Thu, 03 Dec 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/yisheng/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

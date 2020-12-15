@@ -5,12 +5,20 @@
     <link>https://jeremyworsfold.github.io/author/jeremy-worsfold/</link>
       <atom:link href="https://jeremyworsfold.github.io/author/jeremy-worsfold/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Worsfold</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 29 Oct 2020 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Jeremy Worsfold</title>
       <link>https://jeremyworsfold.github.io/author/jeremy-worsfold/</link>
     </image>
+    
+    <item>
+      <title>Multi-armed bandits</title>
+      <link>https://jeremyworsfold.github.io/pss/jeremy/</link>
+      <pubDate>Thu, 29 Oct 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/jeremy/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

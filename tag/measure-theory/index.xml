@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>measure theory | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/tag/measure-theory/</link>
+      <atom:link href="https://jeremyworsfold.github.io/tag/measure-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>measure theory</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 03 Dec 2020 10:15:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <title>measure theory</title>
+      <link>https://jeremyworsfold.github.io/tag/measure-theory/</link>
+    </image>
+    
+    <item>
+      <title>An Invitation to Probability Theory</title>
+      <link>https://jeremyworsfold.github.io/pss/yisheng/</link>
+      <pubDate>Thu, 03 Dec 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/yisheng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Measure Theory, and How does it Affect Me?</title>
+      <link>https://jeremyworsfold.github.io/pss/willgraham/</link>
+      <pubDate>Thu, 05 Nov 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/willgraham/</guid>
+      <description>&lt;p&gt;The reaction I usually get when I tell people my PhD concerns a large amount of measure theory can be summarised fairly well by the following diagram:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jeremyworsfold.github.io/media/willgraham.png&#34; alt=&#34;measure theory meme&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Whilst having an intricate knowledge of the ins and outs of measure theory is by no means a requirement for many applications of maths in the real world; it does secretly underpin a lot of the more familiar (and friendly!) things that we use in applied maths, and probability.
+• Have you ever wondered why PDFs are such a big deal when working in probability?
+• Have you ever used FEM or Fourier transforms to solve a problem?
+• Have you ever tried to break up a chocolate bar, and then reassemble the pieces into two chocolate bars of equal size to the first????&lt;/p&gt;
+&lt;p&gt;Disclaimer: I will be limiting the technical details to the bare minimum I need, and will include diagrams and analogies wherever possible. I’m also not going to be assuming any prior knowledge of measure theory, so anyone should be able to follow along even if they’ve never seen, never heard, or have actively avoided this topic before. It is not my intention to give a technical analysis talk at 10:15 in the morning, no-one wants that, not even me!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

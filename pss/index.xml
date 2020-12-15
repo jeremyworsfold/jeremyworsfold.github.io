@@ -5,7 +5,7 @@
     <link>https://jeremyworsfold.github.io/pss/</link>
       <atom:link href="https://jeremyworsfold.github.io/pss/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming PSS Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 10 Dec 2020 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 10 Dec 2020 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Recent &amp; Upcoming PSS Talks</title>
@@ -17,8 +17,7 @@
       <link>https://jeremyworsfold.github.io/pss/shahzeb/</link>
       <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/pss/shahzeb/</guid>
-      <description>&lt;p&gt;The development of hair follicles starts in the early embryonic days. In this talk, I will take you through an exciting journey of what contributes to the formation of hair follicles and how pigment (colour) producing cell behave in response to these follicles to form cool periodic patterns. Don’t need an A* in GCSE biology or any complicated maths as you will see how complex biological behaviours can be modelled using some simple mathematical tools.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -26,8 +25,79 @@
       <link>https://jeremyworsfold.github.io/pss/yisheng/</link>
       <pubDate>Thu, 03 Dec 2020 10:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/pss/yisheng/</guid>
-      <description>&lt;p&gt;Probability is a big subject. My goal for the session will be to give a tour of what kind of maths happens at its core. The basic objects are probability spaces and random variables, which are built on the language of measure theory. My take, however, is that measure theory is just half of the story &amp;ndash; you do not want to do probability on &lt;em&gt;any&lt;/em&gt; space &amp;hellip; it must be on a space as nice as R. In other words, I would say that the core of probability is about &amp;ldquo;Probability Measures on Metric Spaces&amp;rdquo;. This is the title of a book by K R Parthasarathy.&lt;/p&gt;
-&lt;p&gt;So, the tour centres around this book. I will take some time to explain how one should go from A-Level probability and statistics + mathematical analysis (point set topology, metric spaces) to the starting point of this book. Once we have reached the start of the book, I will give a whirlwind tour on the most important ideas in it. The second part is intended to be a touch-and-go, as a cultural appreciation of the language and the results that one can expect in this field. Come by and have fun with probability!&lt;/p&gt;
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Will a Large Complex System be Stable?</title>
+      <link>https://jeremyworsfold.github.io/pss/yvonne/</link>
+      <pubDate>Thu, 26 Nov 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/yvonne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blowups: An algebraic-geometric approach to resolving singularities</title>
+      <link>https://jeremyworsfold.github.io/pss/mattturner/</link>
+      <pubDate>Thu, 19 Nov 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/mattturner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concentrated Vorticity in the Euler equations</title>
+      <link>https://jeremyworsfold.github.io/pss/zoe/</link>
+      <pubDate>Thu, 12 Nov 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/zoe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Measure Theory, and How does it Affect Me?</title>
+      <link>https://jeremyworsfold.github.io/pss/willgraham/</link>
+      <pubDate>Thu, 05 Nov 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/willgraham/</guid>
+      <description>&lt;p&gt;The reaction I usually get when I tell people my PhD concerns a large amount of measure theory can be summarised fairly well by the following diagram:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jeremyworsfold.github.io/media/willgraham.png&#34; alt=&#34;measure theory meme&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Whilst having an intricate knowledge of the ins and outs of measure theory is by no means a requirement for many applications of maths in the real world; it does secretly underpin a lot of the more familiar (and friendly!) things that we use in applied maths, and probability.
+• Have you ever wondered why PDFs are such a big deal when working in probability?
+• Have you ever used FEM or Fourier transforms to solve a problem?
+• Have you ever tried to break up a chocolate bar, and then reassemble the pieces into two chocolate bars of equal size to the first????&lt;/p&gt;
+&lt;p&gt;Disclaimer: I will be limiting the technical details to the bare minimum I need, and will include diagrams and analogies wherever possible. I’m also not going to be assuming any prior knowledge of measure theory, so anyone should be able to follow along even if they’ve never seen, never heard, or have actively avoided this topic before. It is not my intention to give a technical analysis talk at 10:15 in the morning, no-one wants that, not even me!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-armed bandits</title>
+      <link>https://jeremyworsfold.github.io/pss/jeremy/</link>
+      <pubDate>Thu, 29 Oct 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/jeremy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hybrid methods: innovative or a waste of time? You decide!</title>
+      <link>https://jeremyworsfold.github.io/pss/cameron/</link>
+      <pubDate>Thu, 22 Oct 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/cameron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curve Shortening Flow</title>
+      <link>https://jeremyworsfold.github.io/pss/ed/</link>
+      <pubDate>Thu, 15 Oct 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/ed/</guid>
+      <description>&lt;p&gt;There will be some equations and overviews of proofs, but it won&amp;rsquo;t be super technical, and there&amp;rsquo;ll also be nice pictures and diagrams so it should be possible to follow the talk without any knowledge of differential geometry at all!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From alco-rockets and neural networks in a can to international political incidents</title>
+      <link>https://jeremyworsfold.github.io/pss/piotr/</link>
+      <pubDate>Thu, 08 Oct 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/piotr/</guid>
+      <description>&lt;p&gt;There will be some equations and overviews of proofs, but it won&amp;rsquo;t be super technical, and there&amp;rsquo;ll also be nice pictures and diagrams so it should be possible to follow the talk without any knowledge of differential geometry at all!&lt;/p&gt;
 </description>
     </item>
     

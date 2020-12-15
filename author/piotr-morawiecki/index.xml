@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Piotr Morawiecki | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/author/piotr-morawiecki/</link>
+      <atom:link href="https://jeremyworsfold.github.io/author/piotr-morawiecki/index.xml" rel="self" type="application/rss+xml" />
+    <description>Piotr Morawiecki</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 08 Oct 2020 10:15:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <title>Piotr Morawiecki</title>
+      <link>https://jeremyworsfold.github.io/author/piotr-morawiecki/</link>
+    </image>
+    
+    <item>
+      <title>From alco-rockets and neural networks in a can to international political incidents</title>
+      <link>https://jeremyworsfold.github.io/pss/piotr/</link>
+      <pubDate>Thu, 08 Oct 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/piotr/</guid>
+      <description>&lt;p&gt;There will be some equations and overviews of proofs, but it won&amp;rsquo;t be super technical, and there&amp;rsquo;ll also be nice pictures and diagrams so it should be possible to follow the talk without any knowledge of differential geometry at all!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

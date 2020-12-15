@@ -8,17 +8,12 @@
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/categories/</loc>
-    <lastmod>2020-12-10T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jeremyworsfold.github.io/</loc>
     <lastmod>2020-12-10T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/category/mathematical-biology/</loc>
+    <loc>https://jeremyworsfold.github.io/tag/mathematical-biology/</loc>
     <lastmod>2020-12-10T10:15:00+00:00</lastmod>
   </url>
   
@@ -28,7 +23,17 @@
   </url>
   
   <url>
+    <loc>https://jeremyworsfold.github.io/talk/example/</loc>
+    <lastmod>2020-12-10T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jeremyworsfold.github.io/pss/</loc>
+    <lastmod>2020-12-10T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/talk/</loc>
     <lastmod>2020-12-10T10:15:00+00:00</lastmod>
   </url>
   
@@ -38,65 +43,166 @@
   </url>
   
   <url>
+    <loc>https://jeremyworsfold.github.io/tags/</loc>
+    <lastmod>2020-12-10T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://jeremyworsfold.github.io/pss/yisheng/</loc>
     <lastmod>2020-12-03T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/category/measure-theory/</loc>
+    <loc>https://jeremyworsfold.github.io/tag/measure-theory/</loc>
     <lastmod>2020-12-03T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/category/probability-theory/</loc>
+    <loc>https://jeremyworsfold.github.io/tag/probability-theory/</loc>
     <lastmod>2020-12-03T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/category/topology/</loc>
+    <loc>https://jeremyworsfold.github.io/tag/topology/</loc>
     <lastmod>2020-12-03T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/author/yi-sheng-lim/</loc>
+    <loc>https://jeremyworsfold.github.io/author/yi-shen-lim/</loc>
     <lastmod>2020-12-03T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/post/post1/</loc>
-    <lastmod>2020-11-06T21:01:52+00:00</lastmod>
+    <loc>https://jeremyworsfold.github.io/tag/complex-systems/</loc>
+    <lastmod>2020-11-26T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/category/modelling/</loc>
-    <lastmod>2020-11-06T21:01:52+00:00</lastmod>
+    <loc>https://jeremyworsfold.github.io/tag/ecology/</loc>
+    <lastmod>2020-11-26T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/category/mortality/</loc>
-    <lastmod>2020-11-06T21:01:52+00:00</lastmod>
+    <loc>https://jeremyworsfold.github.io/pss/yvonne/</loc>
+    <lastmod>2020-11-26T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/post/</loc>
-    <lastmod>2020-11-06T21:01:52+00:00</lastmod>
+    <loc>https://jeremyworsfold.github.io/author/yvonne-krumbeck/</loc>
+    <lastmod>2020-11-26T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/category/statistics/</loc>
-    <lastmod>2020-11-06T21:01:52+00:00</lastmod>
+    <loc>https://jeremyworsfold.github.io/tag/algebraic-geometry/</loc>
+    <lastmod>2020-11-19T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/ma20220/week1/</loc>
+    <loc>https://jeremyworsfold.github.io/pss/mattturner/</loc>
+    <lastmod>2020-11-19T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tag/geometry/</loc>
+    <lastmod>2020-11-19T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/author/matt-turner/</loc>
+    <lastmod>2020-11-19T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tag/analysis/</loc>
+    <lastmod>2020-11-12T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/pss/zoe/</loc>
+    <lastmod>2020-11-12T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tag/fluid-dynamics/</loc>
+    <lastmod>2020-11-12T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/author/zoe-dennison/</loc>
+    <lastmod>2020-11-12T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/pss/willgraham/</loc>
+    <lastmod>2020-11-05T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/author/will-graham/</loc>
+    <lastmod>2020-11-05T10:15:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jeremyworsfold.github.io/author/jeremy-worsfold/</loc>
+    <lastmod>2020-10-29T10:15:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/ma20220/</loc>
+    <loc>https://jeremyworsfold.github.io/pss/jeremy/</loc>
+    <lastmod>2020-10-29T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tag/recommender-systems/</loc>
+    <lastmod>2020-10-29T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tag/reinforcement-learning/</loc>
+    <lastmod>2020-10-29T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/author/cameron-smith/</loc>
+    <lastmod>2020-10-22T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/pss/cameron/</loc>
+    <lastmod>2020-10-22T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/pss/ed/</loc>
+    <lastmod>2020-10-15T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tag/differential-geometry/</loc>
+    <lastmod>2020-10-15T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/author/ed-gallagher/</loc>
+    <lastmod>2020-10-15T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/pss/piotr/</loc>
+    <lastmod>2020-10-08T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/author/piotr-morawiecki/</loc>
+    <lastmod>2020-10-08T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/post/</loc>
   </url>
   
   <url>
@@ -105,14 +211,6 @@
   
   <url>
     <loc>https://jeremyworsfold.github.io/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tags/</loc>
   </url>
   
   <url>
