@@ -57,9 +57,30 @@ scp -r path/to/directory/ user123@linux.bath.ac.uk:path/to/directory/
 &lt;p&gt;The thing you run is the jobscript using the command&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sbatch &amp;lt;name of jobscript&amp;gt;.slm
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Below I&amp;rsquo;ve put in an example jobscript that has been adapted from the one given in the scientific computing module. Make sure you are in the directory of the jobscript when you call it and that the program you want to run is in the same folder or that you have specified where it is in the jobscript.
-\lstinputlisting{slurm.txt}
-The important bits to check are the job name and the time. For ease I have just made the job name the same as the name of the script you want to run. I&amp;rsquo;ll explain later what the job name is actually used for. Balena allows you free, unlimited usage for jobs which are under 6 hours long so make sure you know approximately how long it will take and change the time given accordingly. Nothing will happen if you overestimate how long you need but it could be helpful for other users to know when their jobs will start if balena is busy and puts your job in ahead of theirs.&lt;/p&gt;
+&lt;p&gt;Below I&amp;rsquo;ve put in an example jobscript that has been adapted from the one given in the scientific computing module. Make sure you are in the directory of the jobscript when you call it and that the program you want to run is in the same folder or that you have specified where it is in the jobscript.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash 
+#   
+# Specify the queue
+#SBATCH
+
+# Choose name of job (name of executable) 
+#SBATCH --job-name = &amp;lt;name of script&amp;gt;.py 
+# Choose the number of nodes &amp;amp; processors per node: 
+#SBATCH --nodes=1 
+#SBATCH --ntasks-per-node=1 
+# 
+# Choose the time your code will need at most:
+#SBATCH --time=05:00:00 
+# Add any module which need to be loaded here 
+module load python3
+
+echo Running on host `hostname`
+echo &amp;quot;Starting job...&amp;quot;
+# Run the python script $SLUTM_JOB_NAME 
+# If your script is in MATLAB obviously this needs to be changed
+python3 $SLURM_JOB_NAME
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The important bits to check are the job name and the time. For ease I have just made the job name the same as the name of the script you want to run. I&amp;rsquo;ll explain later what the job name is actually used for. Balena allows you free, unlimited usage for jobs which are under 6 hours long so make sure you know approximately how long it will take and change the time given accordingly. Nothing will happen if you overestimate how long you need but it could be helpful for other users to know when their jobs will start if balena is busy and puts your job in ahead of theirs.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;re using MATLAB and the paralellisation package thing that I know nothing about, you&amp;rsquo;ll want to change the number of tasks per node to the maximum of 16 I imagine. Otherwise, unless you&amp;rsquo;ve done clever things with the &lt;code&gt;MPI4pi&lt;/code&gt; or &lt;code&gt;multiprocessing&lt;/code&gt; packages in python (which I would highly recommend you learn about if you need to run long programs a lot because this could increase your speed by 16 times or more) then you will probably just be using the one processor and so don&amp;rsquo;t need to change anything.&lt;/p&gt;
 &lt;h3 id=&#34;checking-jobs&#34;&gt;Checking Jobs&lt;/h3&gt;
 &lt;p&gt;You will get an output file with the extension &lt;code&gt;.out&lt;/code&gt; telling you everything that happens in the job that would normally printed to the screen if you ran it from a terminal.&lt;/p&gt;
