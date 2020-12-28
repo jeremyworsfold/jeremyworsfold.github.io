@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/slides/</link>
+      <atom:link href="https://jeremyworsfold.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Slides</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 14 Dec 2020 21:44:52 +0000</lastBuildDate>
+    <item>
+      <title>How to use Python for scientific research</title>
+      <link>https://jeremyworsfold.github.io/slides/python-coding/</link>
+      <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/slides/python-coding/</guid>
+      <description>&lt;h2 id=&#34;how-to-use-python-for-scientific-research&#34;&gt;How to use Python for scientific research&lt;/h2&gt;
+&lt;h3 id=&#34;maintaining-a-personal-python-package-for-scientific-research&#34;&gt;Maintaining a personal Python package for scientific research&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;our-project-should&#34;&gt;Our project should&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Save data&lt;/li&gt;
+&lt;li&gt;Separate plotting from time-consuming code&lt;/li&gt;
+&lt;li&gt;Have good documentation&lt;/li&gt;
+&lt;li&gt;Be Distributable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;why-python&#34;&gt;Why Python?&lt;/h2&gt;
+&lt;p&gt;It is personal preference however&amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;layout&#34;&gt;Layout&lt;/h2&gt;
+&lt;p&gt;Root directory&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;exampleproject
+│   README.md
+│   setup.py
+│
+├───data
+├───docs
+├───exampleproject
+├───notebooks
+└───scripts
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
