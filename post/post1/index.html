@@ -787,6 +787,23 @@
 <li><strong>Distribution</strong>: If your work eventually gets published it would be great if a reader could look at your code and run it for themselves so that they can gain the same level of trust in your code as they have for whatever mathematical proofs you have in the text.</li>
 </ul>
 <h2 id="why-python">Why Python?</h2>
+
+
+<div id="chart-931784526" class="chart"></div>
+<script>
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === 'undefined' ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json("./annealing.json", function(chart) {
+        Plotly.plot('chart-931784526', chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+</script>
 <p>Before saying anything else in this section I will acknowledge that ultimately this comes down to personal preference. Each person develops their own style of working and habits or have a specific field of research which lend themselves to particular languages. Before deciding which language to use, consider things such as:</p>
 <ul>
 <li>Support for the things you would like to do: Are there packages associated with the things you want to code in a certain language which will make your life easier?</li>
@@ -1190,6 +1207,11 @@
     
 
     
+    
+    <script>
+      window.PlotlyConfig = {MathJaxConfig: 'local'};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.55.2/plotly.min.js" integrity="sha512-gttPT9uTUiaLBj6XZdcB0ydKXiDaBwstInkN4Qvp1Nz3iwXNc8TTQplIEPIGxyJBDqERjwkKxf2OyO47/0EHbQ==" crossorigin="anonymous"></script>
     
 
     

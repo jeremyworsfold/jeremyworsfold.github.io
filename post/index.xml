@@ -107,6 +107,23 @@ python3 $SLURM_JOB_NAME
 &lt;li&gt;&lt;strong&gt;Distribution&lt;/strong&gt;: If your work eventually gets published it would be great if a reader could look at your code and run it for themselves so that they can gain the same level of trust in your code as they have for whatever mathematical proofs you have in the text.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;why-python&#34;&gt;Why Python?&lt;/h2&gt;
+
+
+&lt;div id=&#34;chart-931784526&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-931784526&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
 &lt;p&gt;Before saying anything else in this section I will acknowledge that ultimately this comes down to personal preference. Each person develops their own style of working and habits or have a specific field of research which lend themselves to particular languages. Before deciding which language to use, consider things such as:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Support for the things you would like to do: Are there packages associated with the things you want to code in a certain language which will make your life easier?&lt;/li&gt;
