@@ -109,7 +109,7 @@ python3 $SLURM_JOB_NAME
 &lt;h2 id=&#34;why-python&#34;&gt;Why Python?&lt;/h2&gt;
 
 
-&lt;div id=&#34;chart-978642153&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-213465978&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -119,7 +119,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-978642153&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-213465978&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -212,7 +212,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-394281567&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-283916457&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -222,7 +222,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-394281567&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-283916457&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
