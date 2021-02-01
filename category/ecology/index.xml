@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ecology | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/category/ecology/</link>
+      <atom:link href="https://jeremyworsfold.github.io/category/ecology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ecology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 26 Nov 2020 10:15:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <title>Ecology</title>
+      <link>https://jeremyworsfold.github.io/category/ecology/</link>
+    </image>
+    
+    <item>
+      <title>Will a Large Complex System be Stable?</title>
+      <link>https://jeremyworsfold.github.io/pss/yvonne/</link>
+      <pubDate>Thu, 26 Nov 2020 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/yvonne/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

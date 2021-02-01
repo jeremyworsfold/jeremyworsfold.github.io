@@ -109,7 +109,7 @@ python3 $SLURM_JOB_NAME
 &lt;h2 id=&#34;why-python&#34;&gt;Why Python?&lt;/h2&gt;
 
 
-&lt;div id=&#34;chart-931784526&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-826571349&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -119,7 +119,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-931784526&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-826571349&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -212,7 +212,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-173924865&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-936748125&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -222,7 +222,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-173924865&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-936748125&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -248,73 +248,6 @@ python3 $SLURM_JOB_NAME
 &lt;h2 id=&#34;summary-of-last-weeks-lectures&#34;&gt;Summary of last week&amp;rsquo;s lectures&lt;/h2&gt;
 &lt;hr&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>MA20220 Week 1</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week1/</link>
-      <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week1/</guid>
-      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#delay-formula-l1&#34;&gt;Delay Formula &lt;strong&gt;(L1)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#solving-inhomogeneous-ivps-l2l3&#34;&gt;Solving (in)homogeneous IVPs &lt;strong&gt;(L2,L3)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;h2 id=&#34;delay-formula-l1&#34;&gt;Delay Formula &lt;strong&gt;(L1)&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;$$
-\mathcal{L}{f(t-\lambda)H(t-\lambda);s} = e^{-s\lambda}\mathcal{F}(s), \quad \lambda \in \mathbb{R}
-$$&lt;/p&gt;
-&lt;p&gt;Not a lot to say about this one, I think there should be sufficient examples in the odd questions on the problem sheets and in the typed notes for you to be able to apply this. Essentially the idea is to solve the system in the same ways as before, taking the Laplace transform and rearranging for $\mathcal{X}(s)$. Then hopefully notice this $\mathcal{X}(s)=\exp(-s\lambda)\mathcal{F}(s)$ for some $\lambda$ and $\mathcal{F}(s)$. Then use the laplace tables to find $f(t)$ and use the Delay formula above to find the full solution for $x(t)$.&lt;/p&gt;
-&lt;h2 id=&#34;solving-inhomogeneous-ivps-l2l3&#34;&gt;Solving (in)homogeneous IVPs &lt;strong&gt;(L2,L3)&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;In lectures, it was presented to you that for the system of inhomogeneous ODEs $\dot{x}(t)=Ax(t) + {\color{blue}b(t)}$
-the unique solution is given by:
-$$
-\mathcal{L}{x(t);s} = (s\mathcal{I}-A)^{-1}(x_0 + \mathcal{B}(s)).
-$$
-In the types lecture notes &lt;strong&gt;(L3)&lt;/strong&gt; you can see a quick derivation of where this comes from and I went over this in the tutorial so maybe take a quick look at that if you weren&amp;rsquo;t there. In terms of how to implement this, below you can see a simple 4 step method of how to use the above theorem to solve specific examples.&lt;/p&gt;
-&lt;p&gt;Steps to find the solution for a system of homogeneous/inhomogeneous IVPs using Laplace transforms. If the system is homogeneous you can ignore the bits which are in $\color{blue}\mathrm{ blue}$ .&lt;/p&gt;
-&lt;p&gt;Say we have 
-$$\dot{x}(t)=Ax(t) + {\color{blue}b(t)}$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Find $(s\mathcal{I}-A)^{-1}$&lt;/li&gt;
-&lt;li&gt;$\color{blue}\mathrm{Find} \quad \mathcal{B}(s) = \mathcal{L}\{b(t);s\}$&lt;/li&gt;
-&lt;li&gt;Calculate $\mathcal{X}(s) = (s\mathcal{I}-A)^{-1}(x_0 {\color{blue}+ \mathcal{B}(s)})$&lt;/li&gt;
-&lt;li&gt;Use the Laplace transform tables to find $x(t)$ s.t. $\mathcal{L}\{x_i(t);s\} = \mathcal{X}_i(s),\quad i=1,&amp;hellip;,N$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;When you get to step 3. and have two partial fraction decompositions to do where the denominators are the same, make your life easier by doing it generally like this from Q3a.
-$$
-\mathcal{X}_1(s) = \frac{4s}{(s-3)(s+1)}, \quad \mathcal{X}_2(s) = \frac{2s +6}{(s-3)(s+1)}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\mathcal{X}_i(s) = \frac{\alpha_i s +\beta_i}{(s-3)(s+1)}  = \frac{A_i}{s-3} + \frac{B_i}{s+1}, \quad i=1,2
-$$
-$$
-\alpha_i s + \beta_i = A_i(s+1) + B_i(s-3)
-$$
-$$
-\begin{aligned}
-s=-1: &amp;amp; \quad \beta_i - \alpha_i = -4B_i \Rightarrow B_i = \frac{1}{4}(\alpha_i - \beta_i) \\\&lt;br&gt;
-s=3:  &amp;amp; \quad 3\alpha_i + \beta_i = 4A_i \Rightarrow A_i = \frac{1}{4}(3\alpha_i + \beta_i)
-\end{aligned}
-$$
-Then substituting in for $\alpha_i$ and $\beta_i$,
-$$
-\begin{aligned}
-i=1: &amp;amp; \quad \alpha_i = 4, \beta_i=0 \Rightarrow \mathcal{X}_1(s) = \frac{3}{s-3} + \frac{1}{s+1} \\\&lt;br&gt;
-s=3: &amp;amp; \quad \alpha_i = 2, \beta_i=6 \Rightarrow \mathcal{X}_2(s) = \frac{3}{s-3} - \frac{1}{s+1}
-\end{aligned}
-$$&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Modelling hair follicle development and formation of periodic patterns of cells.</title>
-      <link>https://jeremyworsfold.github.io/tutoring/ma20220/</link>
-      <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/ma20220/</guid>
-      <description></description>
     </item>
     
     <item>

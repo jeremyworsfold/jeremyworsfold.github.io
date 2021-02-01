@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Probability theory | Jeremy Worsfold</title>
+    <title>Probability Theory | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/category/probability-theory/</link>
       <atom:link href="https://jeremyworsfold.github.io/category/probability-theory/index.xml" rel="self" type="application/rss+xml" />
-    <description>Probability theory</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 03 Dec 2020 10:15:00 +0000</lastBuildDate>
+    <description>Probability Theory</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 04 Jan 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>Probability theory</title>
+      <title>Probability Theory</title>
       <link>https://jeremyworsfold.github.io/category/probability-theory/</link>
     </image>
+    
+    <item>
+      <title>Highlights from the theory of random growth</title>
+      <link>https://jeremyworsfold.github.io/pss/tomfinn/</link>
+      <pubDate>Mon, 04 Jan 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/tomfinn/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>An Invitation to Probability Theory</title>
       <link>https://jeremyworsfold.github.io/pss/yisheng/</link>
       <pubDate>Thu, 03 Dec 2020 10:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/pss/yisheng/</guid>
-      <description>&lt;p&gt;Probability is a big subject. My goal for the session will be to give a tour of what kind of maths happens at its core. The basic objects are probability spaces and random variables, which are built on the language of measure theory. My take, however, is that measure theory is just half of the story &amp;ndash; you do not want to do probability on &lt;em&gt;any&lt;/em&gt; space &amp;hellip; it must be on a space as nice as R. In other words, I would say that the core of probability is about &amp;ldquo;Probability Measures on Metric Spaces&amp;rdquo;. This is the title of a book by K R Parthasarathy.&lt;/p&gt;
-&lt;p&gt;So, the tour centres around this book. I will take some time to explain how one should go from A-Level probability and statistics + mathematical analysis (point set topology, metric spaces) to the starting point of this book. Once we have reached the start of the book, I will give a whirlwind tour on the most important ideas in it. The second part is intended to be a touch-and-go, as a cultural appreciation of the language and the results that one can expect in this field. Come by and have fun with probability!&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>
