@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Numerical Analysis | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/tag/numerical-analysis/</link>
+      <atom:link href="https://jeremyworsfold.github.io/tag/numerical-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Numerical Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 11 Jan 2021 10:15:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <title>Numerical Analysis</title>
+      <link>https://jeremyworsfold.github.io/tag/numerical-analysis/</link>
+    </image>
+    
+    <item>
+      <title>An overview of moving mesh methods</title>
+      <link>https://jeremyworsfold.github.io/pss/simone/</link>
+      <pubDate>Mon, 11 Jan 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/simone/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

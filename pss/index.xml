@@ -5,12 +5,28 @@
     <link>https://jeremyworsfold.github.io/pss/</link>
       <atom:link href="https://jeremyworsfold.github.io/pss/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming PSS Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 04 Jan 2021 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 18 Jan 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Recent &amp; Upcoming PSS Talks</title>
       <link>https://jeremyworsfold.github.io/pss/</link>
     </image>
+    
+    <item>
+      <title>TBC</title>
+      <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
+      <pubDate>Mon, 18 Jan 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An overview of moving mesh methods</title>
+      <link>https://jeremyworsfold.github.io/pss/simone/</link>
+      <pubDate>Mon, 11 Jan 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/simone/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Highlights from the theory of random growth</title>

@@ -5,12 +5,28 @@
     <link>https://jeremyworsfold.github.io/</link>
       <atom:link href="https://jeremyworsfold.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Worsfold</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 04 Jan 2021 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 18 Jan 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Jeremy Worsfold</title>
       <link>https://jeremyworsfold.github.io/</link>
     </image>
+    
+    <item>
+      <title>TBC</title>
+      <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
+      <pubDate>Mon, 18 Jan 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An overview of moving mesh methods</title>
+      <link>https://jeremyworsfold.github.io/pss/simone/</link>
+      <pubDate>Mon, 11 Jan 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/simone/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Highlights from the theory of random growth</title>
@@ -142,7 +158,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-937145628&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-741985632&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -152,7 +168,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-937145628&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-741985632&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
