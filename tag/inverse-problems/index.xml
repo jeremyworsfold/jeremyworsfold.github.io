@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Seb Scott | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/author/seb-scott/</link>
-      <atom:link href="https://jeremyworsfold.github.io/author/seb-scott/index.xml" rel="self" type="application/rss+xml" />
-    <description>Seb Scott</description>
+    <title>Inverse Problems | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/tag/inverse-problems/</link>
+      <atom:link href="https://jeremyworsfold.github.io/tag/inverse-problems/index.xml" rel="self" type="application/rss+xml" />
+    <description>Inverse Problems</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 18 Jan 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>Seb Scott</title>
-      <link>https://jeremyworsfold.github.io/author/seb-scott/</link>
+      <title>Inverse Problems</title>
+      <link>https://jeremyworsfold.github.io/tag/inverse-problems/</link>
     </image>
     
     <item>

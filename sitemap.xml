@@ -4,11 +4,56 @@
   
   <url>
     <loc>https://jeremyworsfold.github.io/authors/</loc>
-    <lastmod>2021-01-18T10:15:00+00:00</lastmod>
+    <lastmod>2021-02-09T10:15:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jeremyworsfold.github.io/</loc>
+    <lastmod>2021-02-09T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/author/jeremy-worsfold/</loc>
+    <lastmod>2021-02-09T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tag/odes/</loc>
+    <lastmod>2021-02-09T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tags/</loc>
+    <lastmod>2021-02-09T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tutoring/</loc>
+    <lastmod>2021-02-09T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tutoring/week2/</loc>
+    <lastmod>2021-02-09T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/categories/</loc>
+    <lastmod>2021-01-18T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tag/inverse-problems/</loc>
+    <lastmod>2021-01-18T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/category/inverse-problems/</loc>
+    <lastmod>2021-01-18T10:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/pss/sebscott/</loc>
     <lastmod>2021-01-18T10:15:00+00:00</lastmod>
   </url>
   
@@ -23,17 +68,7 @@
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/pss/sebscott/</loc>
-    <lastmod>2021-01-18T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jeremyworsfold.github.io/pss/simone/</loc>
-    <lastmod>2021-01-11T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/categories/</loc>
     <lastmod>2021-01-11T10:15:00+00:00</lastmod>
   </url>
   
@@ -49,11 +84,6 @@
   
   <url>
     <loc>https://jeremyworsfold.github.io/author/simone-appella/</loc>
-    <lastmod>2021-01-11T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tags/</loc>
     <lastmod>2021-01-11T10:15:00+00:00</lastmod>
   </url>
   
@@ -93,11 +123,6 @@
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/author/jeremy-worsfold/</loc>
-    <lastmod>2020-12-21T09:44:52+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jeremyworsfold.github.io/post/</loc>
     <lastmod>2020-12-21T09:44:52+00:00</lastmod>
   </url>
@@ -124,6 +149,11 @@
   
   <url>
     <loc>https://jeremyworsfold.github.io/slides/ma20220week1/</loc>
+    <lastmod>2020-12-14T21:44:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/slides/ma20221week2/</loc>
     <lastmod>2020-12-14T21:44:52+00:00</lastmod>
   </url>
   
@@ -347,10 +377,6 @@
   
   <url>
     <loc>https://jeremyworsfold.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/</loc>
   </url>
   
 </urlset>

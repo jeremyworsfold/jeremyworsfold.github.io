@@ -13,11 +13,18 @@
     </image>
     
     <item>
-      <title>TBC</title>
+      <title>Inverse Problems, Krylov Methods, and Dog Pictures</title>
       <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
       <pubDate>Mon, 18 Jan 2021 10:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
-      <description></description>
+      <description>&lt;p&gt;By the end of this PSS talk you should:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand how inverse problems may arise and why they can be finicky to deal with&lt;/li&gt;
+&lt;li&gt;Feel happy with the idea of Tikhonov regularisation&lt;/li&gt;
+&lt;li&gt;Get the gist of how iterative Krylov methods, such as LSQR and FLSQR, work&lt;/li&gt;
+&lt;li&gt;Be able to name my dogs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>

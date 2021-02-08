@@ -5,7 +5,7 @@
     <link>https://jeremyworsfold.github.io/tag/odes/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/odes/index.xml" rel="self" type="application/rss+xml" />
     <description>odes</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 10 Dec 2020 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 09 Feb 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>odes</title>
@@ -13,70 +13,73 @@
     </image>
     
     <item>
-      <title>MA20220 Week 1</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week1/</link>
-      <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week1/</guid>
+      <title>Week 2: 09/02/21</title>
+      <link>https://jeremyworsfold.github.io/tutoring/week2/</link>
+      <pubDate>Tue, 09 Feb 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/tutoring/week2/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#delay-formula-l1&#34;&gt;Delay Formula &lt;strong&gt;(L1)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#solving-inhomogeneous-ivps-l2l3&#34;&gt;Solving (in)homogeneous IVPs &lt;strong&gt;(L2,L3)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#outline-of-lecture-content&#34;&gt;Outline of lecture content&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#problem-sheet-1&#34;&gt;Problem sheet 1&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-1&#34;&gt;Question 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-2&#34;&gt;Question 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-3&#34;&gt;Question 3&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-4&#34;&gt;Question 4&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
-&lt;h2 id=&#34;delay-formula-l1&#34;&gt;Delay Formula &lt;strong&gt;(L1)&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;$$
-\mathcal{L}{f(t-\lambda)H(t-\lambda);s} = e^{-s\lambda}\mathcal{F}(s), \quad \lambda \in \mathbb{R}
-$$&lt;/p&gt;
-&lt;p&gt;Not a lot to say about this one, I think there should be sufficient examples in the odd questions on the problem sheets and in the typed notes for you to be able to apply this. Essentially the idea is to solve the system in the same ways as before, taking the Laplace transform and rearranging for $\mathcal{X}(s)$. Then hopefully notice this $\mathcal{X}(s)=\exp(-s\lambda)\mathcal{F}(s)$ for some $\lambda$ and $\mathcal{F}(s)$. Then use the laplace tables to find $f(t)$ and use the Delay formula above to find the full solution for $x(t)$.&lt;/p&gt;
-&lt;h2 id=&#34;solving-inhomogeneous-ivps-l2l3&#34;&gt;Solving (in)homogeneous IVPs &lt;strong&gt;(L2,L3)&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;In lectures, it was presented to you that for the system of inhomogeneous ODEs $\dot{x}(t)=Ax(t) + {\color{blue}b(t)}$
-the unique solution is given by:
-$$
-\mathcal{L}{x(t);s} = (s\mathcal{I}-A)^{-1}(x_0 + \mathcal{B}(s)).
-$$
-In the types lecture notes &lt;strong&gt;(L3)&lt;/strong&gt; you can see a quick derivation of where this comes from and I went over this in the tutorial so maybe take a quick look at that if you weren&amp;rsquo;t there. In terms of how to implement this, below you can see a simple 4 step method of how to use the above theorem to solve specific examples.&lt;/p&gt;
-&lt;p&gt;Steps to find the solution for a system of homogeneous/inhomogeneous IVPs using Laplace transforms. If the system is homogeneous you can ignore the bits which are in $\color{blue}\mathrm{ blue}$ .&lt;/p&gt;
-&lt;p&gt;Say we have 
-$$\dot{x}(t)=Ax(t) + {\color{blue}b(t)}$$&lt;/p&gt;
+&lt;h2 id=&#34;outline-of-lecture-content&#34;&gt;Outline of lecture content&lt;/h2&gt;
+&lt;h2 id=&#34;problem-sheet-1&#34;&gt;Problem sheet 1&lt;/h2&gt;
+&lt;p&gt;The main point of most of this module is to test your abilities to turn a problem often in the form of a paragraph into a mathematical model which you then solve and then learn something about the behaviour of the system or whatever from the solution. Because of this I will not just give you the start of the problem because that is often half of the difficulty in the question. Learning how to do this quickly and effectively now will help you a lot later down the road, so do keep trying even if you feel stuck.&lt;/p&gt;
+&lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
+&lt;div class=&#34;alert alert-&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;One question you might ask about this problem is why does the dead plant matter have a decreasing number of radioactive carbon atoms but the carbon in the atmosphere does not? This is a bit of a side note but essentially Carbon-14 is produced when particles in the upper atmosphere and troposphere collide with cosmic particles and all sorts of interesting physics happens. These interactions sometimes produce neutrons which can then collide with the abundand nitrogen in the air to make Carbon-14 with the following interaction:&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;14&lt;/sup&gt;&lt;sub&gt;7&lt;/sub&gt;N + n → &lt;sup&gt;14&lt;/sup&gt;&lt;sub&gt;6&lt;/sub&gt;C + p&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Anyway the point is that once the plant dies it is separated from this system of radioactive carbon being created and decaying so we just have the decay. From the lectures we saw that the general radioactive decay equation is
+$$\dot{x}(t) = -\lambda x(t)$$
+which has the solution
+$$x(t) = x(0)e^{-\lambda t} $$.
+The key is to figure out what this rate of decay $\lambda$ is in terms of the half-life which we are given. The half-life is the time, $T_{1/2}$ for the amount of &lt;sup&gt;14&lt;/sup&gt;C to half so we can write that
+$$ \frac{1}{2} = \exp\left[-\lambda T_{1/2}\right]$$
+which rearranges to give
+$$ \lambda = \frac{\ln(2)}{T_{1/2}}$$.
+From here, all we need to do is recognise that we want to find the time $T$ where the activity is $0.97$ and we know that initially the activity was $6.68$ so we have 
+$$ 0.97 = 6.68 e^{-\lambda T}$$.
+With some more rearranging we get the solution 
+$$ T = \frac{T_{1/2}}{\ln(2)}\ln\left(6.68/0.97\right) \approx 1.5951 \times 10^4 \text{ years}$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;p&gt;Wondered why the radioactive decay is what it is? It may make intuitive sense to you or it may not. Either way a nice way to think about it is that the probability of a single atom decaying in time $t$ is an exponentially distributed random variable with rate parameter $\lambda$. Over a period of time $t$ the probability that is has not decayed is $1-F(t)=1-e^{-\lambda t}$, where $F(t)$ is the cumulative distribution. If all of the atoms can be treated as independent (and as long as the number of particles is large) then the expected number of particles left by time t is $\langle N\rangle = N_0 e^{-\lambda t}$.&lt;/p&gt;
+&lt;p&gt;Or we could say that rate of one atom decaying is $\lambda$ so the rate of any of the $N$ particles decaying is $N\lambda$ so this gives us an instantaneous rate of change of the system so $dN=-N\lambda dt$.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m sure given some more thought, one of you could make this a bit more rigourous.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h3 id=&#34;question-2&#34;&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;Should be relatively straight forward&lt;/p&gt;
+&lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Find $(s\mathcal{I}-A)^{-1}$&lt;/li&gt;
-&lt;li&gt;$\color{blue}\mathrm{Find} \quad \mathcal{B}(s) = \mathcal{L}\{b(t);s\}$&lt;/li&gt;
-&lt;li&gt;Calculate $\mathcal{X}(s) = (s\mathcal{I}-A)^{-1}(x_0 {\color{blue}+ \mathcal{B}(s)})$&lt;/li&gt;
-&lt;li&gt;Use the Laplace transform tables to find $x(t)$ s.t. $\mathcal{L}\{x_i(t);s\} = \mathcal{X}_i(s),\quad i=1,&amp;hellip;,N$&lt;/li&gt;
+&lt;li&gt;a) What do the two terms on the RHS mean physically?&lt;/li&gt;
+&lt;li&gt;b) What does the steady state distribution mean for the ODE?&lt;/li&gt;
+&lt;li&gt;c) This one is just a following through the maths so I&amp;rsquo;ll leave that up to you.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;When you get to step 3. and have two partial fraction decompositions to do where the denominators are the same, make your life easier by doing it generally like this from Q3a.
-$$
-\mathcal{X}_1(s) = \frac{4s}{(s-3)(s+1)}, \quad \mathcal{X}_2(s) = \frac{2s +6}{(s-3)(s+1)}
-$$&lt;/p&gt;
-&lt;p&gt;$$
-\mathcal{X}_i(s) = \frac{\alpha_i s +\beta_i}{(s-3)(s+1)}  = \frac{A_i}{s-3} + \frac{B_i}{s+1}, \quad i=1,2
-$$
-$$
-\alpha_i s + \beta_i = A_i(s+1) + B_i(s-3)
-$$
+&lt;h3 id=&#34;question-4&#34;&gt;Question 4&lt;/h3&gt;
+&lt;p&gt;This question is pretty straight forwards in terms of setting up the problem. All we need to do is solve the ODE in the case that $c_i=c_a=\text{ constant}$ and substitute in the initial condition that the concentration starts at some value $c_0=c(0)$ so we can substitute this condition in for any constants of integration. Then we do the same for the second case.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;trick&lt;/em&gt; in part b is to notice that we can rewrite the ODE as
 $$
 \begin{aligned}
-s=-1: &amp;amp; \quad \beta_i - \alpha_i = -4B_i \Rightarrow B_i = \frac{1}{4}(\alpha_i - \beta_i) \\\&lt;br&gt;
-s=3:  &amp;amp; \quad 3\alpha_i + \beta_i = 4A_i \Rightarrow A_i = \frac{1}{4}(3\alpha_i + \beta_i)
+c_b&#39;(t) &amp;amp; = \phi \left( c_a \left( \lambda + \phi \alpha (1-\lambda) t \right)- c_b(t)\right) \\\&lt;br&gt;
+c_b&#39;(t) + \phi c_b(t) &amp;amp; = \phi\left(c_a\left(\lambda+\phi\alpha(1-\lambda)t\right)\right) \\\&lt;br&gt;
+\frac{d}{dt}\left\{c_b(t)e^{\phi t}\right\} &amp;amp; = e^{\phi t}\phi\left(c_a\left(\lambda+\phi\alpha(1-\lambda)t\right)\right)
 \end{aligned}
 $$
-Then substituting in for $\alpha_i$ and $\beta_i$,
-$$
-\begin{aligned}
-i=1: &amp;amp; \quad \alpha_i = 4, \beta_i=0 \Rightarrow \mathcal{X}_1(s) = \frac{3}{s-3} + \frac{1}{s+1} \\\&lt;br&gt;
-s=3: &amp;amp; \quad \alpha_i = 2, \beta_i=6 \Rightarrow \mathcal{X}_2(s) = \frac{3}{s-3} - \frac{1}{s+1}
-\end{aligned}
-$$&lt;/p&gt;
+where we&amp;rsquo;ve used an integrating factor. From here we can integrate both sides and use integration by parts for the $t\exp[\phi t]$ term.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Modelling hair follicle development and formation of periodic patterns of cells.</title>
-      <link>https://jeremyworsfold.github.io/tutoring/ma20220/</link>
-      <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/ma20220/</guid>
-      <description></description>
     </item>
     
   </channel>
