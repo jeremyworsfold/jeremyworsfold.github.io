@@ -5,7 +5,7 @@
     <link>https://jeremyworsfold.github.io/</link>
       <atom:link href="https://jeremyworsfold.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Worsfold</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 09 Feb 2021 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 09 Feb 2021 11:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Jeremy Worsfold</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Week 2: 09/02/21</title>
       <link>https://jeremyworsfold.github.io/tutoring/week2/</link>
-      <pubDate>Tue, 09 Feb 2021 10:15:00 +0000</pubDate>
+      <pubDate>Tue, 09 Feb 2021 11:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/tutoring/week2/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
@@ -235,7 +235,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-285136947&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-689341752&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -245,7 +245,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-285136947&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-689341752&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -274,11 +274,12 @@ python3 $SLURM_JOB_NAME
     </item>
     
     <item>
-      <title>MA20221 Week 1</title>
+      <title>MA20221 Week 2</title>
       <link>https://jeremyworsfold.github.io/slides/ma20221week2/</link>
       <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/slides/ma20221week2/</guid>
-      <description>&lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;ma20221-week-2&#34;&gt;MA20221 Week 2&lt;/h1&gt;
+&lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;what-makes-a-well-posed-problem&#34;&gt;What makes a well posed problem?&lt;/h2&gt;
 &lt;ul&gt;
