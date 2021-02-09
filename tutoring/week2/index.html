@@ -841,7 +841,14 @@
       <h2>Table of Contents</h2>
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#outline-of-lecture-content">Outline of lecture content</a></li>
+    <li><a href="#outline-of-lecture-content">Outline of lecture content</a>
+      <ul>
+        <li><a href="#what-makes-a-well-posed-problem">What makes a well posed problem?</a></li>
+        <li><a href="#what-is-a-positively-invariant-set">What is a positively invariant set?</a></li>
+        <li><a href="#stability">Stability</a></li>
+        <li><a href="#time-dependent-solution">Time dependent solution</a></li>
+      </ul>
+    </li>
     <li><a href="#problem-sheet-1">Problem sheet 1</a>
       <ul>
         <li><a href="#question-1">Question 1</a></li>
@@ -853,6 +860,33 @@
   </ul>
 </nav>
 <h2 id="outline-of-lecture-content">Outline of lecture content</h2>
+<h3 id="what-makes-a-well-posed-problem">What makes a well posed problem?</h3>
+<ul>
+<li>solution exists (for at least as long as the prediction is required)</li>
+<li>the solution is unique</li>
+<li>the solution depends continuously on the initial condition and model parameters</li>
+</ul>
+<h3 id="what-is-a-positively-invariant-set">What is a positively invariant set?</h3>
+<p>A set $Y \subset X$ is positively invariant if $x(0) \in Y$ implies that $x(t) \in Y$ for all $t \in T$ with $t &gt; 0$. (It
+is negatively invariant if the same is true for all $t \in T$ with $t &lt; 0$.)</p>
+<h3 id="stability">Stability</h3>
+<ul>
+<li>Steady state: $x^*$, is where $f(x^*)=0$</li>
+<li>Stable: for any $\epsilon &gt; 0$ there exists $\delta &gt; 0$ such that $|x(t) − x^*| &lt; \epsilon$ for all positive $t \in T$ whenever $|x_0 − x^*| &lt; \delta$, and unstable otherwise.</li>
+<li>Asymptotically stable: if it is stable and there exists $\delta &gt; 0$ such that $|x− x^*| \rightarrow 0$ as $t → \infty$ whenever $|x_0 − x^*| &lt; \delta$.</li>
+<li>stable: start close, stay close.</li>
+<li>asym. stable: start close, converge to steady state.</li>
+</ul>
+<h3 id="time-dependent-solution">Time dependent solution</h3>
+<p>If $\frac{dx}{dt}=f(x)$ and $f(x_0)\neq0$, then
+$$
+t = \int_{x_0}^{x(t)}\frac{ds}{f(s)}
+$$</p>
+<ul>
+<li>If $x(t)$ is not a steady state, $x^*$,then it either tends to a steady state or it tends to $\pm\infty$</li>
+<li>If the model system is well-posed, then $x(t)$ must either be a steady state solution, $x^*$, or strictly monotonic.</li>
+</ul>
+<hr>
 <h2 id="problem-sheet-1">Problem sheet 1</h2>
 <p>The main point of most of this module is to test your abilities to turn a problem often in the form of a paragraph into a mathematical model which you then solve and then learn something about the behaviour of the system or whatever from the solution. Because of this I will not just give you the start of the problem because that is often half of the difficulty in the question. Learning how to do this quickly and effectively now will help you a lot later down the road, so do keep trying even if you feel stuck.</p>
 <h3 id="question-1">Question 1</h3>
@@ -917,90 +951,6 @@ where we&rsquo;ve used an integrating factor. From here we can integrate both si
 </div>
 
 
-
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jeremyworsfold.github.io/tutoring/week2/&amp;text=Week%202:%2009/02/21" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jeremyworsfold.github.io/tutoring/week2/&amp;t=Week%202:%2009/02/21" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Week%202:%2009/02/21&amp;body=https://jeremyworsfold.github.io/tutoring/week2/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jeremyworsfold.github.io/tutoring/week2/&amp;title=Week%202:%2009/02/21" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Week%202:%2009/02/21%20https://jeremyworsfold.github.io/tutoring/week2/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jeremyworsfold.github.io/tutoring/week2/&amp;title=Week%202:%2009/02/21" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
 
 
 

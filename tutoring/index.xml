@@ -20,7 +20,14 @@
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#outline-of-lecture-content&#34;&gt;Outline of lecture content&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#outline-of-lecture-content&#34;&gt;Outline of lecture content&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#what-makes-a-well-posed-problem&#34;&gt;What makes a well posed problem?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#what-is-a-positively-invariant-set&#34;&gt;What is a positively invariant set?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#stability&#34;&gt;Stability&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#time-dependent-solution&#34;&gt;Time dependent solution&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#problem-sheet-1&#34;&gt;Problem sheet 1&lt;/a&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;#question-1&#34;&gt;Question 1&lt;/a&gt;&lt;/li&gt;
@@ -32,6 +39,33 @@
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;h2 id=&#34;outline-of-lecture-content&#34;&gt;Outline of lecture content&lt;/h2&gt;
+&lt;h3 id=&#34;what-makes-a-well-posed-problem&#34;&gt;What makes a well posed problem?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;solution exists (for at least as long as the prediction is required)&lt;/li&gt;
+&lt;li&gt;the solution is unique&lt;/li&gt;
+&lt;li&gt;the solution depends continuously on the initial condition and model parameters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;what-is-a-positively-invariant-set&#34;&gt;What is a positively invariant set?&lt;/h3&gt;
+&lt;p&gt;A set $Y \subset X$ is positively invariant if $x(0) \in Y$ implies that $x(t) \in Y$ for all $t \in T$ with $t &amp;gt; 0$. (It
+is negatively invariant if the same is true for all $t \in T$ with $t &amp;lt; 0$.)&lt;/p&gt;
+&lt;h3 id=&#34;stability&#34;&gt;Stability&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Steady state: $x^*$, is where $f(x^*)=0$&lt;/li&gt;
+&lt;li&gt;Stable: for any $\epsilon &amp;gt; 0$ there exists $\delta &amp;gt; 0$ such that $|x(t) − x^*| &amp;lt; \epsilon$ for all positive $t \in T$ whenever $|x_0 − x^*| &amp;lt; \delta$, and unstable otherwise.&lt;/li&gt;
+&lt;li&gt;Asymptotically stable: if it is stable and there exists $\delta &amp;gt; 0$ such that $|x− x^*| \rightarrow 0$ as $t → \infty$ whenever $|x_0 − x^*| &amp;lt; \delta$.&lt;/li&gt;
+&lt;li&gt;stable: start close, stay close.&lt;/li&gt;
+&lt;li&gt;asym. stable: start close, converge to steady state.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;time-dependent-solution&#34;&gt;Time dependent solution&lt;/h3&gt;
+&lt;p&gt;If $\frac{dx}{dt}=f(x)$ and $f(x_0)\neq0$, then
+$$
+t = \int_{x_0}^{x(t)}\frac{ds}{f(s)}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If $x(t)$ is not a steady state, $x^*$,then it either tends to a steady state or it tends to $\pm\infty$&lt;/li&gt;
+&lt;li&gt;If the model system is well-posed, then $x(t)$ must either be a steady state solution, $x^*$, or strictly monotonic.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;problem-sheet-1&#34;&gt;Problem sheet 1&lt;/h2&gt;
 &lt;p&gt;The main point of most of this module is to test your abilities to turn a problem often in the form of a paragraph into a mathematical model which you then solve and then learn something about the behaviour of the system or whatever from the solution. Because of this I will not just give you the start of the problem because that is often half of the difficulty in the question. Learning how to do this quickly and effectively now will help you a lot later down the road, so do keep trying even if you feel stuck.&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
