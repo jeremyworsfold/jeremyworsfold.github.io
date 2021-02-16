@@ -5,12 +5,35 @@
     <link>https://jeremyworsfold.github.io/pss/</link>
       <atom:link href="https://jeremyworsfold.github.io/pss/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming PSS Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 11 Feb 2021 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 04 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Recent &amp; Upcoming PSS Talks</title>
       <link>https://jeremyworsfold.github.io/pss/</link>
     </image>
+    
+    <item>
+      <title>TBC</title>
+      <link>https://jeremyworsfold.github.io/pss/allen/</link>
+      <pubDate>Thu, 04 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/allen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inverse Problems, Krylov Methods, and Dog Pictures</title>
+      <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
+      <pubDate>Thu, 18 Feb 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
+      <description>&lt;p&gt;By the end of this PSS talk you should:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand how inverse problems may arise and why they can be finicky to deal with&lt;/li&gt;
+&lt;li&gt;Feel happy with the idea of Tikhonov regularisation&lt;/li&gt;
+&lt;li&gt;Get the gist of how iterative Krylov methods, such as LSQR and FLSQR, work&lt;/li&gt;
+&lt;li&gt;Be able to name my dogs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>An overview of moving mesh methods</title>

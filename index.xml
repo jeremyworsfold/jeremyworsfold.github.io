@@ -5,12 +5,35 @@
     <link>https://jeremyworsfold.github.io/</link>
       <atom:link href="https://jeremyworsfold.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Worsfold</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 16 Feb 2021 11:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 04 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Jeremy Worsfold</title>
       <link>https://jeremyworsfold.github.io/</link>
     </image>
+    
+    <item>
+      <title>TBC</title>
+      <link>https://jeremyworsfold.github.io/pss/allen/</link>
+      <pubDate>Thu, 04 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/allen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inverse Problems, Krylov Methods, and Dog Pictures</title>
+      <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
+      <pubDate>Thu, 18 Feb 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
+      <description>&lt;p&gt;By the end of this PSS talk you should:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand how inverse problems may arise and why they can be finicky to deal with&lt;/li&gt;
+&lt;li&gt;Feel happy with the idea of Tikhonov regularisation&lt;/li&gt;
+&lt;li&gt;Get the gist of how iterative Krylov methods, such as LSQR and FLSQR, work&lt;/li&gt;
+&lt;li&gt;Be able to name my dogs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Week 3: 16/02/21</title>
@@ -70,7 +93,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-823516974&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-352691874&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -80,7 +103,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-823516974&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-352691874&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -152,7 +175,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-621798534&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-576421839&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -162,7 +185,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-621798534&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-576421839&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -367,7 +390,7 @@ python3 $SLURM_JOB_NAME
 &lt;/code&gt;&lt;/pre&gt;
 
 
-&lt;div id=&#34;chart-534691872&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-162935847&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -377,7 +400,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-534691872&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-162935847&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -429,7 +452,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-136827945&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-536894127&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -439,7 +462,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-136827945&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-536894127&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
