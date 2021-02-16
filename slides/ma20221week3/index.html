@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  
+  
+
+  
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic ">
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://jeremyworsfold.github.io/slides/ma20221week3/">
+
+  <title>MA20221 Week 3 | Jeremy Worsfold</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/reveal.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/css/theme/night.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous">
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/reveal_custom.min.css">
+
+  
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/pdf.css' : 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+
+</head>
+<body>
+
+  
+<div class="reveal">
+  <div class="slides">
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    <section>
+    
+      <h1 id="ma20221-week-3">MA20221 Week 3</h1>
+<h2 id="definitions">Definitions</h2>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="what-makes-a-well-posed-problem">What makes a well posed problem?</h2>
+<ul>
+<li><span class="fragment " >
+solution exists (for at least as long as the prediction is required)
+</span></li>
+<li><span class="fragment " >
+the solution is unique
+</span></li>
+<li><span class="fragment " >
+the solution depends continuously on the initial condition and model parameters
+</span></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="what-is-a-positively-invariant-set">What is a positively invariant set?</h2>
+<p>A set $Y \subset X$ is positively invariant if $x(0) \in Y$ implies that $x(t) \in Y$ for all $t \in T$ with $t &gt; 0$. (It
+is negatively invariant if the same is true for all $t \in T$ with $t &lt; 0$.)</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h2 id="stability">Stability</h2>
+<ul>
+<li>Steady state: <span class="fragment " >
+$x^*$, is where $f(x^*)=0$
+</span></li>
+<li>Stable: <span class="fragment " >
+for any $\epsilon &gt; 0$ there exists $\delta &gt; 0$ such that $|x(t) − x^*| &lt; \epsilon$ for all positive $t \in T$ whenever $|x_0 − x^*| &lt; \delta$, and unstable otherwise.
+</span></li>
+<li>Asymptotically stable: <span class="fragment " >
+if it is stable and there exists $\delta &gt; 0$ such that $|x− x^*| \rightarrow 0$ as $t → \infty$ whenever $|x_0 − x^*| &lt; \delta$.
+</span></li>
+<li><span class="fragment " >
+stable: start close, stay close. asym. stable: start close, converge to steady state.
+</span></li>
+</ul>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+<h3 id="time-dependent-solution">Time dependent solution</h3>
+<p>If $\frac{dx}{dt}=f(x)$ and $f(x_0)\neq0$, then
+$$
+t = \int_{x_0}^{x(t)}\frac{ds}{f(s)}
+$$</p>
+<ul>
+<li>If $x(t)$ is not a steady state, $x^*$,then it either tends to a steady state or it tends to $\pm\infty$</li>
+<li>If the model system is well-posed, then $x(t)$ must either be a steady state solution, $x^*$, or strictly monotonic.</li>
+</ul>
+
+    </section>
+    
+
+    
+    
+  </div>
+</div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.8.0/js/reveal.min.js"></script>
+
+  <script>
+    window.revealPlugins = { dependencies: [
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/zoom-js/zoom.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/math/math.js', async: true },
+      
+      { src: 'https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/reveal.js\/3.8.0/plugin/print-pdf/print-pdf.js', async: true },
+      
+      { src: '\/js\/vendor\/reveal.js\/plugin\/notes\/notes.js', async: true }
+    ]};
+
+    let revealDefaults = { center: true, controls: true, history: true, progress: true, transition: 'slide', mouseWheel: true };
+    let revealOptions = Object.assign({}, revealDefaults, revealPlugins);
+    Reveal.initialize(revealOptions);
+  </script>
+
+</body>
+</html>

@@ -380,9 +380,10 @@
 
 
   
-
-
-
+<script>
+  window.PlotlyConfig = {MathJaxConfig: 'local'}
+</script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 
   <title>A Beginners Guide to using Balena | Jeremy Worsfold</title>
@@ -858,6 +859,23 @@ python3 $SLURM_JOB_NAME
 <pre><code class="language-bash">squeue -u user123
 </code></pre>
 
+
+<div id="chart-534691872" class="chart"></div>
+<script>
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === 'undefined' ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json("./annealing.json", function(chart) {
+        Plotly.plot('chart-534691872', chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+</script>
+
     </div>
 
     
@@ -1117,6 +1135,11 @@ python3 $SLURM_JOB_NAME
     
 
     
+    
+    <script>
+      window.PlotlyConfig = {MathJaxConfig: 'local'};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.55.2/plotly.min.js" integrity="sha512-gttPT9uTUiaLBj6XZdcB0ydKXiDaBwstInkN4Qvp1Nz3iwXNc8TTQplIEPIGxyJBDqERjwkKxf2OyO47/0EHbQ==" crossorigin="anonymous"></script>
     
 
     

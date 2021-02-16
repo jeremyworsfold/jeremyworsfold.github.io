@@ -87,6 +87,23 @@ python3 $SLURM_JOB_NAME
 &lt;p&gt;To check your progress or see if the job has started you can find your jobs by typing&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;squeue -u user123
 &lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;div id=&#34;chart-534691872&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-534691872&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
 </description>
     </item>
     
@@ -134,7 +151,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-468172395&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-136827945&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -144,11 +161,12 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-468172395&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-136827945&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 &lt;/script&gt;
+&lt;hr&gt;
 </description>
     </item>
     

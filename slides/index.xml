@@ -50,7 +50,7 @@
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-468172395&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-136827945&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -60,11 +60,12 @@
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-468172395&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-136827945&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 &lt;/script&gt;
+&lt;hr&gt;
 </description>
     </item>
     
@@ -94,6 +95,59 @@
       <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/slides/ma20221week2/</guid>
       <description>&lt;h1 id=&#34;ma20221-week-2&#34;&gt;MA20221 Week 2&lt;/h1&gt;
+&lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-makes-a-well-posed-problem&#34;&gt;What makes a well posed problem?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+solution exists (for at least as long as the prediction is required)
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+the solution is unique
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+the solution depends continuously on the initial condition and model parameters
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-a-positively-invariant-set&#34;&gt;What is a positively invariant set?&lt;/h2&gt;
+&lt;p&gt;A set $Y \subset X$ is positively invariant if $x(0) \in Y$ implies that $x(t) \in Y$ for all $t \in T$ with $t &amp;gt; 0$. (It
+is negatively invariant if the same is true for all $t \in T$ with $t &amp;lt; 0$.)&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;stability&#34;&gt;Stability&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Steady state: &lt;span class=&#34;fragment &#34; &gt;
+$x^*$, is where $f(x^*)=0$
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Stable: &lt;span class=&#34;fragment &#34; &gt;
+for any $\epsilon &amp;gt; 0$ there exists $\delta &amp;gt; 0$ such that $|x(t) − x^*| &amp;lt; \epsilon$ for all positive $t \in T$ whenever $|x_0 − x^*| &amp;lt; \delta$, and unstable otherwise.
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Asymptotically stable: &lt;span class=&#34;fragment &#34; &gt;
+if it is stable and there exists $\delta &amp;gt; 0$ such that $|x− x^*| \rightarrow 0$ as $t → \infty$ whenever $|x_0 − x^*| &amp;lt; \delta$.
+&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+stable: start close, stay close. asym. stable: start close, converge to steady state.
+&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;time-dependent-solution&#34;&gt;Time dependent solution&lt;/h3&gt;
+&lt;p&gt;If $\frac{dx}{dt}=f(x)$ and $f(x_0)\neq0$, then
+$$
+t = \int_{x_0}^{x(t)}\frac{ds}{f(s)}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If $x(t)$ is not a steady state, $x^*$,then it either tends to a steady state or it tends to $\pm\infty$&lt;/li&gt;
+&lt;li&gt;If the model system is well-posed, then $x(t)$ must either be a steady state solution, $x^*$, or strictly monotonic.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MA20221 Week 3</title>
+      <link>https://jeremyworsfold.github.io/slides/ma20221week3/</link>
+      <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/slides/ma20221week3/</guid>
+      <description>&lt;h1 id=&#34;ma20221-week-3&#34;&gt;MA20221 Week 3&lt;/h1&gt;
 &lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;what-makes-a-well-posed-problem&#34;&gt;What makes a well posed problem?&lt;/h2&gt;
