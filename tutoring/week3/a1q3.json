@@ -20015,7 +20015,7 @@
   ],
   "layout": {
     "font": {
-      "color": "cyan"
+      "color": "#00bbff"
     },
     "paper_bgcolor": "rgba(0,0,0,0)",
     "plot_bgcolor": "rgba(0,0,0,0)",
@@ -20831,7 +20831,7 @@
       "title": {
         "text": "t"
       },
-      "zerolinecolor": "cyan",
+      "zerolinecolor": "#00bbff",
       "zerolinewidth": 4
     },
     "yaxis": {
@@ -20840,7 +20840,7 @@
       "title": {
         "text": "V(t)"
       },
-      "zerolinecolor": "cyan",
+      "zerolinecolor": "#00bbff",
       "zerolinewidth": 4
     }
   }
