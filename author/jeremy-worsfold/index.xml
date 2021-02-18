@@ -70,7 +70,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-931457862&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-591236874&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -80,7 +80,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-931457862&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-591236874&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -152,7 +152,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-517642389&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-478519632&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -162,7 +162,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-517642389&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-478519632&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -396,7 +396,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-657914823&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-719428356&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -406,7 +406,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-657914823&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-719428356&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
