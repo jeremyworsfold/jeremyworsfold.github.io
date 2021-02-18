@@ -70,7 +70,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-576138942&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-931457862&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -80,7 +80,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-576138942&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-931457862&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -105,7 +105,7 @@ $$&lt;/p&gt;
 &lt;li&gt;We can then go ahead and plot these solutions in the allowed range in a plot of $x$ vs $\mu$.&lt;/li&gt;
 &lt;li&gt;Finally, to determine the stability of these solutions, we use the linear stability method from before. If a solution is stable then
 $$
-\frac{dx}{dt}|_{x^*}&amp;gt;0
+\frac{dx}{dt}|_{x^*}&amp;lt;0
 $$
 and the opposite is true for unstable solutions. If we have equality then the steady state is non-hyperbolic and we have to look at the higher derivaties.&lt;/li&gt;
 &lt;li&gt;We then draw the unstable solutions with dashed lines and the stable ones with filled in lines&lt;/li&gt;
@@ -152,7 +152,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-763819452&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-517642389&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -162,7 +162,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-763819452&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-517642389&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -396,7 +396,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-243856917&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-657914823&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -406,7 +406,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-243856917&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-657914823&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -441,59 +441,6 @@ python3 $SLURM_JOB_NAME
       <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/slides/ma20221week2/</guid>
       <description>&lt;h1 id=&#34;ma20221-week-2&#34;&gt;MA20221 Week 2&lt;/h1&gt;
-&lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;what-makes-a-well-posed-problem&#34;&gt;What makes a well posed problem?&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-solution exists (for at least as long as the prediction is required)
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-the solution is unique
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-the solution depends continuously on the initial condition and model parameters
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;what-is-a-positively-invariant-set&#34;&gt;What is a positively invariant set?&lt;/h2&gt;
-&lt;p&gt;A set $Y \subset X$ is positively invariant if $x(0) \in Y$ implies that $x(t) \in Y$ for all $t \in T$ with $t &amp;gt; 0$. (It
-is negatively invariant if the same is true for all $t \in T$ with $t &amp;lt; 0$.)&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;stability&#34;&gt;Stability&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Steady state: &lt;span class=&#34;fragment &#34; &gt;
-$x^*$, is where $f(x^*)=0$
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Stable: &lt;span class=&#34;fragment &#34; &gt;
-for any $\epsilon &amp;gt; 0$ there exists $\delta &amp;gt; 0$ such that $|x(t) − x^*| &amp;lt; \epsilon$ for all positive $t \in T$ whenever $|x_0 − x^*| &amp;lt; \delta$, and unstable otherwise.
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Asymptotically stable: &lt;span class=&#34;fragment &#34; &gt;
-if it is stable and there exists $\delta &amp;gt; 0$ such that $|x− x^*| \rightarrow 0$ as $t → \infty$ whenever $|x_0 − x^*| &amp;lt; \delta$.
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-stable: start close, stay close. asym. stable: start close, converge to steady state.
-&lt;/span&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;time-dependent-solution&#34;&gt;Time dependent solution&lt;/h3&gt;
-&lt;p&gt;If $\frac{dx}{dt}=f(x)$ and $f(x_0)\neq0$, then
-$$
-t = \int_{x_0}^{x(t)}\frac{ds}{f(s)}
-$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;If $x(t)$ is not a steady state, $x^*$,then it either tends to a steady state or it tends to $\pm\infty$&lt;/li&gt;
-&lt;li&gt;If the model system is well-posed, then $x(t)$ must either be a steady state solution, $x^*$, or strictly monotonic.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MA20221 Week 3</title>
-      <link>https://jeremyworsfold.github.io/slides/ma20221week3/</link>
-      <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/slides/ma20221week3/</guid>
-      <description>&lt;h1 id=&#34;ma20221-week-3&#34;&gt;MA20221 Week 3&lt;/h1&gt;
 &lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;what-makes-a-well-posed-problem&#34;&gt;What makes a well posed problem?&lt;/h2&gt;

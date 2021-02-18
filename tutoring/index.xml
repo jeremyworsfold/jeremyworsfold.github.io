@@ -70,7 +70,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-576138942&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-931457862&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -80,7 +80,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-576138942&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-931457862&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -105,7 +105,7 @@ $$&lt;/p&gt;
 &lt;li&gt;We can then go ahead and plot these solutions in the allowed range in a plot of $x$ vs $\mu$.&lt;/li&gt;
 &lt;li&gt;Finally, to determine the stability of these solutions, we use the linear stability method from before. If a solution is stable then
 $$
-\frac{dx}{dt}|_{x^*}&amp;gt;0
+\frac{dx}{dt}|_{x^*}&amp;lt;0
 $$
 and the opposite is true for unstable solutions. If we have equality then the steady state is non-hyperbolic and we have to look at the higher derivaties.&lt;/li&gt;
 &lt;li&gt;We then draw the unstable solutions with dashed lines and the stable ones with filled in lines&lt;/li&gt;
@@ -152,7 +152,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-763819452&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-517642389&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -162,7 +162,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-763819452&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-517642389&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
