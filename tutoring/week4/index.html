@@ -883,6 +883,7 @@
     <li><a href="#problem-sheet-a3">Problem sheet A3</a>
       <ul>
         <li><a href="#question-1">Question 1</a></li>
+        <li><a href="#question-2-1">Question 2</a></li>
         <li><a href="#question-3">Question 3</a></li>
         <li><a href="#question-4-1">Question 4</a></li>
       </ul>
@@ -950,7 +951,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$</p>
 <h3 id="question-1">Question 1</h3>
 
 
-<div id="chart-294785163" class="chart"></div>
+<div id="chart-124369857" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -960,15 +961,28 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$</p>
       clearInterval( a );
 
       Plotly.d3.json("./a3q1.json", function(chart) {
-        Plotly.plot('chart-294785163', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-124369857', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 </script>
+<h3 id="question-2-1">Question 2</h3>
+<div class="alert alert-">
+  <div>
+    Use the chain rule:
+$$
+\begin{aligned}
+\frac{dR}{dt} &amp; = \frac{dR}{dx}\frac{dx}{dt} + \frac{dR}{dy}\frac{dy}{dt} \\<br>
+\frac{d\theta}{dt} &amp; = \frac{d\theta}{dx}\frac{dx}{dt} + \frac{d\theta}{dy}\frac{dy}{dt}.
+\end{aligned}
+$$
+It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\theta(t)$ should be simple expressions by the end&hellip;
+  </div>
+</div>
 <h3 id="question-3">Question 3</h3>
 
 
-<div id="chart-258471693" class="chart"></div>
+<div id="chart-328491576" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -978,7 +992,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$</p>
       clearInterval( a );
 
       Plotly.d3.json("./a3q3.json", function(chart) {
-        Plotly.plot('chart-258471693', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-328491576', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -986,7 +1000,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$</p>
 <h3 id="question-4-1">Question 4</h3>
 
 
-<div id="chart-123865749" class="chart"></div>
+<div id="chart-289375416" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -996,7 +1010,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$</p>
       clearInterval( a );
 
       Plotly.d3.json("./a3q4.json", function(chart) {
-        Plotly.plot('chart-123865749', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-289375416', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
