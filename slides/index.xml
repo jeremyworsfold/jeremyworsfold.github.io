@@ -50,7 +50,7 @@
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-193786425&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-481297653&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -60,31 +60,11 @@
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-193786425&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-481297653&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
 &lt;/script&gt;
-&lt;hr&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MA20220 Week 1</title>
-      <link>https://jeremyworsfold.github.io/slides/ma20220week1/</link>
-      <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/slides/ma20220week1/</guid>
-      <description>&lt;h2 id=&#34;points-from-last-problem-sheet&#34;&gt;Points from last problem sheet&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;main-points&#34;&gt;Main points&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Save data&lt;/li&gt;
-&lt;li&gt;Separate plotting from time-consuming code&lt;/li&gt;
-&lt;li&gt;Have good documentation&lt;/li&gt;
-&lt;li&gt;Be Distributable&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;summary-of-last-weeks-lectures&#34;&gt;Summary of last week&amp;rsquo;s lectures&lt;/h2&gt;
 &lt;hr&gt;
 </description>
     </item>
