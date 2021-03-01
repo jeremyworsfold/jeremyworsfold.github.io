@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Allen Hart | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/author/allen-hart/</link>
-      <atom:link href="https://jeremyworsfold.github.io/author/allen-hart/index.xml" rel="self" type="application/rss+xml" />
-    <description>Allen Hart</description>
+    <title>machine learning | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/tag/machine-learning/</link>
+      <atom:link href="https://jeremyworsfold.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 04 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>Allen Hart</title>
-      <link>https://jeremyworsfold.github.io/author/allen-hart/</link>
+      <title>machine learning</title>
+      <link>https://jeremyworsfold.github.io/tag/machine-learning/</link>
     </image>
     
     <item>
