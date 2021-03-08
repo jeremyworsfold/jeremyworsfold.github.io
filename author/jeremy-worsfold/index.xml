@@ -5,12 +5,179 @@
     <link>https://jeremyworsfold.github.io/author/jeremy-worsfold/</link>
       <atom:link href="https://jeremyworsfold.github.io/author/jeremy-worsfold/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Worsfold</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 23 Feb 2021 11:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 09 Mar 2021 11:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Jeremy Worsfold</title>
       <link>https://jeremyworsfold.github.io/author/jeremy-worsfold/</link>
     </image>
+    
+    <item>
+      <title>Week 6: 09/03/21</title>
+      <link>https://jeremyworsfold.github.io/tutoring/week6/</link>
+      <pubDate>Tue, 09 Mar 2021 11:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/tutoring/week6/</guid>
+      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#comments-on-problem-sheet-a4&#34;&gt;Comments on Problem sheet A4&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-1&#34;&gt;Question 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-3&#34;&gt;Question 3&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#lecture-content&#34;&gt;Lecture Content&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#first-order-maps&#34;&gt;First order maps&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#linear-maps&#34;&gt;Linear Maps&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#cobweb-diagrams&#34;&gt;Cobweb Diagrams&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#bifurcations-logistic-map&#34;&gt;Bifurcations: logistic map&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h2 id=&#34;comments-on-problem-sheet-a4&#34;&gt;Comments on Problem sheet A4&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s really important that you remember to check the allowed values for the parameters and state variables! This caused some problems in both questions.&lt;/p&gt;
+&lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;We were asked to find the condition where it goes from a node to a focus. Recall from &lt;a href=&#34;https://jeremyworsfold.github.io/tutoring/week4/&#34;&gt;week 4&lt;/a&gt; we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are 
+$$
+\lambda_i = \frac{1}{2}\left(\beta\pm\sqrt{\beta^2-4\gamma}\right).
+$$
+A focus has complex eigenvalues while a node has real eigenvalues so our boundary where we go from one to the other is
+$$
+\beta^2=4\gamma.
+$$
+Which leads us to the condition
+$$
+\mu=\frac{4\alpha^2}{4\alpha+1}.
+$$
+However, remember that $x&amp;gt;0,y&amp;gt;0$ always so the steady state $(x^*,y^*)=(\frac{\mu}{\alpha},1-\frac{\mu}{\alpha})$ only exists when $\frac{\mu}{\alpha}&amp;lt;1$ and $\mu&amp;gt;0,\alpha&amp;gt;0$ so you need to be careful with the diagram.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;q1.png&#34; alt=&#34;Q1phasediagram&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
+&lt;p&gt;This question was mainly testing the idea of nullclines so the general approach was to first set
+$$
+\begin{aligned}
+\frac{dx}{dt} &amp;amp; = 0 \Rightarrow x=0 \text{ or } c=\frac{1}{a} \\&lt;br&gt;
+\frac{dc}{dt} &amp;amp; = 0 \Rightarrow c=\frac{c_0}{1+ax} 
+\end{aligned}
+$$
+which gives us the nullclines in each direction. The steady states are thus where these lines cross:
+$$
+(x^*,c^*) = (0,c_0) \text{ or } (c_0-\frac{1}{a},\frac{1}{a}).
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-&#34;&gt;
+  &lt;div&gt;
+    But the second steady state only exists if $c_0&amp;gt;\frac{1}{a}$ because $x&amp;gt;0$.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Then we can look at the stability of these steady states by finding the Jacobian and evaluating it at the steady states for the two cases&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;i) $1&amp;lt;ac_0$: we find that $(0,c_0)$ is an unstable saddle node and $(c_0-\frac{1}{a},\frac{1}{a})$ is a stable node (can just check Routh-Hurwitz)&lt;/li&gt;
+&lt;li&gt;ii) $1&amp;gt;ac_0$: we find that $(0,c_0)$ is stable and the other does not exist.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Even without looking at the stability we could draw the nullclines and basically answer the question but the stability helps attempt to sketch the trajectories. It&amp;rsquo;s easy to look at the first case and think the non-trivial steady state is a spiral node but it is in fact this weird looking stable node.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;i)
+&lt;img src=&#34;q3i.png&#34; alt=&#34;Q1i&#34;&gt;&lt;/li&gt;
+&lt;li&gt;ii)
+&lt;img src=&#34;q3ii.png&#34; alt=&#34;Q1ii&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;lecture-content&#34;&gt;Lecture Content&lt;/h2&gt;
+&lt;h3 id=&#34;first-order-maps&#34;&gt;First order maps&lt;/h3&gt;
+&lt;p&gt;A first order map (with one parameter $\mu$) can generally be written as 
+$$
+x_{n+1} = f(x_n;\mu)
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-&#34;&gt;
+  &lt;div&gt;
+    We&amp;rsquo;ll use this to model things like populations but notice this applies to other things like Newton&amp;rsquo;s method for finding roots of a function g:
+$$
+x_{n+1} = x_n - \frac{g(x_n)}{g&#39;(x_n)}
+$$
+where we essentially are just iteratively getting better approximations of the steady state where $g(x^*)=0$, which is the root we are trying to find.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Again we have steady states, $x^*$, where 
+$$
+f(x^*;\mu) = x^*
+$$
+and we can do linear stability analysis on it like before about the steady state:
+$$
+\begin{aligned}
+x_n &amp;amp; = x^* + y_n, \quad |y_N|\ll 1 \\&lt;br&gt;
+\Rightarrow y_{n+1} = f&#39;(x^*)y_n.
+\end{aligned}
+$$
+To understand this we need to know how linear maps behave.&lt;/p&gt;
+&lt;h3 id=&#34;linear-maps&#34;&gt;Linear Maps&lt;/h3&gt;
+&lt;p&gt;Linear maps look like this:
+$$
+x_{n+1} = \lambda x_n + \mu
+$$
+which we can obtain a full solution for (see the main notes for details)
+$$
+x_n = x_0\lambda^n + \frac{\mu}{1-\lambda}(1-\lambda^n).
+$$
+Also we can find the steady steady:
+$$
+\begin{aligned}
+x^* &amp;amp; = \lambdax^* + \mu \\&lt;br&gt;
+\Rightarrow x^* = \frac{\mu}{1-\lambda}
+\end{aligned}
+$$
+This gives us four types of behaviour:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\lambda&amp;gt;1$: $|x_n|\rightarrow\infty$ and $x_n$ is monotonic as $n\rightarrow\infty$&lt;/li&gt;
+&lt;li&gt;$\lambda&amp;lt;-1$: $|x_n|\rightarrow\infty$ and $x_n$ oscillates as $n\rightarrow\infty$&lt;/li&gt;
+&lt;li&gt;$0&amp;lt;\lambda&amp;lt;1$: $|x_n|\rightarrow x^*$  and $x_n$ is monotonic  as $n\rightarrow\infty$&lt;/li&gt;
+&lt;li&gt;$-1&amp;lt;\lambda&amp;lt;0$: $|x_n|\rightarrow x^*$ and $x_n$ oscillates as $n\rightarrow\infty$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This behaviour can then be applied to the linearised non-linear maps about the steady states to analyse the stability of the steady states.&lt;/p&gt;
+&lt;h3 id=&#34;cobweb-diagrams&#34;&gt;Cobweb Diagrams&lt;/h3&gt;
+&lt;p&gt;The general approach to this geometric method is as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start with the line $x_{n+1} = x_n$&lt;/li&gt;
+&lt;li&gt;Next, plot the function $x_{n+1} = f(x_n)$&lt;/li&gt;
+&lt;li&gt;Starting from the $x_n$ axis at $x_0$, draw &lt;span style=&#34;color:#00bbff;font-weight:bold&#34;&gt;vertically&lt;/span&gt; to the point $f(x_0)$&lt;/li&gt;
+&lt;li&gt;Draw &lt;span style=&#34;color:#00bbff;font-weight:bold&#34;&gt;horizontally&lt;/span&gt; from $f(x_0)$ to $x_1=f(x_0)$ (the $x_{n+1}=x_n$ line).&lt;/li&gt;
+&lt;li&gt;Then draw a line &lt;span style=&#34;color:#00bbff;font-weight:bold&#34;&gt;vertically&lt;/span&gt; from there to $f(x_1)$.&lt;/li&gt;
+&lt;li&gt;Continue this until you reach a steady state or it appears to go off to infinity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Below is an illustration for some arbitrary example&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;cobweb.png&#34; alt=&#34;cobweb diagram&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bifurcations-logistic-map&#34;&gt;Bifurcations: logistic map&lt;/h3&gt;
+&lt;p&gt;In the lectures you were given an example of the Ricker map, but here I&amp;rsquo;ll mention a similar model called the logistic map. This is defined as 
+$$
+x_{n+1} = \mu x_n(1-x_n)
+$$
+This is a really famous example and there&amp;rsquo;s a fantastic &lt;a href=&#34;%22https://www.youtube.com/watch?v=ETrYE4MdoLQ%22&#34;&gt;numberphile video&lt;/a&gt; on it which I&amp;rsquo;d encourage you to watch if you&amp;rsquo;re interested and have a go at mapping yourself. Ben Sparks who is in the video is actually part of the University of Bath too!&lt;/p&gt;
+
+
+&lt;div id=&#34;chart-492613875&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;script&gt;
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./logisticmap.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-492613875&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week 5: 02/03/21</title>
+      <link>https://jeremyworsfold.github.io/tutoring/week5/</link>
+      <pubDate>Tue, 02 Mar 2021 11:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/tutoring/week5/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Week 4: 23/02/21</title>
@@ -98,7 +265,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-735428619&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-129475683&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -108,7 +275,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q1.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-735428619&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-129475683&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -129,7 +296,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-685914237&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-537864921&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -139,7 +306,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-685914237&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-537864921&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -147,7 +314,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-4-1&#34;&gt;Question 4&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-376429581&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-712456983&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -157,7 +324,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q4.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-376429581&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-712456983&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -223,7 +390,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-568941273&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-786241395&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -233,7 +400,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-568941273&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-786241395&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -305,7 +472,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-948253716&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-426159783&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -315,7 +482,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-948253716&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-426159783&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -549,7 +716,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-643582917&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-153698427&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -559,7 +726,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-643582917&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-153698427&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

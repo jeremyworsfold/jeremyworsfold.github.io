@@ -1,0 +1,1314 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jeremy Worsfold">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="First order Maps">
+
+  
+  <link rel="alternate" hreflang="en-gb" href="https://jeremyworsfold.github.io/tutoring/week6/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#00bbff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.min.94d59a793035444f02a60b36d1a54f0c.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2R5B10KBPH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-2R5B10KBPH', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://jeremyworsfold.github.io/tutoring/week6/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jeremy Worsfold">
+  <meta property="og:url" content="https://jeremyworsfold.github.io/tutoring/week6/">
+  <meta property="og:title" content="Week 6: 09/03/21 | Jeremy Worsfold">
+  <meta property="og:description" content="First order Maps"><meta property="og:image" content="https://jeremyworsfold.github.io/media/face.jpg">
+  <meta property="twitter:image" content="https://jeremyworsfold.github.io/media/face.jpg"><meta property="og:locale" content="en-gb">
+  
+    
+      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-03-09T11:15:00&#43;00:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jeremyworsfold.github.io/tutoring/week6/"
+  },
+  "name": "Week 6: 09/03/21",
+  
+  
+  "startDate": "2021-03-09T11:15:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Jeremy Worsfold"
+  },
+  
+  "description": "First order Maps"
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX color Ready", function() {
+    var color = MathJax.Extension["TeX/color"];
+     color.colors["somecolor"] = color.getColor('RGB','0,187,255');
+  });
+</script>
+
+
+  <title>Week 6: 09/03/21 | Jeremy Worsfold</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper dark ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Jeremy Worsfold</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Jeremy Worsfold</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pss/"><span>PSS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/tutoring/"><span>Tutoring</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Week 6: 09/03/21</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/author/jeremy-worsfold/">Jeremy Worsfold</a></span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/week6plan.png" >
+    <i class="fas fa-image mr-1"></i>
+    Notes png
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/week6plan.svg" >
+    <i class="fas fa-file-image mr-1"></i>
+    Notes svg
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <br>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Mar 9, 2021 11:15 AM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            
+            Tutoring
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <h2>Table of Contents</h2>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#comments-on-problem-sheet-a4">Comments on Problem sheet A4</a>
+      <ul>
+        <li><a href="#question-1">Question 1</a></li>
+        <li><a href="#question-3">Question 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#lecture-content">Lecture Content</a>
+      <ul>
+        <li><a href="#first-order-maps">First order maps</a></li>
+        <li><a href="#linear-maps">Linear Maps</a></li>
+        <li><a href="#cobweb-diagrams">Cobweb Diagrams</a></li>
+        <li><a href="#bifurcations-logistic-map">Bifurcations: logistic map</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<h2 id="comments-on-problem-sheet-a4">Comments on Problem sheet A4</h2>
+<p>It&rsquo;s really important that you remember to check the allowed values for the parameters and state variables! This caused some problems in both questions.</p>
+<h3 id="question-1">Question 1</h3>
+<p>We were asked to find the condition where it goes from a node to a focus. Recall from <a href="/tutoring/week4/">week 4</a> we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are 
+$$
+\lambda_i = \frac{1}{2}\left(\beta\pm\sqrt{\beta^2-4\gamma}\right).
+$$
+A focus has complex eigenvalues while a node has real eigenvalues so our boundary where we go from one to the other is
+$$
+\beta^2=4\gamma.
+$$
+Which leads us to the condition
+$$
+\mu=\frac{4\alpha^2}{4\alpha+1}.
+$$
+However, remember that $x&gt;0,y&gt;0$ always so the steady state $(x^*,y^*)=(\frac{\mu}{\alpha},1-\frac{\mu}{\alpha})$ only exists when $\frac{\mu}{\alpha}&lt;1$ and $\mu&gt;0,\alpha&gt;0$ so you need to be careful with the diagram.</p>
+<p><img src="q1.png" alt="Q1phasediagram"></p>
+<h3 id="question-3">Question 3</h3>
+<p>This question was mainly testing the idea of nullclines so the general approach was to first set
+$$
+\begin{aligned}
+\frac{dx}{dt} &amp; = 0 \Rightarrow x=0 \text{ or } c=\frac{1}{a} \\<br>
+\frac{dc}{dt} &amp; = 0 \Rightarrow c=\frac{c_0}{1+ax} 
+\end{aligned}
+$$
+which gives us the nullclines in each direction. The steady states are thus where these lines cross:
+$$
+(x^*,c^*) = (0,c_0) \text{ or } (c_0-\frac{1}{a},\frac{1}{a}).
+$$</p>
+<div class="alert alert-">
+  <div>
+    But the second steady state only exists if $c_0&gt;\frac{1}{a}$ because $x&gt;0$.
+  </div>
+</div>
+<p>Then we can look at the stability of these steady states by finding the Jacobian and evaluating it at the steady states for the two cases</p>
+<ul>
+<li>i) $1&lt;ac_0$: we find that $(0,c_0)$ is an unstable saddle node and $(c_0-\frac{1}{a},\frac{1}{a})$ is a stable node (can just check Routh-Hurwitz)</li>
+<li>ii) $1&gt;ac_0$: we find that $(0,c_0)$ is stable and the other does not exist.</li>
+</ul>
+<p>Even without looking at the stability we could draw the nullclines and basically answer the question but the stability helps attempt to sketch the trajectories. It&rsquo;s easy to look at the first case and think the non-trivial steady state is a spiral node but it is in fact this weird looking stable node.</p>
+<ul>
+<li>i)
+<img src="q3i.png" alt="Q1i"></li>
+<li>ii)
+<img src="q3ii.png" alt="Q1ii"></li>
+</ul>
+<h2 id="lecture-content">Lecture Content</h2>
+<h3 id="first-order-maps">First order maps</h3>
+<p>A first order map (with one parameter $\mu$) can generally be written as 
+$$
+x_{n+1} = f(x_n;\mu)
+$$</p>
+<div class="alert alert-">
+  <div>
+    We&rsquo;ll use this to model things like populations but notice this applies to other things like Newton&rsquo;s method for finding roots of a function g:
+$$
+x_{n+1} = x_n - \frac{g(x_n)}{g'(x_n)}
+$$
+where we essentially are just iteratively getting better approximations of the steady state where $g(x^*)=0$, which is the root we are trying to find.
+  </div>
+</div>
+<p>Again we have steady states, $x^*$, where 
+$$
+f(x^*;\mu) = x^*
+$$
+and we can do linear stability analysis on it like before about the steady state:
+$$
+\begin{aligned}
+x_n &amp; = x^* + y_n, \quad |y_N|\ll 1 \\<br>
+\Rightarrow y_{n+1} = f'(x^*)y_n.
+\end{aligned}
+$$
+To understand this we need to know how linear maps behave.</p>
+<h3 id="linear-maps">Linear Maps</h3>
+<p>Linear maps look like this:
+$$
+x_{n+1} = \lambda x_n + \mu
+$$
+which we can obtain a full solution for (see the main notes for details)
+$$
+x_n = x_0\lambda^n + \frac{\mu}{1-\lambda}(1-\lambda^n).
+$$
+Also we can find the steady steady:
+$$
+\begin{aligned}
+x^* &amp; = \lambdax^* + \mu \\<br>
+\Rightarrow x^* = \frac{\mu}{1-\lambda}
+\end{aligned}
+$$
+This gives us four types of behaviour:</p>
+<ul>
+<li>$\lambda&gt;1$: $|x_n|\rightarrow\infty$ and $x_n$ is monotonic as $n\rightarrow\infty$</li>
+<li>$\lambda&lt;-1$: $|x_n|\rightarrow\infty$ and $x_n$ oscillates as $n\rightarrow\infty$</li>
+<li>$0&lt;\lambda&lt;1$: $|x_n|\rightarrow x^*$  and $x_n$ is monotonic  as $n\rightarrow\infty$</li>
+<li>$-1&lt;\lambda&lt;0$: $|x_n|\rightarrow x^*$ and $x_n$ oscillates as $n\rightarrow\infty$</li>
+</ul>
+<p>This behaviour can then be applied to the linearised non-linear maps about the steady states to analyse the stability of the steady states.</p>
+<h3 id="cobweb-diagrams">Cobweb Diagrams</h3>
+<p>The general approach to this geometric method is as follows:</p>
+<ul>
+<li>Start with the line $x_{n+1} = x_n$</li>
+<li>Next, plot the function $x_{n+1} = f(x_n)$</li>
+<li>Starting from the $x_n$ axis at $x_0$, draw <span style="color:#00bbff;font-weight:bold">vertically</span> to the point $f(x_0)$</li>
+<li>Draw <span style="color:#00bbff;font-weight:bold">horizontally</span> from $f(x_0)$ to $x_1=f(x_0)$ (the $x_{n+1}=x_n$ line).</li>
+<li>Then draw a line <span style="color:#00bbff;font-weight:bold">vertically</span> from there to $f(x_1)$.</li>
+<li>Continue this until you reach a steady state or it appears to go off to infinity.</li>
+</ul>
+<p>Below is an illustration for some arbitrary example</p>
+<p><img src="cobweb.png" alt="cobweb diagram"></p>
+<h3 id="bifurcations-logistic-map">Bifurcations: logistic map</h3>
+<p>In the lectures you were given an example of the Ricker map, but here I&rsquo;ll mention a similar model called the logistic map. This is defined as 
+$$
+x_{n+1} = \mu x_n(1-x_n)
+$$
+This is a really famous example and there&rsquo;s a fantastic <a href="%22https://www.youtube.com/watch?v=ETrYE4MdoLQ%22">numberphile video</a> on it which I&rsquo;d encourage you to watch if you&rsquo;re interested and have a go at mapping yourself. Ben Sparks who is in the video is actually part of the University of Bath too!</p>
+
+
+<div id="chart-492613875" class="chart"></div>
+<script>
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === 'undefined' ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json("./logisticmap.json", function(chart) {
+        Plotly.plot('chart-492613875', chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+</script>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/dynamical-systems/">dynamical systems</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jeremyworsfold.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/jeremy-worsfold/avatar_hu3f22038715739df8230ced9dfe7798fa_116868_270x270_fill_q75_lanczos_center.jpg" alt="Jeremy Worsfold"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jeremyworsfold.github.io/">Jeremy Worsfold</a></h5>
+      <h6 class="card-subtitle">PhD in Applied Mathematics and Collective Behaviour</h6>
+      <p class="card-text">My research interests include Collective Behaviour, speficially swarming models and interacting particles Systems. I also have interests in Reinforcement Learning and Scientific Computing.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jw3286@bath.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/jeremyworsfold" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/tutoring/week5/">Week 5: 02/03/21</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>
+      window.PlotlyConfig = {MathJaxConfig: 'local'};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.55.2/plotly.min.js" integrity="sha512-gttPT9uTUiaLBj6XZdcB0ydKXiDaBwstInkN4Qvp1Nz3iwXNc8TTQplIEPIGxyJBDqERjwkKxf2OyO47/0EHbQ==" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.f192673d93a074955e78b132019ebb84.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
