@@ -974,8 +974,8 @@ $$
 Also we can find the steady steady:
 $$
 \begin{aligned}
-x^* &amp; = \lambdax^* + \mu \\<br>
-\Rightarrow x^* = \frac{\mu}{1-\lambda}
+x^* &amp; = \lambda x^* + \mu \\<br>
+\Rightarrow x^* &amp; = \frac{\mu}{1-\lambda}
 \end{aligned}
 $$
 This gives us four types of behaviour:</p>
@@ -1004,23 +1004,7 @@ $$
 x_{n+1} = \mu x_n(1-x_n)
 $$
 This is a really famous example and there&rsquo;s a fantastic <a href="%22https://www.youtube.com/watch?v=ETrYE4MdoLQ%22">numberphile video</a> on it which I&rsquo;d encourage you to watch if you&rsquo;re interested and have a go at mapping yourself. Ben Sparks who is in the video is actually part of the University of Bath too!</p>
-
-
-<div id="chart-492613875" class="chart"></div>
-<script>
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === 'undefined' ) {
-        return;
-      }
-      clearInterval( a );
-
-      Plotly.d3.json("./logisticmap.json", function(chart) {
-        Plotly.plot('chart-492613875', chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-</script>
+<p><img src="map.png" alt="logistic map"></p>
 
     </div>
 
@@ -1279,11 +1263,6 @@ This is a really famous example and there&rsquo;s a fantastic <a href="%22https:
     
 
     
-    
-    <script>
-      window.PlotlyConfig = {MathJaxConfig: 'local'};
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.55.2/plotly.min.js" integrity="sha512-gttPT9uTUiaLBj6XZdcB0ydKXiDaBwstInkN4Qvp1Nz3iwXNc8TTQplIEPIGxyJBDqERjwkKxf2OyO47/0EHbQ==" crossorigin="anonymous"></script>
     
 
     

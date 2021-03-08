@@ -121,8 +121,8 @@ $$
 Also we can find the steady steady:
 $$
 \begin{aligned}
-x^* &amp;amp; = \lambdax^* + \mu \\&lt;br&gt;
-\Rightarrow x^* = \frac{\mu}{1-\lambda}
+x^* &amp;amp; = \lambda x^* + \mu \\&lt;br&gt;
+\Rightarrow x^* &amp;amp; = \frac{\mu}{1-\lambda}
 \end{aligned}
 $$
 This gives us four types of behaviour:&lt;/p&gt;
@@ -151,23 +151,7 @@ $$
 x_{n+1} = \mu x_n(1-x_n)
 $$
 This is a really famous example and there&amp;rsquo;s a fantastic &lt;a href=&#34;%22https://www.youtube.com/watch?v=ETrYE4MdoLQ%22&#34;&gt;numberphile video&lt;/a&gt; on it which I&amp;rsquo;d encourage you to watch if you&amp;rsquo;re interested and have a go at mapping yourself. Ben Sparks who is in the video is actually part of the University of Bath too!&lt;/p&gt;
-
-
-&lt;div id=&#34;chart-492613875&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
-&lt;script&gt;
-  (function() {
-    let a = setInterval( function() {
-      if ( typeof window.Plotly === &#39;undefined&#39; ) {
-        return;
-      }
-      clearInterval( a );
-
-      Plotly.d3.json(&#34;./logisticmap.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-492613875&#39;, chart.data, chart.layout, {responsive: true});
-      });
-    }, 500 );
-  })();
-&lt;/script&gt;
+&lt;p&gt;&lt;img src=&#34;map.png&#34; alt=&#34;logistic map&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
