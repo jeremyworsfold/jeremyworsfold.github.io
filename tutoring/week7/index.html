@@ -1,0 +1,1323 @@
+<!DOCTYPE html><html lang="en-gb" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jeremy Worsfold">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Book Keeping Method">
+
+  
+  <link rel="alternate" hreflang="en-gb" href="https://jeremyworsfold.github.io/tutoring/week7/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#00bbff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.min.f6c837e6735da04f373b0269a0b0b74b.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2R5B10KBPH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-2R5B10KBPH', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://jeremyworsfold.github.io/tutoring/week7/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Jeremy Worsfold">
+  <meta property="og:url" content="https://jeremyworsfold.github.io/tutoring/week7/">
+  <meta property="og:title" content="Week 7: 16/03/21 | Jeremy Worsfold">
+  <meta property="og:description" content="Book Keeping Method"><meta property="og:image" content="https://jeremyworsfold.github.io/media/face.jpg">
+  <meta property="twitter:image" content="https://jeremyworsfold.github.io/media/face.jpg"><meta property="og:locale" content="en-gb">
+  
+    
+      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-03-16T11:15:00&#43;00:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jeremyworsfold.github.io/tutoring/week7/"
+  },
+  "name": "Week 7: 16/03/21",
+  
+  
+  "startDate": "2021-03-16T11:15:00Z",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Jeremy Worsfold"
+  },
+  
+  "description": "Book Keeping Method"
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX color Ready", function() {
+    var color = MathJax.Extension["TeX/color"];
+     color.colors["somecolor"] = color.getColor('RGB','0,187,255');
+  });
+</script>
+
+
+  <title>Week 7: 16/03/21 | Jeremy Worsfold</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper dark ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Jeremy Worsfold</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Jeremy Worsfold</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/pss/"><span>PSS</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/tutoring/"><span>Tutoring</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Week 7: 16/03/21</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span ><a href="/author/jeremy-worsfold/">Jeremy Worsfold</a></span>
+  </div>
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/week7plan.png" >
+    <i class="fas fa-image mr-1"></i>
+    Notes png
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/week7plan.svg" >
+    <i class="fas fa-file-image mr-1"></i>
+    Notes svg
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <br>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Mar 16, 2021 11:15 AM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            
+            Tutoring
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <h2>Table of Contents</h2>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#comments-on-problem-sheet-a5">Comments on Problem sheet A5</a>
+      <ul>
+        <li><a href="#question-1">Question 1</a></li>
+        <li><a href="#question-3">Question 3</a></li>
+      </ul>
+    </li>
+    <li><a href="#lecture-content">Lecture Content</a>
+      <ul>
+        <li><a href="#the-book-keeping-method">The book keeping method</a></li>
+      </ul>
+    </li>
+    <li><a href="#problem-sheet-b1">Problem sheet B1</a>
+      <ul>
+        <li><a href="#question-1-1">Question 1</a></li>
+        <li><a href="#question-4">Question 4</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<h2 id="comments-on-problem-sheet-a5">Comments on Problem sheet A5</h2>
+<h3 id="question-1">Question 1</h3>
+<p>For the first two parts, remember that you&rsquo;re drawing a diagram of discrete iterations $n$ so it doesn&rsquo;t really make sense to draw a continuous line. Instead just draw points for each iteration and maybe connect them up.</p>
+<p>For parts (d) and (e) in particular, be careful about the initial condition of your &lsquo;cobweb&rsquo;. In all cases $x_0=1$ but I saw many people either not consider where it should be on the line or incorrectly figure out the y and x intercepts. In both cases it didn&rsquo;t change the end result but it is still important and could definitely change the outcome in a nonlinear map. Below are how parts (d) and (e) were meant to look.</p>
+<p><img src="q1d.png" alt="Q1d"></p>
+<p><img src="q1e.png" alt="Q1e"></p>
+<h3 id="question-3">Question 3</h3>
+<h4 id="a">a)</h4>
+<p>$$
+x^* = \frac{rx^*}{1+x^*}
+$$
+$$
+\Rightarrow x^*=0,\quad \text{or } \quad x^*=r-1
+$$</p>
+<div class="alert alert-">
+  <div>
+    Don&rsquo;t forget to point out that the second steady state only exists if $r&gt;1$ otherwise it would suggest $x&lt;0$ which is unphysical for a population model.
+  </div>
+</div>
+<h4 id="b">b)</h4>
+<p>Mostly fine but just remember to state what the stability of the steady states are.</p>
+<h4 id="c">c)</h4>
+<p>Some of you were uncertain on how to do the final part of this question. There were two ways to do this, the lazy way (total valid) and the hard way (without using results from the notes).</p>
+<p>Either way we start with
+$$
+\begin{aligned}
+y_n &amp; = \frac{1}{x_n} \\<br>
+\Rightarrow \frac{1}{y_{n+1}} &amp; = \frac{r/y_n}{(y_n+1)/y_n} \\<br>
+&amp; = \frac{r}{y_n+1} \\<br>
+\Rightarrow y_{n+1} &amp; = \frac{1}{r}y_n + \frac{1}{r}.
+\end{aligned}
+$$
+So at this point we could just peak at the notes and remember that, for a linear map of the form $x_{n+1} = \lambda x_n + \mu$, the general solution is
+$$
+x_n = x_0 \lambda^n + \frac{\mu}{1-\lambda}(1-\lambda^n).
+$$
+Realising that we have a linear map in $y_n$ we can plugging in what we have we&rsquo;d get 
+$$
+\begin{aligned}
+y_n &amp;  = y_0\frac{1}{r^n} + \frac{1/r}{1-1/r}\left(1-\frac{1}{r^n}\right) \\<br>
+\Rightarrow y_n &amp; = \frac{y_0(r-1)+r^n-1}{r^n(r-1)} \\<br>
+\Rightarrow x_n &amp; = \frac{r^n(r-1)}{\frac{1}{x_0}(r-1)+r^n-1} \\<br>
+\end{aligned}
+$$
+If we didn&rsquo;t want to copy the result from the lectures we could find it ourself and do it the hard way. I won&rsquo;t put that in here (because I can&rsquo;t be bothered to type it out) but it&rsquo;s in the solutions to the problem sheets, it&rsquo;s in the tutorial whiteboard notes at the top of this page and it&rsquo;s very similar to what is in the lecture notes.</p>
+<h2 id="lecture-content">Lecture Content</h2>
+<h3 id="the-book-keeping-method">The book keeping method</h3>
+<p>In general, for a system we can keep track of the amount of stuff over time. We basically say that the total change of stuff in a region is:</p>
+<ul>
+<li>$+$ stuff created</li>
+<li>$-$ stuff destroyed</li>
+<li>$+$ stuff in</li>
+<li>$-$ stuff out</li>
+</ul>
+<p>Here&rsquo;s my attempt to summarise this in a diagram. We have some quantity $x$ in a box $R$ at time $t_0$ then the second box is the stuff in the box at time $t$.</p>
+<p><img src="bookkeeping.png" alt="Bookkeeping"></p>
+<h2 id="problem-sheet-b1">Problem sheet B1</h2>
+<h3 id="question-1-1">Question 1</h3>
+<p>We assume no radioactive nuclei are created (and that no particles enter or leave the system). So the only way the number of particles can change is from nuclear decay:
+$$
+N(t) = N(t_0) - \text{number of particles decayed}.
+$$
+We are told the number of disintegrations is proportional to the total number of particles. Thus,
+$$
+\Rightarrow N(t) = N(t_0) - \lambda \int_0^t N(s)\mathrm{d}s.
+$$
+Using the fundamental theorem of calculus we can differentiate and get 
+$$
+\begin{aligned}
+\frac{\mathrm{d}N}{\mathrm{d}t} &amp; = \lambda N \\<br>
+\Rightarrow N(t) &amp; = N(t_0)e^{-\lambda t}.
+\end{aligned}
+$$</p>
+<p><span style="color:#00bbff;font-weight:bold">We know that</span>:</p>
+<ul>
+<li>Rate is 22 decays per min at $t_0$</li>
+<li>Rate is 8.5 decays per min at $t_F$</li>
+</ul>
+<p>Also we can find $\lambda$ by using the half-life, $\tau=22.3$ years:
+$$
+\Rightarrow \frac{1}{2} = e^{-\tau\lambda} \Rightarrow \lambda=\frac{\ln(2)}{\tau}.
+$$</p>
+<div class="alert alert-">
+  <div>
+    This is quite a useful relationship to remember by the way.
+$$\lambda=\frac{\ln(2)}{\tau}$$
+  </div>
+</div>
+<p><span style="color:#00bbff;font-weight:bold">We want to know</span> $t_F-t_0$ so let&rsquo;s look at the ratio of the decay rates at these two times
+$$
+\begin{aligned}
+\frac{\lambda N(t_F)}{\lambda N(t_0)} &amp; = e^{-\lambda(t_F-t_0)} = \frac{8.5}{22} \\<br>
+\Rightarrow \lambda(t_F-t_0) &amp; = \ln\left(\frac{22}{8.5}\right) \\<br>
+\Rightarrow t_F-t_0 &amp; = \frac{\tau}{\ln(2)}\ln\left(\frac{22}{8.5}\right) \approx 30.59\\<br>
+\end{aligned}
+$$
+The final time $t_F$ was 1967AD so $t_0\approx$1936AD so it could be an early Vermeer.</p>
+<h3 id="question-4">Question 4</h3>
+<h4 id="a-1">a)</h4>
+<p>We know that enerrgy is conserved so the thermal energy the ice has at $t$ is what it started with at $t_0$ plus the amount of energy used to change the mass of ice from $m(t_0)$ to $m(t)$.
+$$
+\begin{aligned}
+Q(t) &amp; = Q(t_0) + L(m(t_0)-m(t)) \\<br>
+\Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp; = - L \frac{\mathrm{d}m}{\mathrm{d}t}
+\end{aligned}
+$$</p>
+<h4 id="b-1">b)</h4>
+<p>Thermal energy of ice at time $t$ = thermal energy of ice at time $t_0$ + energy absorbed in that time. Newton&rsquo;s Law of cooling says that the rate of absorption of energy is proportional to the area of the body and the difference between their temperatures.
+$$
+\begin{aligned}
+\Rightarrow Q(t) &amp; = Q(t_0) + \int_{t_0}^t KA(t)(\theta_1-\theta_0)\mathrm{d}s \\<br>
+\Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp; = KA(t)(\theta_1-\theta_0) \\<br>
+\end{aligned}
+$$</p>
+<h4 id="c-1">c)</h4>
+<p>Equate the two relationships for the rate of change of thermal energy so that 
+$$
+L\frac{\mathrm{d}m}{\mathrm{d}t} = KA(t)(\theta_1-\theta_0)
+$$
+Now for a sphere with radius $r$:</p>
+<ul>
+<li>volume: V = $\frac{4}{3}\pi r^3$</li>
+<li>surface area: A = $4\pi r^2$
+So the total mass at time $t$ is
+$$
+m(t) = \frac{4}{3}\pi\rho r^3(t)
+$$
+where $\rho$ is the density. Therefore,
+$$
+\begin{aligned}
+\frac{\mathrm{d}m}{\mathrm{d}t} &amp; = 4\pi\rho r^2(t) \frac{\mathrm{d}r}{\mathrm{d}t} \\<br>
+\Rightarrow 4\pi L \rho r^2 \frac{\mathrm{d}r}{\mathrm{d}t} &amp; = 4\pi r^2 K(\theta_1-\theta_0) \\<br>
+\frac{\mathrm{d}r}{\mathrm{d}t} &amp; = \frac{K}{L\rho}(\theta_0-\theta_1) \\<br>
+\Rightarrow r(t) &amp; = \frac{K}{L\rho}(\theta_0-\theta_1)t + r_0
+\end{aligned}
+$$
+We finally have an equation for the radius at time $t$ for the ball of ice and the time, $T$, at which it has completely melted should be when $r(T)=0$
+$$
+\Rightarrow T = \frac{r_0L\rho}{K(\theta_1-\theta_0)}.
+$$</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/dynamical-systems/">dynamical systems</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jeremyworsfold.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/jeremy-worsfold/avatar_hu3f22038715739df8230ced9dfe7798fa_116868_270x270_fill_q75_lanczos_center.jpg" alt="Jeremy Worsfold"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jeremyworsfold.github.io/">Jeremy Worsfold</a></h5>
+      <h6 class="card-subtitle">PhD in Applied Mathematics and Collective Behaviour</h6>
+      <p class="card-text">My research interests include Collective Behaviour, speficially swarming models and interacting particles Systems. I also have interests in Reinforcement Learning and Scientific Computing.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jw3286@bath.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/jeremyworsfold" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/tutoring/week5/">Week 5: 02/03/21</a></li>
+      
+      <li><a href="/tutoring/week6/">Week 6: 09/03/21</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.f192673d93a074955e78b132019ebb84.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

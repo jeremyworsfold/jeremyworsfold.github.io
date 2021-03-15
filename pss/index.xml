@@ -5,12 +5,28 @@
     <link>https://jeremyworsfold.github.io/pss/</link>
       <atom:link href="https://jeremyworsfold.github.io/pss/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming PSS Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 04 Mar 2021 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 18 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Recent &amp; Upcoming PSS Talks</title>
       <link>https://jeremyworsfold.github.io/pss/</link>
     </image>
+    
+    <item>
+      <title>Cars, Pedestrians and Fish as Interacting Brownian Particles</title>
+      <link>https://jeremyworsfold.github.io/pss/jeremywors2/</link>
+      <pubDate>Thu, 18 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/jeremywors2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint reconstruction-segmentation on graphs</title>
+      <link>https://jeremyworsfold.github.io/pss/jeremybudd/</link>
+      <pubDate>Thu, 11 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/jeremybudd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Embedding and Approximation Theorems for Echo State Networks</title>
@@ -116,9 +132,9 @@
     
     <item>
       <title>Multi-armed bandits</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremy/</link>
+      <link>https://jeremyworsfold.github.io/pss/jeremywors/</link>
       <pubDate>Thu, 29 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremy/</guid>
+      <guid>https://jeremyworsfold.github.io/pss/jeremywors/</guid>
       <description></description>
     </item>
     

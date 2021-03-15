@@ -5,12 +5,191 @@
     <link>https://jeremyworsfold.github.io/author/jeremy-worsfold/</link>
       <atom:link href="https://jeremyworsfold.github.io/author/jeremy-worsfold/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Worsfold</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 09 Mar 2021 11:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 18 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Jeremy Worsfold</title>
       <link>https://jeremyworsfold.github.io/author/jeremy-worsfold/</link>
     </image>
+    
+    <item>
+      <title>Cars, Pedestrians and Fish as Interacting Brownian Particles</title>
+      <link>https://jeremyworsfold.github.io/pss/jeremywors2/</link>
+      <pubDate>Thu, 18 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/jeremywors2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Week 7: 16/03/21</title>
+      <link>https://jeremyworsfold.github.io/tutoring/week7/</link>
+      <pubDate>Tue, 16 Mar 2021 11:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/tutoring/week7/</guid>
+      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#comments-on-problem-sheet-a5&#34;&gt;Comments on Problem sheet A5&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-1&#34;&gt;Question 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-3&#34;&gt;Question 3&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#lecture-content&#34;&gt;Lecture Content&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#the-book-keeping-method&#34;&gt;The book keeping method&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#problem-sheet-b1&#34;&gt;Problem sheet B1&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-1-1&#34;&gt;Question 1&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#question-4&#34;&gt;Question 4&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h2 id=&#34;comments-on-problem-sheet-a5&#34;&gt;Comments on Problem sheet A5&lt;/h2&gt;
+&lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;For the first two parts, remember that you&amp;rsquo;re drawing a diagram of discrete iterations $n$ so it doesn&amp;rsquo;t really make sense to draw a continuous line. Instead just draw points for each iteration and maybe connect them up.&lt;/p&gt;
+&lt;p&gt;For parts (d) and (e) in particular, be careful about the initial condition of your &amp;lsquo;cobweb&amp;rsquo;. In all cases $x_0=1$ but I saw many people either not consider where it should be on the line or incorrectly figure out the y and x intercepts. In both cases it didn&amp;rsquo;t change the end result but it is still important and could definitely change the outcome in a nonlinear map. Below are how parts (d) and (e) were meant to look.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;q1d.png&#34; alt=&#34;Q1d&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;q1e.png&#34; alt=&#34;Q1e&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
+&lt;h4 id=&#34;a&#34;&gt;a)&lt;/h4&gt;
+&lt;p&gt;$$
+x^* = \frac{rx^*}{1+x^*}
+$$
+$$
+\Rightarrow x^*=0,\quad \text{or } \quad x^*=r-1
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-&#34;&gt;
+  &lt;div&gt;
+    Don&amp;rsquo;t forget to point out that the second steady state only exists if $r&amp;gt;1$ otherwise it would suggest $x&amp;lt;0$ which is unphysical for a population model.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;b&#34;&gt;b)&lt;/h4&gt;
+&lt;p&gt;Mostly fine but just remember to state what the stability of the steady states are.&lt;/p&gt;
+&lt;h4 id=&#34;c&#34;&gt;c)&lt;/h4&gt;
+&lt;p&gt;Some of you were uncertain on how to do the final part of this question. There were two ways to do this, the lazy way (total valid) and the hard way (without using results from the notes).&lt;/p&gt;
+&lt;p&gt;Either way we start with
+$$
+\begin{aligned}
+y_n &amp;amp; = \frac{1}{x_n} \\&lt;br&gt;
+\Rightarrow \frac{1}{y_{n+1}} &amp;amp; = \frac{r/y_n}{(y_n+1)/y_n} \\&lt;br&gt;
+&amp;amp; = \frac{r}{y_n+1} \\&lt;br&gt;
+\Rightarrow y_{n+1} &amp;amp; = \frac{1}{r}y_n + \frac{1}{r}.
+\end{aligned}
+$$
+So at this point we could just peak at the notes and remember that, for a linear map of the form $x_{n+1} = \lambda x_n + \mu$, the general solution is
+$$
+x_n = x_0 \lambda^n + \frac{\mu}{1-\lambda}(1-\lambda^n).
+$$
+Realising that we have a linear map in $y_n$ we can plugging in what we have we&amp;rsquo;d get 
+$$
+\begin{aligned}
+y_n &amp;amp;  = y_0\frac{1}{r^n} + \frac{1/r}{1-1/r}\left(1-\frac{1}{r^n}\right) \\&lt;br&gt;
+\Rightarrow y_n &amp;amp; = \frac{y_0(r-1)+r^n-1}{r^n(r-1)} \\&lt;br&gt;
+\Rightarrow x_n &amp;amp; = \frac{r^n(r-1)}{\frac{1}{x_0}(r-1)+r^n-1} \\&lt;br&gt;
+\end{aligned}
+$$
+If we didn&amp;rsquo;t want to copy the result from the lectures we could find it ourself and do it the hard way. I won&amp;rsquo;t put that in here (because I can&amp;rsquo;t be bothered to type it out) but it&amp;rsquo;s in the solutions to the problem sheets, it&amp;rsquo;s in the tutorial whiteboard notes at the top of this page and it&amp;rsquo;s very similar to what is in the lecture notes.&lt;/p&gt;
+&lt;h2 id=&#34;lecture-content&#34;&gt;Lecture Content&lt;/h2&gt;
+&lt;h3 id=&#34;the-book-keeping-method&#34;&gt;The book keeping method&lt;/h3&gt;
+&lt;p&gt;In general, for a system we can keep track of the amount of stuff over time. We basically say that the total change of stuff in a region is:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$+$ stuff created&lt;/li&gt;
+&lt;li&gt;$-$ stuff destroyed&lt;/li&gt;
+&lt;li&gt;$+$ stuff in&lt;/li&gt;
+&lt;li&gt;$-$ stuff out&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here&amp;rsquo;s my attempt to summarise this in a diagram. We have some quantity $x$ in a box $R$ at time $t_0$ then the second box is the stuff in the box at time $t$.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;bookkeeping.png&#34; alt=&#34;Bookkeeping&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;problem-sheet-b1&#34;&gt;Problem sheet B1&lt;/h2&gt;
+&lt;h3 id=&#34;question-1-1&#34;&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;We assume no radioactive nuclei are created (and that no particles enter or leave the system). So the only way the number of particles can change is from nuclear decay:
+$$
+N(t) = N(t_0) - \text{number of particles decayed}.
+$$
+We are told the number of disintegrations is proportional to the total number of particles. Thus,
+$$
+\Rightarrow N(t) = N(t_0) - \lambda \int_0^t N(s)\mathrm{d}s.
+$$
+Using the fundamental theorem of calculus we can differentiate and get 
+$$
+\begin{aligned}
+\frac{\mathrm{d}N}{\mathrm{d}t} &amp;amp; = \lambda N \\&lt;br&gt;
+\Rightarrow N(t) &amp;amp; = N(t_0)e^{-\lambda t}.
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:#00bbff;font-weight:bold&#34;&gt;We know that&lt;/span&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rate is 22 decays per min at $t_0$&lt;/li&gt;
+&lt;li&gt;Rate is 8.5 decays per min at $t_F$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also we can find $\lambda$ by using the half-life, $\tau=22.3$ years:
+$$
+\Rightarrow \frac{1}{2} = e^{-\tau\lambda} \Rightarrow \lambda=\frac{\ln(2)}{\tau}.
+$$&lt;/p&gt;
+&lt;div class=&#34;alert alert-&#34;&gt;
+  &lt;div&gt;
+    This is quite a useful relationship to remember by the way.
+$$\lambda=\frac{\ln(2)}{\tau}$$
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;span style=&#34;color:#00bbff;font-weight:bold&#34;&gt;We want to know&lt;/span&gt; $t_F-t_0$ so let&amp;rsquo;s look at the ratio of the decay rates at these two times
+$$
+\begin{aligned}
+\frac{\lambda N(t_F)}{\lambda N(t_0)} &amp;amp; = e^{-\lambda(t_F-t_0)} = \frac{8.5}{22} \\&lt;br&gt;
+\Rightarrow \lambda(t_F-t_0) &amp;amp; = \ln\left(\frac{22}{8.5}\right) \\&lt;br&gt;
+\Rightarrow t_F-t_0 &amp;amp; = \frac{\tau}{\ln(2)}\ln\left(\frac{22}{8.5}\right) \approx 30.59\\&lt;br&gt;
+\end{aligned}
+$$
+The final time $t_F$ was 1967AD so $t_0\approx$1936AD so it could be an early Vermeer.&lt;/p&gt;
+&lt;h3 id=&#34;question-4&#34;&gt;Question 4&lt;/h3&gt;
+&lt;h4 id=&#34;a-1&#34;&gt;a)&lt;/h4&gt;
+&lt;p&gt;We know that enerrgy is conserved so the thermal energy the ice has at $t$ is what it started with at $t_0$ plus the amount of energy used to change the mass of ice from $m(t_0)$ to $m(t)$.
+$$
+\begin{aligned}
+Q(t) &amp;amp; = Q(t_0) + L(m(t_0)-m(t)) \\&lt;br&gt;
+\Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp;amp; = - L \frac{\mathrm{d}m}{\mathrm{d}t}
+\end{aligned}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;b-1&#34;&gt;b)&lt;/h4&gt;
+&lt;p&gt;Thermal energy of ice at time $t$ = thermal energy of ice at time $t_0$ + energy absorbed in that time. Newton&amp;rsquo;s Law of cooling says that the rate of absorption of energy is proportional to the area of the body and the difference between their temperatures.
+$$
+\begin{aligned}
+\Rightarrow Q(t) &amp;amp; = Q(t_0) + \int_{t_0}^t KA(t)(\theta_1-\theta_0)\mathrm{d}s \\&lt;br&gt;
+\Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp;amp; = KA(t)(\theta_1-\theta_0) \\&lt;br&gt;
+\end{aligned}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;c-1&#34;&gt;c)&lt;/h4&gt;
+&lt;p&gt;Equate the two relationships for the rate of change of thermal energy so that 
+$$
+L\frac{\mathrm{d}m}{\mathrm{d}t} = KA(t)(\theta_1-\theta_0)
+$$
+Now for a sphere with radius $r$:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;volume: V = $\frac{4}{3}\pi r^3$&lt;/li&gt;
+&lt;li&gt;surface area: A = $4\pi r^2$
+So the total mass at time $t$ is
+$$
+m(t) = \frac{4}{3}\pi\rho r^3(t)
+$$
+where $\rho$ is the density. Therefore,
+$$
+\begin{aligned}
+\frac{\mathrm{d}m}{\mathrm{d}t} &amp;amp; = 4\pi\rho r^2(t) \frac{\mathrm{d}r}{\mathrm{d}t} \\&lt;br&gt;
+\Rightarrow 4\pi L \rho r^2 \frac{\mathrm{d}r}{\mathrm{d}t} &amp;amp; = 4\pi r^2 K(\theta_1-\theta_0) \\&lt;br&gt;
+\frac{\mathrm{d}r}{\mathrm{d}t} &amp;amp; = \frac{K}{L\rho}(\theta_0-\theta_1) \\&lt;br&gt;
+\Rightarrow r(t) &amp;amp; = \frac{K}{L\rho}(\theta_0-\theta_1)t + r_0
+\end{aligned}
+$$
+We finally have an equation for the radius at time $t$ for the ball of ice and the time, $T$, at which it has completely melted should be when $r(T)=0$
+$$
+\Rightarrow T = \frac{r_0L\rho}{K(\theta_1-\theta_0)}.
+$$&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Week 6: 09/03/21</title>
@@ -249,7 +428,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-391458627&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-452168937&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -259,7 +438,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q1.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-391458627&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-452168937&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -280,7 +459,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-749826315&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-672458319&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -290,7 +469,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-749826315&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-672458319&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -298,7 +477,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-4-1&#34;&gt;Question 4&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-317584629&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-354128976&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -308,7 +487,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q4.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-317584629&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-354128976&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -374,7 +553,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-895623741&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-831975426&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -384,7 +563,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-895623741&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-831975426&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -456,7 +635,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-583962714&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-938614527&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -466,7 +645,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-583962714&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-938614527&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -700,7 +879,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-876914253&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-514293687&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -710,7 +889,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-876914253&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-514293687&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -774,9 +953,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Multi-armed bandits</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremy/</link>
+      <link>https://jeremyworsfold.github.io/pss/jeremywors/</link>
       <pubDate>Thu, 29 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremy/</guid>
+      <guid>https://jeremyworsfold.github.io/pss/jeremywors/</guid>
       <description></description>
     </item>
     

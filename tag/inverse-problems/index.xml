@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inverse Problems | Jeremy Worsfold</title>
+    <title>inverse problems | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/tag/inverse-problems/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/inverse-problems/index.xml" rel="self" type="application/rss+xml" />
-    <description>Inverse Problems</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 18 Feb 2021 10:15:00 +0000</lastBuildDate>
+    <description>inverse problems</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 11 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>Inverse Problems</title>
+      <title>inverse problems</title>
       <link>https://jeremyworsfold.github.io/tag/inverse-problems/</link>
     </image>
+    
+    <item>
+      <title>Joint reconstruction-segmentation on graphs</title>
+      <link>https://jeremyworsfold.github.io/pss/jeremybudd/</link>
+      <pubDate>Thu, 11 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/jeremybudd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Inverse Problems, Krylov Methods, and Dog Pictures</title>
