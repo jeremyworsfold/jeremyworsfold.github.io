@@ -5,12 +5,20 @@
     <link>https://jeremyworsfold.github.io/pss/</link>
       <atom:link href="https://jeremyworsfold.github.io/pss/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming PSS Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 25 Mar 2021 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 29 Apr 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Recent &amp; Upcoming PSS Talks</title>
       <link>https://jeremyworsfold.github.io/pss/</link>
     </image>
+    
+    <item>
+      <title>Measuring distances between random processes</title>
+      <link>https://jeremyworsfold.github.io/pss/benr/</link>
+      <pubDate>Thu, 29 Apr 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/benr/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Circles and Primes and Squares, oh my! : Solving Gauss’ Circle Problem</title>

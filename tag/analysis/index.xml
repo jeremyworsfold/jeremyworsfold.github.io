@@ -5,12 +5,20 @@
     <link>https://jeremyworsfold.github.io/tag/analysis/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>analysis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 12 Nov 2020 10:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 29 Apr 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>analysis</title>
       <link>https://jeremyworsfold.github.io/tag/analysis/</link>
     </image>
+    
+    <item>
+      <title>Measuring distances between random processes</title>
+      <link>https://jeremyworsfold.github.io/pss/benr/</link>
+      <pubDate>Thu, 29 Apr 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/benr/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Concentrated Vorticity in the Euler equations</title>

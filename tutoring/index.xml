@@ -5,7 +5,7 @@
     <link>https://jeremyworsfold.github.io/tutoring/</link>
       <atom:link href="https://jeremyworsfold.github.io/tutoring/index.xml" rel="self" type="application/rss+xml" />
     <description>Tutoring at the University of Bath</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 13 Apr 2021 11:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 20 Apr 2021 11:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Tutoring at the University of Bath</title>
@@ -13,13 +13,19 @@
     </image>
     
     <item>
+      <title>Week 10: 20/04/21</title>
+      <link>https://jeremyworsfold.github.io/tutoring/week10/</link>
+      <pubDate>Tue, 20 Apr 2021 11:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/tutoring/week10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Week 9: 13/04/21</title>
       <link>https://jeremyworsfold.github.io/tutoring/week9/</link>
       <pubDate>Tue, 13 Apr 2021 11:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/tutoring/week9/</guid>
-      <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;nav id=&#34;TableOfContents&#34;&gt;&lt;/nav&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -439,7 +445,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-615427389&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-243857691&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -449,7 +455,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q1.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-615427389&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-243857691&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -470,7 +476,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-378629415&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-719582364&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -480,7 +486,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-378629415&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-719582364&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -488,7 +494,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-4-1&#34;&gt;Question 4&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-864275193&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-498725316&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -498,7 +504,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q4.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-864275193&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-498725316&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -564,7 +570,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-725963814&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-269437158&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -574,7 +580,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-725963814&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-269437158&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -646,7 +652,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-439685127&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-723851649&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -656,7 +662,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-439685127&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-723851649&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

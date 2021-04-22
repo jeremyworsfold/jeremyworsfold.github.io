@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>probability | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/tag/probability/</link>
+      <atom:link href="https://jeremyworsfold.github.io/tag/probability/index.xml" rel="self" type="application/rss+xml" />
+    <description>probability</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 29 Apr 2021 10:15:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <title>probability</title>
+      <link>https://jeremyworsfold.github.io/tag/probability/</link>
+    </image>
+    
+    <item>
+      <title>Measuring distances between random processes</title>
+      <link>https://jeremyworsfold.github.io/pss/benr/</link>
+      <pubDate>Thu, 29 Apr 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/benr/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
