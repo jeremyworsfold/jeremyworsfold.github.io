@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>modelling | Jeremy Worsfold</title>
+    <title>Modelling | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/category/modelling/</link>
       <atom:link href="https://jeremyworsfold.github.io/category/modelling/index.xml" rel="self" type="application/rss+xml" />
-    <description>modelling</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Nov 2020 21:01:52 +0000</lastBuildDate>
+    <description>Modelling</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 13 May 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>modelling</title>
+      <title>Modelling</title>
       <link>https://jeremyworsfold.github.io/category/modelling/</link>
     </image>
     
     <item>
-      <title>kepler.gl Mortality</title>
-      <link>https://jeremyworsfold.github.io/post/post1/</link>
-      <pubDate>Fri, 06 Nov 2020 21:01:52 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/post1/</guid>
-      <description>&lt;p&gt;Provisional results. This is just a test. It&amp;rsquo;s really slow. The &lt;em&gt;compressed&lt;/em&gt; html is 73MB for LSOA London and 123MB for MSOA e0 in England. This is with super-generalised shapefiles too, never mind if we want to get things at 20m resolution for LSOAs. Other annoying things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;kepler.gl is slow&lt;/li&gt;
-&lt;li&gt;MSOA England level takes even longer to load&lt;/li&gt;
-&lt;li&gt;It is slow&lt;/li&gt;
-&lt;li&gt;It flashes between frames sometimes because it uses a rolling window to animate rather than a point for each year&lt;/li&gt;
-&lt;li&gt;The year comes up with minutes and seconds and milliseconds and picoseconds&lt;/li&gt;
-&lt;li&gt;The file sizes are too big to put on github without lfs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I probably need to find a more practical solution for the full result.&lt;/p&gt;
-&lt;p&gt;Have a play. Show the legend at the side. I would like to make this full screen too.&lt;/p&gt;
-</description>
+      <title>Modelling Photosensitive Chlorine Dioxide–Iodine–Malonic Acid (CDIMA) Reactions</title>
+      <link>https://jeremyworsfold.github.io/pss/laura/</link>
+      <pubDate>Thu, 13 May 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/laura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting Train Track Faults from an Onboard Camera</title>
+      <link>https://jeremyworsfold.github.io/pss/tina/</link>
+      <pubDate>Thu, 06 May 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/tina/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>chemical reactions | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.github.io/tag/chemical-reactions/</link>
+      <atom:link href="https://jeremyworsfold.github.io/tag/chemical-reactions/index.xml" rel="self" type="application/rss+xml" />
+    <description>chemical reactions</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 13 May 2021 10:15:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <title>chemical reactions</title>
+      <link>https://jeremyworsfold.github.io/tag/chemical-reactions/</link>
+    </image>
+    
+    <item>
+      <title>Modelling Photosensitive Chlorine Dioxide–Iodine–Malonic Acid (CDIMA) Reactions</title>
+      <link>https://jeremyworsfold.github.io/pss/laura/</link>
+      <pubDate>Thu, 13 May 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/laura/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
