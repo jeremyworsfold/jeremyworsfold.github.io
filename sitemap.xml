@@ -128,31 +128,6 @@
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/tag/dynamical-systems/</loc>
-    <lastmod>2021-04-20T11:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/author/jeremy-worsfold/</loc>
-    <lastmod>2021-04-20T11:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/</loc>
-    <lastmod>2021-04-20T11:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week10/</loc>
-    <lastmod>2021-04-20T11:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week9/</loc>
-    <lastmod>2021-04-13T11:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jeremyworsfold.github.io/pss/katie/</loc>
     <lastmod>2021-03-25T10:15:00+00:00</lastmod>
   </url>
@@ -165,11 +140,6 @@
   <url>
     <loc>https://jeremyworsfold.github.io/tag/number-theory/</loc>
     <lastmod>2021-03-25T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week8/</loc>
-    <lastmod>2021-03-23T11:15:00+00:00</lastmod>
   </url>
   
   <url>
@@ -188,8 +158,8 @@
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week7/</loc>
-    <lastmod>2021-03-16T11:15:00+00:00</lastmod>
+    <loc>https://jeremyworsfold.github.io/author/jeremy-worsfold/</loc>
+    <lastmod>2021-03-18T10:15:00+00:00</lastmod>
   </url>
   
   <url>
@@ -210,11 +180,6 @@
   <url>
     <loc>https://jeremyworsfold.github.io/pss/jeremybudd/</loc>
     <lastmod>2021-03-11T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week6/</loc>
-    <lastmod>2021-03-09T11:15:00+00:00</lastmod>
   </url>
   
   <url>
@@ -248,16 +213,6 @@
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/tag/odes/</loc>
-    <lastmod>2021-03-02T11:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week5/</loc>
-    <lastmod>2021-03-02T11:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jeremyworsfold.github.io/category/fluid-dynamics/</loc>
     <lastmod>2021-02-25T10:15:00+00:00</lastmod>
   </url>
@@ -273,11 +228,6 @@
   </url>
   
   <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week4/</loc>
-    <lastmod>2021-02-23T11:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://jeremyworsfold.github.io/category/inverse-problems/</loc>
     <lastmod>2021-02-18T10:15:00+00:00</lastmod>
   </url>
@@ -290,11 +240,6 @@
   <url>
     <loc>https://jeremyworsfold.github.io/author/seb-scott/</loc>
     <lastmod>2021-02-18T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week3/</loc>
-    <lastmod>2021-02-16T11:15:00+00:00</lastmod>
   </url>
   
   <url>
@@ -315,11 +260,6 @@
   <url>
     <loc>https://jeremyworsfold.github.io/author/simone-appella/</loc>
     <lastmod>2021-02-11T10:15:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://jeremyworsfold.github.io/tutoring/week2/</loc>
-    <lastmod>2021-02-09T11:15:00+00:00</lastmod>
   </url>
   
   <url>
@@ -582,6 +522,10 @@
   
   <url>
     <loc>https://jeremyworsfold.github.io/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://jeremyworsfold.github.io/tutoring/</loc>
   </url>
   
 </urlset>
