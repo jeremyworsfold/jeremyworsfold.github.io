@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Week 4: 23/02/21</title>
+      <title>Week 4: 23/02/22</title>
       <link>https://jeremyworsfold.github.io/tutoring/week4/</link>
       <pubDate>Fri, 04 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/tutoring/week4/</guid>
@@ -98,7 +98,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-476238195&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-395874621&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -108,7 +108,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q1.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-476238195&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-395874621&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -129,7 +129,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-165374892&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-378546291&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -139,7 +139,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-165374892&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-378546291&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -147,7 +147,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-4-1&#34;&gt;Question 4&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-985764123&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-468195732&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -157,7 +157,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q4.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-985764123&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-468195732&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -166,7 +166,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
     </item>
     
     <item>
-      <title>Week 3: 16/02/21</title>
+      <title>Week 3: 16/02/22</title>
       <link>https://jeremyworsfold.github.io/tutoring/week3/</link>
       <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/tutoring/week3/</guid>
@@ -223,7 +223,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-129463578&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-361857492&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -233,7 +233,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-129463578&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-361857492&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -305,7 +305,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-213785496&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-416823957&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -315,7 +315,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-213785496&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-416823957&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -324,104 +324,9 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
     </item>
     
     <item>
-      <title>Scientific advice in government</title>
-      <link>https://jeremyworsfold.github.io/pss/yyanis/</link>
-      <pubDate>Thu, 20 May 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/yyanis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modelling Photosensitive Chlorine Dioxide–Iodine–Malonic Acid (CDIMA) Reactions</title>
-      <link>https://jeremyworsfold.github.io/pss/laura/</link>
-      <pubDate>Thu, 13 May 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/laura/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Detecting Train Track Faults from an Onboard Camera</title>
-      <link>https://jeremyworsfold.github.io/pss/tina/</link>
-      <pubDate>Thu, 06 May 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/tina/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Measuring distances between random processes</title>
-      <link>https://jeremyworsfold.github.io/pss/benr/</link>
-      <pubDate>Thu, 29 Apr 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/benr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Circles and Primes and Squares, oh my! : Solving Gauss’ Circle Problem</title>
-      <link>https://jeremyworsfold.github.io/pss/katie/</link>
-      <pubDate>Thu, 25 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/katie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cars, Pedestrians and Fish as Interacting Brownian Particles</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremywors2/</link>
-      <pubDate>Thu, 18 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremywors2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Joint reconstruction-segmentation on graphs</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremybudd/</link>
-      <pubDate>Thu, 11 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremybudd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Embedding and Approximation Theorems for Echo State Networks</title>
-      <link>https://jeremyworsfold.github.io/pss/allen/</link>
-      <pubDate>Thu, 04 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/allen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mathematics of beauty: How does nature shape river networks?</title>
-      <link>https://jeremyworsfold.github.io/pss/piotr2/</link>
-      <pubDate>Thu, 25 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/piotr2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inverse Problems, Krylov Methods, and Dog Pictures</title>
-      <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
-      <pubDate>Thu, 18 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
-      <description>&lt;p&gt;By the end of this PSS talk you should:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Understand how inverse problems may arise and why they can be finicky to deal with&lt;/li&gt;
-&lt;li&gt;Feel happy with the idea of Tikhonov regularisation&lt;/li&gt;
-&lt;li&gt;Get the gist of how iterative Krylov methods, such as LSQR and FLSQR, work&lt;/li&gt;
-&lt;li&gt;Be able to name my dogs&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>An overview of moving mesh methods</title>
-      <link>https://jeremyworsfold.github.io/pss/simone/</link>
-      <pubDate>Thu, 11 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/simone/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Week 2: 09/02/21</title>
+      <title>Week 2: 09/02/22</title>
       <link>https://jeremyworsfold.github.io/tutoring/week2/</link>
-      <pubDate>Tue, 09 Feb 2021 11:15:00 +0000</pubDate>
+      <pubDate>Wed, 09 Feb 2022 11:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/tutoring/week2/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
@@ -520,6 +425,109 @@ c_b&#39;(t) + \phi c_b(t) &amp;amp; = \phi\left(c_a\left(\lambda+\phi\alpha(1-\l
 $$
 where we&amp;rsquo;ve used an integrating factor. From here we can integrate both sides and use integration by parts for the $t\exp[\phi t]$ term.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Scientific advice in government</title>
+      <link>https://jeremyworsfold.github.io/pss/yyanis/</link>
+      <pubDate>Thu, 20 May 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/yyanis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling Photosensitive Chlorine Dioxide–Iodine–Malonic Acid (CDIMA) Reactions</title>
+      <link>https://jeremyworsfold.github.io/pss/laura/</link>
+      <pubDate>Thu, 13 May 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/laura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting Train Track Faults from an Onboard Camera</title>
+      <link>https://jeremyworsfold.github.io/pss/tina/</link>
+      <pubDate>Thu, 06 May 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/tina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring distances between random processes</title>
+      <link>https://jeremyworsfold.github.io/pss/benr/</link>
+      <pubDate>Thu, 29 Apr 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/benr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Circles and Primes and Squares, oh my! : Solving Gauss’ Circle Problem</title>
+      <link>https://jeremyworsfold.github.io/pss/katie/</link>
+      <pubDate>Thu, 25 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/katie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cars, Pedestrians and Fish as Interacting Brownian Particles</title>
+      <link>https://jeremyworsfold.github.io/pss/jeremywors2/</link>
+      <pubDate>Thu, 18 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/jeremywors2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joint reconstruction-segmentation on graphs</title>
+      <link>https://jeremyworsfold.github.io/pss/jeremybudd/</link>
+      <pubDate>Thu, 11 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/jeremybudd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Week 5: 02/03/21</title>
+      <link>https://jeremyworsfold.github.io/tutoring/week5/</link>
+      <pubDate>Thu, 04 Mar 2021 15:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/tutoring/week5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Embedding and Approximation Theorems for Echo State Networks</title>
+      <link>https://jeremyworsfold.github.io/pss/allen/</link>
+      <pubDate>Thu, 04 Mar 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/allen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mathematics of beauty: How does nature shape river networks?</title>
+      <link>https://jeremyworsfold.github.io/pss/piotr2/</link>
+      <pubDate>Thu, 25 Feb 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/piotr2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inverse Problems, Krylov Methods, and Dog Pictures</title>
+      <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
+      <pubDate>Thu, 18 Feb 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
+      <description>&lt;p&gt;By the end of this PSS talk you should:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Understand how inverse problems may arise and why they can be finicky to deal with&lt;/li&gt;
+&lt;li&gt;Feel happy with the idea of Tikhonov regularisation&lt;/li&gt;
+&lt;li&gt;Get the gist of how iterative Krylov methods, such as LSQR and FLSQR, work&lt;/li&gt;
+&lt;li&gt;Be able to name my dogs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An overview of moving mesh methods</title>
+      <link>https://jeremyworsfold.github.io/pss/simone/</link>
+      <pubDate>Thu, 11 Feb 2021 10:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/pss/simone/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -652,7 +660,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-123764985&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-834196527&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -662,7 +670,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-123764985&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-834196527&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
