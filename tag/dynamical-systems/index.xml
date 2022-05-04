@@ -5,7 +5,7 @@
     <link>https://jeremyworsfold.github.io/tag/dynamical-systems/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/dynamical-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>dynamical systems</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Wed, 13 Apr 2022 11:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Wed, 20 Apr 2022 11:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>dynamical systems</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Week 9: 13/04/21</title>
+      <title>Week 9: 20/04/21</title>
       <link>https://jeremyworsfold.github.io/tutoring/week9/</link>
-      <pubDate>Wed, 13 Apr 2022 11:15:00 +0000</pubDate>
+      <pubDate>Wed, 20 Apr 2022 11:15:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/tutoring/week9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Week 8: 13/04/21</title>
+      <link>https://jeremyworsfold.github.io/tutoring/week8/</link>
+      <pubDate>Wed, 13 Apr 2022 11:15:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/tutoring/week8/</guid>
       <description></description>
     </item>
     
@@ -188,15 +196,6 @@ $$
 \Rightarrow T = \frac{r_0L\rho}{K(\theta_1-\theta_0)}.
 $$&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 8: 23/03/21</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week8/</link>
-      <pubDate>Wed, 23 Mar 2022 11:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week8/</guid>
-      <description>&lt;p&gt;I extended week 7 to cover two weeks so we didn&amp;rsquo;t get too far ahead of the lecture notes. I&amp;rsquo;ve linked to my solutions to an example question on the book keeping method from the 2017 Q2 past paper which I covered in one of the tutorials.&lt;/p&gt;
 </description>
     </item>
     
