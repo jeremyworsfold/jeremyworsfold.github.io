@@ -5,12 +5,22 @@
     <link>https://jeremyworsfold.github.io/post/</link>
       <atom:link href="https://jeremyworsfold.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 21 Dec 2020 09:44:52 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 01 Sep 2022 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Posts</title>
       <link>https://jeremyworsfold.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Before the Continuum Limit</title>
+      <link>https://jeremyworsfold.github.io/post/ecmbtposter/</link>
+      <pubDate>Thu, 01 Sep 2022 09:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/post/ecmbtposter/</guid>
+      <description>&lt;p&gt;The preprint for this work is: &lt;a href=&#34;https://arxiv.org/abs/2204.02926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Density Fluctuations in Stochastic Kinematic Flows&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>A Beginners Guide to using Balena</title>
