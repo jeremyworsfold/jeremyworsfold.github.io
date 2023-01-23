@@ -24,6 +24,7 @@
 &lt;ol&gt;
 &lt;li&gt;H. P. McKean, &lt;em&gt;Propagation of chaos for a class of non-linear parabolic equations&lt;/em&gt; (1967)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://dx.doi.org/10.1088/0305-4470/29/24/001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;D. S. Dean, &lt;em&gt;Langevin equation for the density of a system of interacting Langevin processes&lt;/em&gt; (1996)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1038/srep32528&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;V. Flovik et. al.&lt;em&gt;Describing synchronization and topological excitations in arrays of magnetic spin torque oscillators through the Kuramoto model&lt;/em&gt; (2016)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;M. Breakspear, S. Heitmann, and A. Daffertshofer, &lt;em&gt;Generative models of cortical oscillations: neurobiological implications of the Kuramoto model&lt;/em&gt; (2010)]&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://doi.org/10.1103/RevModPhys.77.137&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Juan A. Acebrón, L. L. Bonilla, et. al, &lt;em&gt;The Kuramoto model: A simple paradigm for synchronization phenomena&lt;/em&gt; (2005)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://doi.org/cms/1214949929&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;P. A. Milewski and X. Yang, &lt;em&gt;A simple model for biological aggregation with asymmetric sensing&lt;/em&gt; (2008)&lt;/a&gt;&lt;/li&gt;
@@ -483,7 +484,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-589341672&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-849637251&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -493,7 +494,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q1.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-589341672&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-849637251&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -514,7 +515,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-761328594&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-935481267&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -524,7 +525,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-761328594&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-935481267&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -532,7 +533,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-4-1&#34;&gt;Question 4&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-361287549&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-758239641&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -542,7 +543,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q4.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-361287549&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-758239641&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -608,7 +609,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-642583917&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-417236598&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -618,7 +619,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-642583917&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-417236598&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -690,7 +691,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-649731285&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-642159783&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -700,7 +701,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-649731285&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-642159783&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -942,7 +943,7 @@ python3 $SLURM_JOB_NAME
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-289751463&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-753269418&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -952,7 +953,7 @@ python3 $SLURM_JOB_NAME
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-289751463&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-753269418&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
