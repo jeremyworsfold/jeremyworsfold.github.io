@@ -5,12 +5,20 @@
     <link>https://jeremyworsfold.github.io/publication/</link>
       <atom:link href="https://jeremyworsfold.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Publications</title>
       <link>https://jeremyworsfold.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Density Fluctuations in Stochastic Kinematic Flows</title>
+      <link>https://jeremyworsfold.github.io/publication/dfskf-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/publication/dfskf-2022/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
