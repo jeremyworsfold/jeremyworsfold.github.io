@@ -56,7 +56,7 @@
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-364597821&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-489627153&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -66,7 +66,7 @@
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-364597821&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-489627153&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
