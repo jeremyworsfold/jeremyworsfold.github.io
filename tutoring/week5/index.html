@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="Non Linear Systems of ODEs">
+  <meta name="description" content="Linear Systems of ODEs">
 
   
   <link rel="alternate" hreflang="en-gb" href="https://jeremyworsfold.github.io/tutoring/week5/">
@@ -316,14 +316,14 @@
   
   <meta property="og:site_name" content="Jeremy Worsfold">
   <meta property="og:url" content="https://jeremyworsfold.github.io/tutoring/week5/">
-  <meta property="og:title" content="Week 5: 11/03/22 | Jeremy Worsfold">
-  <meta property="og:description" content="Non Linear Systems of ODEs"><meta property="og:image" content="https://jeremyworsfold.github.io/media/face.jpg">
+  <meta property="og:title" content="Week 5: 09/03/23 | Jeremy Worsfold">
+  <meta property="og:description" content="Linear Systems of ODEs"><meta property="og:image" content="https://jeremyworsfold.github.io/media/face.jpg">
   <meta property="twitter:image" content="https://jeremyworsfold.github.io/media/face.jpg"><meta property="og:locale" content="en-gb">
   
     
-      <meta property="article:published_time" content="2022-03-11T15:15:00&#43;00:00">
+      <meta property="article:published_time" content="2023-03-08T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-03-11T15:15:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-03-08T00:00:00&#43;00:00">
   
 
   
@@ -344,10 +344,10 @@
     "@type": "WebPage",
     "@id": "https://jeremyworsfold.github.io/tutoring/week5/"
   },
-  "name": "Week 5: 11/03/22",
+  "name": "Week 5: 09/03/23",
   
   
-  "startDate": "2022-03-11T15:15:00Z",
+  "startDate": "2023-03-08T00:00:00Z",
   
   
   "performer": {
@@ -355,7 +355,7 @@
     "name": "Jeremy Worsfold"
   },
   
-  "description": "Non Linear Systems of ODEs"
+  "description": "Linear Systems of ODEs"
 }
 </script>
 
@@ -376,7 +376,7 @@
 </script>
 
 
-  <title>Week 5: 11/03/22 | Jeremy Worsfold</title>
+  <title>Week 5: 09/03/23 | Jeremy Worsfold</title>
 
 </head>
 
@@ -696,7 +696,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Week 5: 11/03/22</h1>
+  <h1>Week 5: 09/03/23</h1>
 
   
 
@@ -794,7 +794,7 @@
       
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="/week5plan.png" >
+  <a class="btn btn-outline-primary my-1 mr-1" href="/week4plan.png" >
     <i class="fas fa-image mr-1"></i>
     Notes png
   </a>
@@ -813,7 +813,7 @@
       
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="/week5plan.svg" >
+  <a class="btn btn-outline-primary my-1 mr-1" href="/week4plan.svg" >
     <i class="fas fa-file-image mr-1"></i>
     Notes svg
   </a>
@@ -839,7 +839,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Mar 11, 2022 3:15 PM
+            Mar 8, 2023 12:00 AM
           </div>
         </div>
       </div>
@@ -870,7 +870,152 @@
     <div class="space-below"></div>
 
     <div class="article-style">
-      
+      <h2>Table of Contents</h2>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#comments-on-problem-sheet-a2">Comments on Problem sheet A2</a>
+      <ul>
+        <li><a href="#question-2">Question 2</a></li>
+        <li><a href="#question-4">Question 4</a></li>
+      </ul>
+    </li>
+    <li><a href="#outline-of-lecture-content">Outline of lecture content</a></li>
+    <li><a href="#problem-sheet-a3">Problem sheet A3</a>
+      <ul>
+        <li><a href="#question-1">Question 1</a></li>
+        <li><a href="#question-2-1">Question 2</a></li>
+        <li><a href="#question-3">Question 3</a></li>
+        <li><a href="#question-4-1">Question 4</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<h2 id="comments-on-problem-sheet-a2">Comments on Problem sheet A2</h2>
+<h3 id="question-2">Question 2</h3>
+<p>Most of the answers for this question got most of the parts correct. For a lot of the solutions I got I put &ldquo;what about $\mu=0$?&rdquo; This might seem like a minor detail but if you put $\mu&gt;0$ and $\mu&lt;0$ for your conditions then you should state separately what happens for $\mu=0$. Also, reason you should look at this case is because, for $\mu=0$, $x^*=0$ and $f'(0)=0$. This means that it is a non-hyperbolic steady state so we actually can&rsquo;t tell from the linear stability analysis whether it is stable or unstable. This is as far as you are expected to go although the written solutions do go into more detail if you are interested.</p>
+<h3 id="question-4">Question 4</h3>
+<p>In my opinion, the easiest way to do part (a) was to leave everything in terms of $x,y$ until the end. Again I won&rsquo;t put in the details here since they are in the written solutions if you want to see them. Anyway, we end up finding that $\kappa=\mu-\lambda$.</p>
+<p>The steady states of this are then $p^*=0,1$. From here we can use our linear stability analysis:
+$$
+\frac{df}{dp} = \kappa(1-2p)
+$$
+and substitute in our steady states for both $\kappa&gt;0$ and $\kappa&lt;0$.</p>
+<p>At this point I think it&rsquo;s important to look back at the question and think about what is going on in the system and what the question is really asking. The thing I wanted you to say once you&rsquo;d found the stability of these points was that if:</p>
+<ul>
+<li>$\kappa&gt;0$: $\mu&gt;\lambda$, so species $x$ grows exponentially faster than $y$ and eventually dominates as $p\rightarrow 1$ as $t\rightarrow\infty$ (as long as $p_0\neq 0$).</li>
+<li>$\kappa&lt;0$: $\mu&lt;\lambda$, so species $y$ grows exponentially faster than $x$ and eventually dominates as $p\rightarrow 0$ as $t\rightarrow\infty$ (as long as $p_0\neq 1$).</li>
+</ul>
+<p>Finally, many of you said that for $\kappa=0$, the steady states $p^*=0,1$ are non-hyperbolic so nothing can be said. This is kind of true but also not. Yes the linear stability tells us $f'(p^*)=0$ but we can still say things about the system without using linear stability.</p>
+<p>$$
+\kappa=0 \Rightarrow f(p) = 0, \quad \forall p
+$$
+This means that $p=p^*, \forall p$ (all values of p are steady states). This means that the proportion of bacteria species stays the same no matter the initial condition. Now, this makes sense since $\kappa=0$ implies $\mu=\lambda$ so they grow at the same rate. Again this is as far as you were expected to go but I added an extra question if you got this far asking what this means for the stability of these steady states.</p>
+<p>Look back at the definitions of stability and asymptotic stability. The colloquial interpretations of these terms were</p>
+<ul>
+<li>Stable: starts near, stays near.</li>
+<li>Asymptotically stable: starts near, tends to eventually.</li>
+</ul>
+<p>Which of these apply to the case where $\kappa=0$? Well if we start at $p_0$ we stay there and if we start at $p_0+\varepsilon$ where $\varepsilon$ is a small positive constant we stay at $p_0+\varepsilon$ too. We can see, therefore, that $p_0$ is stable but is not asymptotically stable because trajectories near it never actually move towards it. I think this is a good example of how the two definitions are distinct even though in many of the situations we see, the stable points are also asymptotically stable and vice-versa.</p>
+<hr>
+<h2 id="outline-of-lecture-content">Outline of lecture content</h2>
+<p>The main concept introduced last week was expanding what we&rsquo;ve done to linear systems of ODEs. You spent a lot of time last semester solving these kinds of systems but now, just like with the 1D systems we&rsquo;ve studied, we want to quickly understand the behaviour of the system quickly without solving it explicitly.</p>
+<p>The notes go through the different situations we can have for 2D linear systems and below I&rsquo;ve put a diagram of all of these situations. As in the notes we have 
+$$
+\frac{d\mathbf{x}}{dt} = A\mathbf{x}, \quad \mathbf{x} \in \mathbb{R}^2, A\in \mathbb{R}^{2\times2}
+$$
+and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$</p>
+<p><img src="/media/nodephasediagram.png" alt="phase diagram"></p>
+<p>Example diagrams of these situations can be found in the notes but I have most of them in the notes linked at the top of this page. Also, below I&rsquo;ve put a video of how these phases go from one type of node to the other. On the left is an example of what the trajectories might look like for the $\gamma,\beta$ values shown in the figure on the right.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<video controls >
+  <source src="animation.mp4" type="video/mp4">
+</video>
+<hr>
+<h2 id="problem-sheet-a3">Problem sheet A3</h2>
+<h3 id="question-1">Question 1</h3>
+
+
+<div id="chart-145293768" class="chart"></div>
+<script>
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === 'undefined' ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json("./a3q1.json", function(chart) {
+        Plotly.plot('chart-145293768', chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+</script>
+<h3 id="question-2-1">Question 2</h3>
+<div class="alert alert-">
+  <div>
+    Use the chain rule:
+$$
+\begin{aligned}
+\frac{dR}{dt} &amp; = \frac{dR}{dx}\frac{dx}{dt} + \frac{dR}{dy}\frac{dy}{dt} \\<br>
+\frac{d\theta}{dt} &amp; = \frac{d\theta}{dx}\frac{dx}{dt} + \frac{d\theta}{dy}\frac{dy}{dt}.
+\end{aligned}
+$$
+It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\theta(t)$ should be simple expressions by the end&hellip;
+  </div>
+</div>
+<h3 id="question-3">Question 3</h3>
+
+
+<div id="chart-526843971" class="chart"></div>
+<script>
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === 'undefined' ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json("./a3q3.json", function(chart) {
+        Plotly.plot('chart-526843971', chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+</script>
+<h3 id="question-4-1">Question 4</h3>
+
+
+<div id="chart-526347981" class="chart"></div>
+<script>
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === 'undefined' ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json("./a3q4.json", function(chart) {
+        Plotly.plot('chart-526347981', chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
+</script>
+
     </div>
 
     
@@ -883,8 +1028,6 @@
 <div class="article-tags">
   
   <a class="badge badge-light" href="/tag/odes/">odes</a>
-  
-  <a class="badge badge-light" href="/tag/dynamical-systems/">dynamical systems</a>
   
 </div>
 
@@ -984,15 +1127,11 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/tutoring/week10/">Week 10: 06/05/22</a></li>
+      <li><a href="/tutoring/week4/">Week 4: 16/02/22</a></li>
       
-      <li><a href="/tutoring/week9/">Week 9: 20/04/21</a></li>
+      <li><a href="/tutoring/week3/">Week 3: 23/02/22</a></li>
       
-      <li><a href="/tutoring/week8/">Week 8: 13/04/21</a></li>
-      
-      <li><a href="/tutoring/week7/">Week 7: 25/03/22</a></li>
-      
-      <li><a href="/tutoring/week6/">Week 6: 18/03/22</a></li>
+      <li><a href="/tutoring/week2/">Week 2: 16/02/22</a></li>
       
     </ul>
   </div>
@@ -1138,6 +1277,11 @@
     
 
     
+    
+    <script>
+      window.PlotlyConfig = {MathJaxConfig: 'local'};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.55.2/plotly.min.js" integrity="sha512-gttPT9uTUiaLBj6XZdcB0ydKXiDaBwstInkN4Qvp1Nz3iwXNc8TTQplIEPIGxyJBDqERjwkKxf2OyO47/0EHbQ==" crossorigin="anonymous"></script>
     
 
     
