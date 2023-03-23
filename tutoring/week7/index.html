@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="Book Keeping Method">
+  <meta name="description" content="First order Maps">
 
   
   <link rel="alternate" hreflang="en-gb" href="https://jeremyworsfold.github.io/tutoring/week7/">
@@ -316,14 +316,14 @@
   
   <meta property="og:site_name" content="Jeremy Worsfold">
   <meta property="og:url" content="https://jeremyworsfold.github.io/tutoring/week7/">
-  <meta property="og:title" content="Week 7: 25/03/22 | Jeremy Worsfold">
-  <meta property="og:description" content="Book Keeping Method"><meta property="og:image" content="https://jeremyworsfold.github.io/media/face.jpg">
+  <meta property="og:title" content="Week 7: 23/03/22 | Jeremy Worsfold">
+  <meta property="og:description" content="First order Maps"><meta property="og:image" content="https://jeremyworsfold.github.io/media/face.jpg">
   <meta property="twitter:image" content="https://jeremyworsfold.github.io/media/face.jpg"><meta property="og:locale" content="en-gb">
   
     
-      <meta property="article:published_time" content="2022-03-25T11:15:00&#43;00:00">
+      <meta property="article:published_time" content="2023-03-23T11:15:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-03-25T11:15:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-03-23T11:15:00&#43;00:00">
   
 
   
@@ -344,10 +344,10 @@
     "@type": "WebPage",
     "@id": "https://jeremyworsfold.github.io/tutoring/week7/"
   },
-  "name": "Week 7: 25/03/22",
+  "name": "Week 7: 23/03/22",
   
   
-  "startDate": "2022-03-25T11:15:00Z",
+  "startDate": "2023-03-23T11:15:00Z",
   
   
   "performer": {
@@ -355,7 +355,7 @@
     "name": "Jeremy Worsfold"
   },
   
-  "description": "Book Keeping Method"
+  "description": "First order Maps"
 }
 </script>
 
@@ -376,7 +376,7 @@
 </script>
 
 
-  <title>Week 7: 25/03/22 | Jeremy Worsfold</title>
+  <title>Week 7: 23/03/22 | Jeremy Worsfold</title>
 
 </head>
 
@@ -696,7 +696,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Week 7: 25/03/22</h1>
+  <h1>Week 7: 23/03/22</h1>
 
   
 
@@ -794,7 +794,7 @@
       
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="/week7plan.png" >
+  <a class="btn btn-outline-primary my-1 mr-1" href="/week6plan.png" >
     <i class="fas fa-image mr-1"></i>
     Notes png
   </a>
@@ -813,7 +813,7 @@
       
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="/week7plan.svg" >
+  <a class="btn btn-outline-primary my-1 mr-1" href="/week6plan.svg" >
     <i class="fas fa-file-image mr-1"></i>
     Notes svg
   </a>
@@ -839,7 +839,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9">
-            Mar 25, 2022 11:15 AM
+            Mar 23, 2023 11:15 AM
           </div>
         </div>
       </div>
@@ -873,7 +873,7 @@
       <h2>Table of Contents</h2>
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#comments-on-problem-sheet-a5">Comments on Problem sheet A5</a>
+    <li><a href="#comments-on-problem-sheet-a4">Comments on Problem sheet A4</a>
       <ul>
         <li><a href="#question-1">Question 1</a></li>
         <li><a href="#question-3">Question 3</a></li>
@@ -881,158 +881,130 @@
     </li>
     <li><a href="#lecture-content">Lecture Content</a>
       <ul>
-        <li><a href="#the-book-keeping-method">The book keeping method</a></li>
-      </ul>
-    </li>
-    <li><a href="#problem-sheet-b1">Problem sheet B1</a>
-      <ul>
-        <li><a href="#question-1-1">Question 1</a></li>
-        <li><a href="#question-4">Question 4</a></li>
+        <li><a href="#first-order-maps">First order maps</a></li>
+        <li><a href="#linear-maps">Linear Maps</a></li>
+        <li><a href="#cobweb-diagrams">Cobweb Diagrams</a></li>
+        <li><a href="#bifurcations-logistic-map">Bifurcations: logistic map</a></li>
       </ul>
     </li>
   </ul>
 </nav>
-<h2 id="comments-on-problem-sheet-a5">Comments on Problem sheet A5</h2>
+<h2 id="comments-on-problem-sheet-a4">Comments on Problem sheet A4</h2>
+<p>It&rsquo;s really important that you remember to check the allowed values for the parameters and state variables! This caused some problems in both questions.</p>
 <h3 id="question-1">Question 1</h3>
-<p>For the first two parts, remember that you&rsquo;re drawing a diagram of discrete iterations $n$ so it doesn&rsquo;t really make sense to draw a continuous line. Instead just draw points for each iteration and maybe connect them up.</p>
-<p>For parts (d) and (e) in particular, be careful about the initial condition of your &lsquo;cobweb&rsquo;. In all cases $x_0=1$ but I saw many people either not consider where it should be on the line or incorrectly figure out the y and x intercepts. In both cases it didn&rsquo;t change the end result but it is still important and could definitely change the outcome in a nonlinear map. Below are how parts (d) and (e) were meant to look.</p>
-<p><img src="q1d.png" alt="Q1d"></p>
-<p><img src="q1e.png" alt="Q1e"></p>
+<p>We were asked to find the condition where it goes from a node to a focus. Recall from <a href="/tutoring/week4/">week 4</a> we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are 
+$$
+\lambda_i = \frac{1}{2}\left(\beta\pm\sqrt{\beta^2-4\gamma}\right).
+$$
+A focus has complex eigenvalues while a node has real eigenvalues so our boundary where we go from one to the other is
+$$
+\beta^2=4\gamma.
+$$
+Which leads us to the condition
+$$
+\mu=\frac{4\alpha^2}{4\alpha+1}.
+$$
+However, remember that $x&gt;0,y&gt;0$ always so the steady state $(x^*,y^*)=(\frac{\mu}{\alpha},1-\frac{\mu}{\alpha})$ only exists when $\frac{\mu}{\alpha}&lt;1$ and $\mu&gt;0,\alpha&gt;0$ so you need to be careful with the diagram.</p>
+<p><img src="q1.png" alt="Q1phasediagram"></p>
 <h3 id="question-3">Question 3</h3>
-<h4 id="a">a)</h4>
-<p>$$
-x^* = \frac{rx^*}{1+x^*}
+<p>This question was mainly testing the idea of nullclines so the general approach was to first set
 $$
+\begin{aligned}
+\frac{dx}{dt} &amp; = 0 \Rightarrow x=0 \text{ or } c=\frac{1}{a} \\<br>
+\frac{dc}{dt} &amp; = 0 \Rightarrow c=\frac{c_0}{1+ax} 
+\end{aligned}
 $$
-\Rightarrow x^*=0,\quad \text{or } \quad x^*=r-1
+which gives us the nullclines in each direction. The steady states are thus where these lines cross:
+$$
+(x^*,c^*) = (0,c_0) \text{ or } (c_0-\frac{1}{a},\frac{1}{a}).
 $$</p>
 <div class="alert alert-">
   <div>
-    Don&rsquo;t forget to point out that the second steady state only exists if $r&gt;1$ otherwise it would suggest $x&lt;0$ which is unphysical for a population model.
+    But the second steady state only exists if $c_0&gt;\frac{1}{a}$ because $x&gt;0$.
   </div>
 </div>
-<h4 id="b">b)</h4>
-<p>Mostly fine but just remember to state what the stability of the steady states are.</p>
-<h4 id="c">c)</h4>
-<p>Some of you were uncertain on how to do the final part of this question. There were two ways to do this, the lazy way (total valid) and the hard way (without using results from the notes).</p>
-<p>Either way we start with
-$$
-\begin{aligned}
-y_n &amp; = \frac{1}{x_n} \\<br>
-\Rightarrow \frac{1}{y_{n+1}} &amp; = \frac{r/y_n}{(y_n+1)/y_n} \\<br>
-&amp; = \frac{r}{y_n+1} \\<br>
-\Rightarrow y_{n+1} &amp; = \frac{1}{r}y_n + \frac{1}{r}.
-\end{aligned}
-$$
-So at this point we could just peak at the notes and remember that, for a linear map of the form $x_{n+1} = \lambda x_n + \mu$, the general solution is
-$$
-x_n = x_0 \lambda^n + \frac{\mu}{1-\lambda}(1-\lambda^n).
-$$
-Realising that we have a linear map in $y_n$ we can plugging in what we have we&rsquo;d get 
-$$
-\begin{aligned}
-y_n &amp;  = y_0\frac{1}{r^n} + \frac{1/r}{1-1/r}\left(1-\frac{1}{r^n}\right) \\<br>
-\Rightarrow y_n &amp; = \frac{y_0(r-1)+r^n-1}{r^n(r-1)} \\<br>
-\Rightarrow x_n &amp; = \frac{r^n(r-1)}{\frac{1}{x_0}(r-1)+r^n-1} \\<br>
-\end{aligned}
-$$
-If we didn&rsquo;t want to copy the result from the lectures we could find it ourself and do it the hard way. I won&rsquo;t put that in here (because I can&rsquo;t be bothered to type it out) but it&rsquo;s in the solutions to the problem sheets, it&rsquo;s in the tutorial whiteboard notes at the top of this page and it&rsquo;s very similar to what is in the lecture notes.</p>
+<p>Then we can look at the stability of these steady states by finding the Jacobian and evaluating it at the steady states for the two cases</p>
+<ul>
+<li>i) $1&lt;ac_0$: we find that $(0,c_0)$ is an unstable saddle node and $(c_0-\frac{1}{a},\frac{1}{a})$ is a stable node (can just check Routh-Hurwitz)</li>
+<li>ii) $1&gt;ac_0$: we find that $(0,c_0)$ is stable and the other does not exist.</li>
+</ul>
+<p>Even without looking at the stability we could draw the nullclines and basically answer the question but the stability helps attempt to sketch the trajectories. It&rsquo;s easy to look at the first case and think the non-trivial steady state is a spiral node but it is in fact this weird looking stable node.</p>
+<ul>
+<li>i)
+<img src="q3i.png" alt="Q1i"></li>
+<li>ii)
+<img src="q3ii.png" alt="Q1ii"></li>
+</ul>
 <h2 id="lecture-content">Lecture Content</h2>
-<h3 id="the-book-keeping-method">The book keeping method</h3>
-<p>In general, for a system we can keep track of the amount of stuff over time. We basically say that the total change of stuff in a region is:</p>
-<ul>
-<li>$+$ stuff created</li>
-<li>$-$ stuff destroyed</li>
-<li>$+$ stuff in</li>
-<li>$-$ stuff out</li>
-</ul>
-<p>Here&rsquo;s my attempt to summarise this in a diagram. We have some quantity $x$ in a box $R$ at time $t_0$ then the second box is the stuff in the box at time $t$.</p>
-<p><img src="bookkeeping.png" alt="Bookkeeping"></p>
-<h2 id="problem-sheet-b1">Problem sheet B1</h2>
-<h3 id="question-1-1">Question 1</h3>
-<p>We assume no radioactive nuclei are created (and that no particles enter or leave the system). So the only way the number of particles can change is from nuclear decay:
+<h3 id="first-order-maps">First order maps</h3>
+<p>A first order map (with one parameter $\mu$) can generally be written as 
 $$
-N(t) = N(t_0) - \text{number of particles decayed}.
-$$
-We are told the number of disintegrations is proportional to the total number of particles. Thus,
-$$
-\Rightarrow N(t) = N(t_0) - \lambda \int_0^t N(s)\mathrm{d}s.
-$$
-Using the fundamental theorem of calculus we can differentiate and get 
-$$
-\begin{aligned}
-\frac{\mathrm{d}N}{\mathrm{d}t} &amp; = \lambda N \\<br>
-\Rightarrow N(t) &amp; = N(t_0)e^{-\lambda t}.
-\end{aligned}
-$$</p>
-<p><span style="color:#00bbff;font-weight:bold">We know that</span>:</p>
-<ul>
-<li>Rate is 22 decays per min at $t_0$</li>
-<li>Rate is 8.5 decays per min at $t_F$</li>
-</ul>
-<p>Also we can find $\lambda$ by using the half-life, $\tau=22.3$ years:
-$$
-\Rightarrow \frac{1}{2} = e^{-\tau\lambda} \Rightarrow \lambda=\frac{\ln(2)}{\tau}.
+x_{n+1} = f(x_n;\mu)
 $$</p>
 <div class="alert alert-">
   <div>
-    This is quite a useful relationship to remember by the way.
-$$\lambda=\frac{\ln(2)}{\tau}$$
+    We&rsquo;ll use this to model things like populations but notice this applies to other things like Newton&rsquo;s method for finding roots of a function g:
+$$
+x_{n+1} = x_n - \frac{g(x_n)}{g'(x_n)}
+$$
+where we essentially are just iteratively getting better approximations of the steady state where $g(x^*)=0$, which is the root we are trying to find.
   </div>
 </div>
-<p><span style="color:#00bbff;font-weight:bold">We want to know</span> $t_F-t_0$ so let&rsquo;s look at the ratio of the decay rates at these two times
+<p>Again we have steady states, $x^*$, where 
+$$
+f(x^*;\mu) = x^*
+$$
+and we can do linear stability analysis on it like before about the steady state:
 $$
 \begin{aligned}
-\frac{\lambda N(t_F)}{\lambda N(t_0)} &amp; = e^{-\lambda(t_F-t_0)} = \frac{8.5}{22} \\<br>
-\Rightarrow \lambda(t_F-t_0) &amp; = \ln\left(\frac{22}{8.5}\right) \\<br>
-\Rightarrow t_F-t_0 &amp; = \frac{\tau}{\ln(2)}\ln\left(\frac{22}{8.5}\right) \approx 30.59\\<br>
+x_n &amp; = x^* + y_n, \quad |y_N|\ll 1 \\<br>
+\Rightarrow y_{n+1} = f'(x^*)y_n.
 \end{aligned}
 $$
-The final time $t_F$ was 1967AD so $t_0\approx$1936AD so it could be an early Vermeer.</p>
-<h3 id="question-4">Question 4</h3>
-<h4 id="a-1">a)</h4>
-<p>We know that enerrgy is conserved so the thermal energy the ice has at $t$ is what it started with at $t_0$ plus the amount of energy used to change the mass of ice from $m(t_0)$ to $m(t)$.
+To understand this we need to know how linear maps behave.</p>
+<h3 id="linear-maps">Linear Maps</h3>
+<p>Linear maps look like this:
+$$
+x_{n+1} = \lambda x_n + \mu
+$$
+which we can obtain a full solution for (see the main notes for details)
+$$
+x_n = x_0\lambda^n + \frac{\mu}{1-\lambda}(1-\lambda^n).
+$$
+Also we can find the steady state:
 $$
 \begin{aligned}
-Q(t) &amp; = Q(t_0) + L(m(t_0)-m(t)) \\<br>
-\Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp; = - L \frac{\mathrm{d}m}{\mathrm{d}t}
+x^* &amp; = \lambda x^* + \mu \\<br>
+\Rightarrow x^* &amp; = \frac{\mu}{1-\lambda}
 \end{aligned}
-$$</p>
-<h4 id="b-1">b)</h4>
-<p>Thermal energy of ice at time $t$ = thermal energy of ice at time $t_0$ + energy absorbed in that time. Newton&rsquo;s Law of cooling says that the rate of absorption of energy is proportional to the area of the body and the difference between their temperatures.
 $$
-\begin{aligned}
-\Rightarrow Q(t) &amp; = Q(t_0) + \int_{t_0}^t KA(t)(\theta_1-\theta_0)\mathrm{d}s \\<br>
-\Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp; = KA(t)(\theta_1-\theta_0) \\<br>
-\end{aligned}
-$$</p>
-<h4 id="c-1">c)</h4>
-<p>Equate the two relationships for the rate of change of thermal energy so that 
-$$
-L\frac{\mathrm{d}m}{\mathrm{d}t} = KA(t)(\theta_1-\theta_0)
-$$
-Now for a sphere with radius $r$:</p>
+This gives us four types of behaviour:</p>
 <ul>
-<li>volume: V = $\frac{4}{3}\pi r^3$</li>
-<li>surface area: A = $4\pi r^2$
-So the total mass at time $t$ is
-$$
-m(t) = \frac{4}{3}\pi\rho r^3(t)
-$$
-where $\rho$ is the density. Therefore,
-$$
-\begin{aligned}
-\frac{\mathrm{d}m}{\mathrm{d}t} &amp; = 4\pi\rho r^2(t) \frac{\mathrm{d}r}{\mathrm{d}t} \\<br>
-\Rightarrow 4\pi L \rho r^2 \frac{\mathrm{d}r}{\mathrm{d}t} &amp; = 4\pi r^2 K(\theta_1-\theta_0) \\<br>
-\frac{\mathrm{d}r}{\mathrm{d}t} &amp; = \frac{K}{L\rho}(\theta_0-\theta_1) \\<br>
-\Rightarrow r(t) &amp; = \frac{K}{L\rho}(\theta_0-\theta_1)t + r_0
-\end{aligned}
-$$
-We finally have an equation for the radius at time $t$ for the ball of ice and the time, $T$, at which it has completely melted should be when $r(T)=0$
-$$
-\Rightarrow T = \frac{r_0L\rho}{K(\theta_1-\theta_0)}.
-$$</li>
+<li>$\lambda&gt;1$: $|x_n|\rightarrow\infty$ and $x_n$ is monotonic as $n\rightarrow\infty$</li>
+<li>$\lambda&lt;-1$: $|x_n|\rightarrow\infty$ and $x_n$ oscillates as $n\rightarrow\infty$</li>
+<li>$0&lt;\lambda&lt;1$: $|x_n|\rightarrow x^*$  and $x_n$ is monotonic  as $n\rightarrow\infty$</li>
+<li>$-1&lt;\lambda&lt;0$: $|x_n|\rightarrow x^*$ and $x_n$ oscillates as $n\rightarrow\infty$</li>
 </ul>
+<p>This behaviour can then be applied to the linearised non-linear maps about the steady states to analyse the stability of the steady states.</p>
+<h3 id="cobweb-diagrams">Cobweb Diagrams</h3>
+<p>The general approach to this geometric method is as follows:</p>
+<ul>
+<li>Start with the line $x_{n+1} = x_n$</li>
+<li>Next, plot the function $x_{n+1} = f(x_n)$</li>
+<li>Starting from the $x_n$ axis at $x_0$, draw <span style="color:#00bbff;font-weight:bold">vertically</span> to the point $f(x_0)$</li>
+<li>Draw <span style="color:#00bbff;font-weight:bold">horizontally</span> from $f(x_0)$ to $x_1=f(x_0)$ (the $x_{n+1}=x_n$ line).</li>
+<li>Then draw a line <span style="color:#00bbff;font-weight:bold">vertically</span> from there to $f(x_1)$.</li>
+<li>Continue this until you reach a steady state or it appears to go off to infinity.</li>
+</ul>
+<p>Below is an illustration for some arbitrary example</p>
+<p><img src="cobweb.png" alt="cobweb diagram"></p>
+<h3 id="bifurcations-logistic-map">Bifurcations: logistic map</h3>
+<p>In the lectures you were given an example of the Ricker map, but here I&rsquo;ll mention a similar model called the logistic map. This is defined as 
+$$
+x_{n+1} = \mu x_n(1-x_n)
+$$
+This is a really famous example and there&rsquo;s a fantastic <a href="%22https://www.youtube.com/watch?v=ETrYE4MdoLQ%22">numberphile video</a> on it which I&rsquo;d encourage you to watch if you&rsquo;re interested and have a go at mapping yourself. Ben Sparks who is in the video is actually part of the University of Bath too!</p>
+<p><img src="map.png" alt="logistic map"></p>
 
     </div>
 
@@ -1145,15 +1117,7 @@ $$</li>
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/tutoring/week10/">Week 10: 06/05/22</a></li>
-      
-      <li><a href="/tutoring/week9/">Week 9: 20/04/21</a></li>
-      
-      <li><a href="/tutoring/week8/">Week 8: 13/04/21</a></li>
-      
-      <li><a href="/tutoring/week6/">Week 6: 18/03/22</a></li>
-      
-      <li><a href="/tutoring/week5/">Week 5: 11/03/22</a></li>
+      <li><a href="/tutoring/week6/">Week 6: 16/03/23</a></li>
       
     </ul>
   </div>
