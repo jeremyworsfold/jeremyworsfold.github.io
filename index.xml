@@ -5,12 +5,32 @@
     <link>https://jeremyworsfold.github.io/</link>
       <atom:link href="https://jeremyworsfold.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Worsfold</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 01 May 2023 11:15:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Sun, 14 May 2023 09:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>Jeremy Worsfold</title>
       <link>https://jeremyworsfold.github.io/</link>
     </image>
+    
+    <item>
+      <title>Binary Synchronisation of Randomly Forced Oscillators</title>
+      <link>https://jeremyworsfold.github.io/post/siamds23/</link>
+      <pubDate>Sun, 14 May 2023 09:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/post/siamds23/</guid>
+      <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Synchronisation of non-locally coupled oscillators has been extensively studied since Kuramoto’s model of oscillators was proposed in 1975. From fireflies to pedestrians on a bridge, this model is widely applicable in modelling the collective behaviour of large groups of individuals. This and other traditional models of synchronisation are predicated on deterministic forcing between individuals. Intrinsic randomness of oscillators has been incorporated into the Kuramoto model but this invariably causes a decrease in synchronization. In this talk we will show that, while noise usually creates disorder, systems can reach order through randomness. We propose and analyse a model that reproduces many of the common features of the Kuramoto model around the incoherent state but exhibits binary phase locking instead of full coherence. Using recently developed methods we are able to find exact solutions for the stationary, synchronized state. We also find approximate low dimensional dynamics for this model which qualitatively describes the full system of oscillators.&lt;/p&gt;
+&lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2303.14224&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Binary synchronisation of noise-coupled oscillators&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;key-references&#34;&gt;Key References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;H. P. McKean, &lt;em&gt;Propagation of chaos for a class of non-linear parabolic equations&lt;/em&gt; (1967)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://arxiv.org/abs/2204.02926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;J. Worsfold, T. Rogers, and P. Milewski, &lt;em&gt;Density fluctuations in stochastic kinematic flows&lt;/em&gt; (2022)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1103/RevModPhys.77.137&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;J. A. Acebrón, L. L. Bonilla, et. al, &lt;em&gt;The Kuramoto model: A simple paradigm for synchronization phenomena&lt;/em&gt; (2005)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1142/S0218202517400061&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R. Pinnau, C. Totzeck, O. Tse, and S. Martin, &lt;em&gt;A consensus-based model for global optimization and its mean-field limit&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1103/PhysRevE.102.052315&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R. Tönjes and A. Pikovsky, &lt;em&gt;Low-dimensional description for ensembles of identical phase oscillators subject to Cauchy noise&lt;/em&gt; (2020).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.1063/1.2930766&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;E. Ott and T. M. Antonsen, &lt;em&gt;Low dimensional behavior of large systems of globally coupled oscillators&lt;/em&gt;(2008)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Week 11: 04/05/22</title>
@@ -465,7 +485,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-354689712&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-957124683&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -475,7 +495,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q1.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-354689712&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-957124683&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -496,7 +516,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-847216953&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-132687459&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -506,7 +526,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-847216953&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-132687459&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -514,7 +534,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-4-1&#34;&gt;Question 4&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-529783461&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-765439218&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -524,7 +544,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q4.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-529783461&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-765439218&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -590,7 +610,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-569371842&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-536794128&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -600,7 +620,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-569371842&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-536794128&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -672,7 +692,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-687423951&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-834167259&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -682,7 +702,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-687423951&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-834167259&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1022,7 +1042,7 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-924675138&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-718245639&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1032,7 +1052,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-924675138&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-718245639&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
