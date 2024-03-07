@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>differential geometry | Jeremy Worsfold</title>
+    <title>Differential Geometry | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/tag/differential-geometry/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/differential-geometry/index.xml" rel="self" type="application/rss+xml" />
-    <description>differential geometry</description>
+    <description>Differential Geometry</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 15 Oct 2020 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>differential geometry</title>
+      <title>Differential Geometry</title>
       <link>https://jeremyworsfold.github.io/tag/differential-geometry/</link>
     </image>
     

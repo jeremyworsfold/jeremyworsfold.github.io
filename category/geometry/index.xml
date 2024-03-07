@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>geometry | Jeremy Worsfold</title>
+    <title>Geometry | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/category/geometry/</link>
       <atom:link href="https://jeremyworsfold.github.io/category/geometry/index.xml" rel="self" type="application/rss+xml" />
-    <description>geometry</description>
+    <description>Geometry</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 15 Oct 2020 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>geometry</title>
+      <title>Geometry</title>
       <link>https://jeremyworsfold.github.io/category/geometry/</link>
     </image>
     

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ma20220 | Jeremy Worsfold</title>
+    <title>Ma20220 | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/tag/ma20220/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/ma20220/index.xml" rel="self" type="application/rss+xml" />
-    <description>ma20220</description>
+    <description>Ma20220</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 14 Dec 2020 21:44:52 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>ma20220</title>
+      <title>Ma20220</title>
       <link>https://jeremyworsfold.github.io/tag/ma20220/</link>
     </image>
     
@@ -22,16 +22,18 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;what-makes-a-well-posed-problem&#34;&gt;What makes a well posed problem?&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
 solution exists (for at least as long as the prediction is required)
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-the solution is unique
-&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-the solution depends continuously on the initial condition and model parameters
-&lt;/span&gt;&lt;/li&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
+- &lt;span class=&#34;fragment &#34; &gt;
+  the solution is unique
+&lt;/span&gt;
+- &lt;span class=&#34;fragment &#34; &gt;
+  the solution depends continuously on the initial condition and model parameters
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;what-is-a-positively-invariant-set&#34;&gt;What is a positively invariant set?&lt;/h2&gt;
 &lt;p&gt;A set $Y \subset X$ is positively invariant if $x(0) \in Y$ implies that $x(t) \in Y$ for all $t \in T$ with $t &amp;gt; 0$. (It
@@ -48,10 +50,12 @@ for any $\epsilon &amp;gt; 0$ there exists $\delta &amp;gt; 0$ such that $|x(t) 
 &lt;li&gt;Asymptotically stable: &lt;span class=&#34;fragment &#34; &gt;
 if it is stable and there exists $\delta &amp;gt; 0$ such that $|x− x^*| \rightarrow 0$ as $t → \infty$ whenever $|x_0 − x^*| &amp;lt; \delta$.
 &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span class=&#34;fragment &#34; &gt;
-stable: start close, stay close. asym. stable: start close, converge to steady state.
-&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+ stable: start close, stay close. asym. stable: start close, converge to steady state. 
+&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;time-dependent-solution&#34;&gt;Time dependent solution&lt;/h3&gt;
 &lt;p&gt;If $\frac{dx}{dt}=f(x)$ and $f(x_0)\neq0$, then

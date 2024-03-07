@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dynamical systems | Jeremy Worsfold</title>
+    <title>Dynamical Systems | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/tag/dynamical-systems/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/dynamical-systems/index.xml" rel="self" type="application/rss+xml" />
-    <description>dynamical systems</description>
+    <description>Dynamical Systems</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 01 May 2023 11:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>dynamical systems</title>
+      <title>Dynamical Systems</title>
       <link>https://jeremyworsfold.github.io/tag/dynamical-systems/</link>
     </image>
     
@@ -68,8 +68,8 @@
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 &lt;p&gt;For the first two parts, remember that you&amp;rsquo;re drawing a diagram of discrete iterations $n$ so it doesn&amp;rsquo;t really make sense to draw a continuous line. Instead just draw points for each iteration and maybe connect them up.&lt;/p&gt;
 &lt;p&gt;For parts (d) and (e) in particular, be careful about the initial condition of your &amp;lsquo;cobweb&amp;rsquo;. In all cases $x_0=1$ but I saw many people either not consider where it should be on the line or incorrectly figure out the y and x intercepts. In both cases it didn&amp;rsquo;t change the end result but it is still important and could definitely change the outcome in a nonlinear map. Below are how parts (d) and (e) were meant to look.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;q1d.png&#34; alt=&#34;Q1d&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;q1e.png&#34; alt=&#34;Q1e&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Q1d&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week8/q1d.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Q1e&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week8/q1e.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 &lt;h4 id=&#34;a&#34;&gt;a)&lt;/h4&gt;
 &lt;p&gt;$$
@@ -90,9 +90,9 @@ $$&lt;/p&gt;
 &lt;p&gt;Either way we start with
 $$
 \begin{aligned}
-y_n &amp;amp; = \frac{1}{x_n} \\&lt;br&gt;
-\Rightarrow \frac{1}{y_{n+1}} &amp;amp; = \frac{r/y_n}{(y_n+1)/y_n} \\&lt;br&gt;
-&amp;amp; = \frac{r}{y_n+1} \\&lt;br&gt;
+y_n &amp;amp; = \frac{1}{x_n} \\
+\Rightarrow \frac{1}{y_{n+1}} &amp;amp; = \frac{r/y_n}{(y_n+1)/y_n} \\
+&amp;amp; = \frac{r}{y_n+1} \\
 \Rightarrow y_{n+1} &amp;amp; = \frac{1}{r}y_n + \frac{1}{r}.
 \end{aligned}
 $$
@@ -103,9 +103,9 @@ $$
 Realising that we have a linear map in $y_n$ we can plug into the general solution
 $$
 \begin{aligned}
-y_n &amp;amp;  = y_0\frac{1}{r^n} + \frac{1/r}{1-1/r}\left(1-\frac{1}{r^n}\right) \\&lt;br&gt;
-\Rightarrow y_n &amp;amp; = \frac{y_0(r-1)+r^n-1}{r^n(r-1)} \\&lt;br&gt;
-\Rightarrow x_n &amp;amp; = \frac{r^n(r-1)}{\frac{1}{x_0}(r-1)+r^n-1} \\&lt;br&gt;
+y_n &amp;amp;  = y_0\frac{1}{r^n} + \frac{1/r}{1-1/r}\left(1-\frac{1}{r^n}\right) \\
+\Rightarrow y_n &amp;amp; = \frac{y_0(r-1)+r^n-1}{r^n(r-1)} \\
+\Rightarrow x_n &amp;amp; = \frac{r^n(r-1)}{\frac{1}{x_0}(r-1)+r^n-1} \\
 \end{aligned}
 $$
 If we didn&amp;rsquo;t want to copy the result from the lectures we could find it ourself and do it the hard way. I won&amp;rsquo;t put that in here (because I can&amp;rsquo;t be bothered to type it out) but it&amp;rsquo;s in the solutions to the problem sheets, it&amp;rsquo;s in the tutorial whiteboard notes at the top of this page and it&amp;rsquo;s very similar to what is in the lecture notes.&lt;/p&gt;
@@ -119,7 +119,7 @@ If we didn&amp;rsquo;t want to copy the result from the lectures we could find i
 &lt;li&gt;$-$ stuff out&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here&amp;rsquo;s my attempt to summarise this in a diagram. We have some quantity $x$ in a box $R$ at time $t_0$ then the second box is the stuff in the box at time $t$.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;bookkeeping.png&#34; alt=&#34;Bookkeeping&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Bookkeeping&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week8/bookkeeping.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;problem-sheet-b1&#34;&gt;Problem sheet B1&lt;/h2&gt;
 &lt;h3 id=&#34;question-1-1&#34;&gt;Question 1&lt;/h3&gt;
 &lt;p&gt;We assume no radioactive nuclei are created (and that no particles enter or leave the system). So the only way the number of particles can change is from nuclear decay:
@@ -130,10 +130,10 @@ We are told the number of disintegrations is proportional to the total number of
 $$
 \Rightarrow N(t) = N(t_0) - \lambda \int_0^t N(s)\mathrm{d}s.
 $$
-Using the fundamental theorem of calculus we can differentiate and get 
+Using the fundamental theorem of calculus we can differentiate and get
 $$
 \begin{aligned}
-\frac{\mathrm{d}N}{\mathrm{d}t} &amp;amp; = \lambda N \\&lt;br&gt;
+\frac{\mathrm{d}N}{\mathrm{d}t} &amp;amp; = \lambda N \\
 \Rightarrow N(t) &amp;amp; = N(t_0)e^{-\lambda t}.
 \end{aligned}
 $$&lt;/p&gt;
@@ -155,9 +155,9 @@ $$\lambda=\frac{\ln(2)}{\tau}$$
 &lt;p&gt;&lt;span style=&#34;color:#00bbff;font-weight:bold&#34;&gt;We want to know&lt;/span&gt; $t_F-t_0$ so let&amp;rsquo;s look at the ratio of the decay rates at these two times
 $$
 \begin{aligned}
-\frac{\lambda N(t_F)}{\lambda N(t_0)} &amp;amp; = e^{-\lambda(t_F-t_0)} = \frac{8.5}{22} \\&lt;br&gt;
-\Rightarrow \lambda(t_F-t_0) &amp;amp; = \ln\left(\frac{22}{8.5}\right) \\&lt;br&gt;
-\Rightarrow t_F-t_0 &amp;amp; = \frac{\tau}{\ln(2)}\ln\left(\frac{22}{8.5}\right) \approx 30.59\\&lt;br&gt;
+\frac{\lambda N(t_F)}{\lambda N(t_0)} &amp;amp; = e^{-\lambda(t_F-t_0)} = \frac{8.5}{22} \\
+\Rightarrow \lambda(t_F-t_0) &amp;amp; = \ln\left(\frac{22}{8.5}\right) \\
+\Rightarrow t_F-t_0 &amp;amp; = \frac{\tau}{\ln(2)}\ln\left(\frac{22}{8.5}\right) \approx 30.59\\
 \end{aligned}
 $$
 The final time $t_F$ was 1967AD so $t_0\approx$1936AD so it must be a forgery.&lt;/p&gt;
@@ -166,7 +166,7 @@ The final time $t_F$ was 1967AD so $t_0\approx$1936AD so it must be a forgery.&l
 &lt;p&gt;We know that enerrgy is conserved so the thermal energy the ice has at $t$ is what it started with at $t_0$ plus the amount of energy used to change the mass of ice from $m(t_0)$ to $m(t)$.
 $$
 \begin{aligned}
-Q(t) &amp;amp; = Q(t_0) + L(m(t_0)-m(t)) \\&lt;br&gt;
+Q(t) &amp;amp; = Q(t_0) + L(m(t_0)-m(t)) \\
 \Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp;amp; = - L \frac{\mathrm{d}m}{\mathrm{d}t}
 \end{aligned}
 $$&lt;/p&gt;
@@ -174,12 +174,12 @@ $$&lt;/p&gt;
 &lt;p&gt;Thermal energy of ice at time $t$ = thermal energy of ice at time $t_0$ + energy absorbed in that time. Newton&amp;rsquo;s Law of cooling says that the rate of absorption of energy is proportional to the area of the body and the difference between their temperatures.
 $$
 \begin{aligned}
-\Rightarrow Q(t) &amp;amp; = Q(t_0) + \int_{t_0}^t KA(t)(\theta_1-\theta_0)\mathrm{d}s \\&lt;br&gt;
-\Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp;amp; = KA(t)(\theta_1-\theta_0) \\&lt;br&gt;
+\Rightarrow Q(t) &amp;amp; = Q(t_0) + \int_{t_0}^t KA(t)(\theta_1-\theta_0)\mathrm{d}s \\
+\Rightarrow \frac{\mathrm{d}Q}{\mathrm{d}t} &amp;amp; = KA(t)(\theta_1-\theta_0) \\
 \end{aligned}
 $$&lt;/p&gt;
 &lt;h4 id=&#34;c-1&#34;&gt;c)&lt;/h4&gt;
-&lt;p&gt;Equate the two relationships for the rate of change of thermal energy so that 
+&lt;p&gt;Equate the two relationships for the rate of change of thermal energy so that
 $$
 L\frac{\mathrm{d}m}{\mathrm{d}t} = KA(t)(\theta_1-\theta_0)
 $$
@@ -194,9 +194,9 @@ $$
 where $\rho$ is the density. Therefore,
 $$
 \begin{aligned}
-\frac{\mathrm{d}m}{\mathrm{d}t} &amp;amp; = 4\pi\rho r^2(t) \frac{\mathrm{d}r}{\mathrm{d}t} \\&lt;br&gt;
-\Rightarrow 4\pi L \rho r^2 \frac{\mathrm{d}r}{\mathrm{d}t} &amp;amp; = 4\pi r^2 K(\theta_1-\theta_0) \\&lt;br&gt;
-\frac{\mathrm{d}r}{\mathrm{d}t} &amp;amp; = \frac{K}{L\rho}(\theta_0-\theta_1) \\&lt;br&gt;
+\frac{\mathrm{d}m}{\mathrm{d}t} &amp;amp; = 4\pi\rho r^2(t) \frac{\mathrm{d}r}{\mathrm{d}t} \\
+\Rightarrow 4\pi L \rho r^2 \frac{\mathrm{d}r}{\mathrm{d}t} &amp;amp; = 4\pi r^2 K(\theta_1-\theta_0) \\
+\frac{\mathrm{d}r}{\mathrm{d}t} &amp;amp; = \frac{K}{L\rho}(\theta_0-\theta_1) \\
 \Rightarrow r(t) &amp;amp; = \frac{K}{L\rho}(\theta_0-\theta_1)t + r_0
 \end{aligned}
 $$
@@ -235,7 +235,7 @@ $$&lt;/li&gt;
 &lt;h2 id=&#34;comments-on-problem-sheet-a4&#34;&gt;Comments on Problem sheet A4&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s really important that you remember to check the allowed values for the parameters and state variables! This caused some problems in both questions.&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
-&lt;p&gt;We were asked to find the condition where it goes from a node to a focus. Recall from &lt;a href=&#34;https://jeremyworsfold.github.io/tutoring/week4/&#34;&gt;week 4&lt;/a&gt; we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are 
+&lt;p&gt;We were asked to find the condition where it goes from a node to a focus. Recall from &lt;a href=&#34;https://jeremyworsfold.github.io/tutoring/week4/&#34;&gt;week 4&lt;/a&gt; we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are
 $$
 \lambda_i = \frac{1}{2}\left(\beta\pm\sqrt{\beta^2-4\gamma}\right).
 $$
@@ -248,13 +248,13 @@ $$
 \mu=\frac{4\alpha^2}{4\alpha+1}.
 $$
 However, remember that $x&amp;gt;0,y&amp;gt;0$ always so the steady state $(x^*,y^*)=(\frac{\mu}{\alpha},1-\frac{\mu}{\alpha})$ only exists when $\frac{\mu}{\alpha}&amp;lt;1$ and $\mu&amp;gt;0,\alpha&amp;gt;0$ so you need to be careful with the diagram.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;q1.png&#34; alt=&#34;Q1phasediagram&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Q1phasediagram&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/q1.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 &lt;p&gt;This question was mainly testing the idea of nullclines so the general approach was to first set
 $$
 \begin{aligned}
-\frac{dx}{dt} &amp;amp; = 0 \Rightarrow x=0 \text{ or } c=\frac{1}{a} \\&lt;br&gt;
-\frac{dc}{dt} &amp;amp; = 0 \Rightarrow c=\frac{c_0}{1+ax} 
+\frac{dx}{dt} &amp;amp; = 0 \Rightarrow x=0 \text{ or } c=\frac{1}{a} \\
+\frac{dc}{dt} &amp;amp; = 0 \Rightarrow c=\frac{c_0}{1+ax}
 \end{aligned}
 $$
 which gives us the nullclines in each direction. The steady states are thus where these lines cross:
@@ -274,13 +274,13 @@ $$&lt;/p&gt;
 &lt;p&gt;Even without looking at the stability we could draw the nullclines and basically answer the question but the stability helps attempt to sketch the trajectories. It&amp;rsquo;s easy to look at the first case and think the non-trivial steady state is a spiral node but it is in fact this weird looking stable node.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;i)
-&lt;img src=&#34;q3i.png&#34; alt=&#34;Q1i&#34;&gt;&lt;/li&gt;
+&lt;img alt=&#34;Q1i&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/q3i.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;ii)
-&lt;img src=&#34;q3ii.png&#34; alt=&#34;Q1ii&#34;&gt;&lt;/li&gt;
+&lt;img alt=&#34;Q1ii&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/q3ii.png&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;lecture-content&#34;&gt;Lecture Content&lt;/h2&gt;
 &lt;h3 id=&#34;first-order-maps&#34;&gt;First order maps&lt;/h3&gt;
-&lt;p&gt;A first order map (with one parameter $\mu$) can generally be written as 
+&lt;p&gt;A first order map (with one parameter $\mu$) can generally be written as
 $$
 x_{n+1} = f(x_n;\mu)
 $$&lt;/p&gt;
@@ -288,20 +288,20 @@ $$&lt;/p&gt;
   &lt;div&gt;
     We&amp;rsquo;ll use this to model things like populations but notice this applies to other things like Newton&amp;rsquo;s method for finding roots of a function g:
 $$
-x_{n+1} = x_n - \frac{g(x_n)}{g&#39;(x_n)}
+x_{n+1} = x_n - \frac{g(x_n)}{g&amp;rsquo;(x_n)}
 $$
 where we essentially are just iteratively getting better approximations of the steady state where $g(x^*)=0$, which is the root we are trying to find.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;Again we have steady states, $x^*$, where 
+&lt;p&gt;Again we have steady states, $x^*$, where
 $$
 f(x^*;\mu) = x^*
 $$
 and we can do linear stability analysis on it like before about the steady state:
 $$
 \begin{aligned}
-x_n &amp;amp; = x^* + y_n, \quad |y_N|\ll 1 \\&lt;br&gt;
-\Rightarrow y_{n+1} = f&#39;(x^*)y_n.
+x_n &amp;amp; = x^* + y_n, \quad |y_N|\ll 1 \\
+\Rightarrow y_{n+1} = f&amp;rsquo;(x^*)y_n.
 \end{aligned}
 $$
 To understand this we need to know how linear maps behave.&lt;/p&gt;
@@ -317,7 +317,7 @@ $$
 Also we can find the steady state:
 $$
 \begin{aligned}
-x^* &amp;amp; = \lambda x^* + \mu \\&lt;br&gt;
+x^* &amp;amp; = \lambda x^* + \mu \\
 \Rightarrow x^* &amp;amp; = \frac{\mu}{1-\lambda}
 \end{aligned}
 $$
@@ -340,14 +340,14 @@ This gives us four types of behaviour:&lt;/p&gt;
 &lt;li&gt;Continue this until you reach a steady state or it appears to go off to infinity.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Below is an illustration for some arbitrary example&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;cobweb.png&#34; alt=&#34;cobweb diagram&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;cobweb diagram&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/cobweb.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;bifurcations-logistic-map&#34;&gt;Bifurcations: logistic map&lt;/h3&gt;
-&lt;p&gt;In the lectures you were given an example of the Ricker map, but here I&amp;rsquo;ll mention a similar model called the logistic map. This is defined as 
+&lt;p&gt;In the lectures you were given an example of the Ricker map, but here I&amp;rsquo;ll mention a similar model called the logistic map. This is defined as
 $$
 x_{n+1} = \mu x_n(1-x_n)
 $$
 This is a really famous example and there&amp;rsquo;s a fantastic &lt;a href=&#34;%22https://www.youtube.com/watch?v=ETrYE4MdoLQ%22&#34;&gt;numberphile video&lt;/a&gt; on it which I&amp;rsquo;d encourage you to watch if you&amp;rsquo;re interested and have a go at mapping yourself. Ben Sparks who is in the video is actually part of the University of Bath too!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;map.png&#34; alt=&#34;logistic map&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;logistic map&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/map.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     

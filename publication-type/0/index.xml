@@ -5,7 +5,7 @@
     <link>https://jeremyworsfold.github.io/publication-type/0/</link>
       <atom:link href="https://jeremyworsfold.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
       <title>0</title>
@@ -13,9 +13,25 @@
     </image>
     
     <item>
+      <title>Collective synchronization through noise cancellation</title>
+      <link>https://jeremyworsfold.github.io/publication/cstnc-2024/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/publication/cstnc-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stay in your lane: Density fluctuations in multi-lane traffic</title>
+      <link>https://jeremyworsfold.github.io/publication/siyl-2024/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.github.io/publication/siyl-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Density Fluctuations in Stochastic Kinematic Flows</title>
       <link>https://jeremyworsfold.github.io/publication/dfskf-2022/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
       <guid>https://jeremyworsfold.github.io/publication/dfskf-2022/</guid>
       <description></description>
     </item>

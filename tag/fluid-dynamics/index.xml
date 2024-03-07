@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fluid dynamics | Jeremy Worsfold</title>
+    <title>Fluid Dynamics | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/tag/fluid-dynamics/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/fluid-dynamics/index.xml" rel="self" type="application/rss+xml" />
-    <description>fluid dynamics</description>
+    <description>Fluid Dynamics</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 18 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>fluid dynamics</title>
+      <title>Fluid Dynamics</title>
       <link>https://jeremyworsfold.github.io/tag/fluid-dynamics/</link>
     </image>
     

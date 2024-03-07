@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>differential topology | Jeremy Worsfold</title>
+    <title>Differential Topology | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/tag/differential-topology/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/differential-topology/index.xml" rel="self" type="application/rss+xml" />
-    <description>differential topology</description>
+    <description>Differential Topology</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 04 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>differential topology</title>
+      <title>Differential Topology</title>
       <link>https://jeremyworsfold.github.io/tag/differential-topology/</link>
     </image>
     

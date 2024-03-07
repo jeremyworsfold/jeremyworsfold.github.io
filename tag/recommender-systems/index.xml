@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>recommender systems | Jeremy Worsfold</title>
+    <title>Recommender Systems | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/tag/recommender-systems/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/recommender-systems/index.xml" rel="self" type="application/rss+xml" />
-    <description>recommender systems</description>
+    <description>Recommender Systems</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 29 Oct 2020 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>recommender systems</title>
+      <title>Recommender Systems</title>
       <link>https://jeremyworsfold.github.io/tag/recommender-systems/</link>
     </image>
     

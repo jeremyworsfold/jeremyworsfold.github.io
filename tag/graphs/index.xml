@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>graphs | Jeremy Worsfold</title>
+    <title>Graphs | Jeremy Worsfold</title>
     <link>https://jeremyworsfold.github.io/tag/graphs/</link>
       <atom:link href="https://jeremyworsfold.github.io/tag/graphs/index.xml" rel="self" type="application/rss+xml" />
-    <description>graphs</description>
+    <description>Graphs</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 11 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
       <url>https://jeremyworsfold.github.io/media/face.jpg</url>
-      <title>graphs</title>
+      <title>Graphs</title>
       <link>https://jeremyworsfold.github.io/tag/graphs/</link>
     </image>
     

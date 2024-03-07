@@ -241,7 +241,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.min.f6c837e6735da04f373b0269a0b0b74b.css">
+  <link rel="stylesheet" href="/css/wowchemy.min.4658388218ae02f14cc8d0e6065fc4fe.css">
 
   
 
@@ -297,8 +297,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu26bc5c2f486bc88857e4243a148e7044_80534_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://jeremyworsfold.github.io/tutoring/week7/">
 
@@ -544,6 +544,8 @@
         
         
         
+          
+        
 
         
 
@@ -557,41 +559,18 @@
             
             
           
+          
+            
+            
+            
+              
+            
+            
           
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/pss/"><span>PSS</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link  active" href="/tutoring/"><span>Tutoring</span></a>
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
         </li>
 
         
@@ -629,6 +608,36 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/media/Full_CV.pdf"><span>CV</span></a>
         </li>
 
         
@@ -892,7 +901,7 @@
 <h2 id="comments-on-problem-sheet-a4">Comments on Problem sheet A4</h2>
 <p>It&rsquo;s really important that you remember to check the allowed values for the parameters and state variables! This caused some problems in both questions.</p>
 <h3 id="question-1">Question 1</h3>
-<p>We were asked to find the condition where it goes from a node to a focus. Recall from <a href="/tutoring/week4/">week 4</a> we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are 
+<p>We were asked to find the condition where it goes from a node to a focus. Recall from <a href="/tutoring/week4/">week 4</a> we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are
 $$
 \lambda_i = \frac{1}{2}\left(\beta\pm\sqrt{\beta^2-4\gamma}\right).
 $$
@@ -905,13 +914,13 @@ $$
 \mu=\frac{4\alpha^2}{4\alpha+1}.
 $$
 However, remember that $x&gt;0,y&gt;0$ always so the steady state $(x^*,y^*)=(\frac{\mu}{\alpha},1-\frac{\mu}{\alpha})$ only exists when $\frac{\mu}{\alpha}&lt;1$ and $\mu&gt;0,\alpha&gt;0$ so you need to be careful with the diagram.</p>
-<p><img src="q1.png" alt="Q1phasediagram"></p>
+<p><img alt="Q1phasediagram" src="/tutoring/week7/q1.png"></p>
 <h3 id="question-3">Question 3</h3>
 <p>This question was mainly testing the idea of nullclines so the general approach was to first set
 $$
 \begin{aligned}
-\frac{dx}{dt} &amp; = 0 \Rightarrow x=0 \text{ or } c=\frac{1}{a} \\<br>
-\frac{dc}{dt} &amp; = 0 \Rightarrow c=\frac{c_0}{1+ax} 
+\frac{dx}{dt} &amp; = 0 \Rightarrow x=0 \text{ or } c=\frac{1}{a} \\
+\frac{dc}{dt} &amp; = 0 \Rightarrow c=\frac{c_0}{1+ax}
 \end{aligned}
 $$
 which gives us the nullclines in each direction. The steady states are thus where these lines cross:
@@ -931,13 +940,13 @@ $$</p>
 <p>Even without looking at the stability we could draw the nullclines and basically answer the question but the stability helps attempt to sketch the trajectories. It&rsquo;s easy to look at the first case and think the non-trivial steady state is a spiral node but it is in fact this weird looking stable node.</p>
 <ul>
 <li>i)
-<img src="q3i.png" alt="Q1i"></li>
+<img alt="Q1i" src="/tutoring/week7/q3i.png"></li>
 <li>ii)
-<img src="q3ii.png" alt="Q1ii"></li>
+<img alt="Q1ii" src="/tutoring/week7/q3ii.png"></li>
 </ul>
 <h2 id="lecture-content">Lecture Content</h2>
 <h3 id="first-order-maps">First order maps</h3>
-<p>A first order map (with one parameter $\mu$) can generally be written as 
+<p>A first order map (with one parameter $\mu$) can generally be written as
 $$
 x_{n+1} = f(x_n;\mu)
 $$</p>
@@ -945,20 +954,20 @@ $$</p>
   <div>
     We&rsquo;ll use this to model things like populations but notice this applies to other things like Newton&rsquo;s method for finding roots of a function g:
 $$
-x_{n+1} = x_n - \frac{g(x_n)}{g'(x_n)}
+x_{n+1} = x_n - \frac{g(x_n)}{g&rsquo;(x_n)}
 $$
 where we essentially are just iteratively getting better approximations of the steady state where $g(x^*)=0$, which is the root we are trying to find.
   </div>
 </div>
-<p>Again we have steady states, $x^*$, where 
+<p>Again we have steady states, $x^*$, where
 $$
 f(x^*;\mu) = x^*
 $$
 and we can do linear stability analysis on it like before about the steady state:
 $$
 \begin{aligned}
-x_n &amp; = x^* + y_n, \quad |y_N|\ll 1 \\<br>
-\Rightarrow y_{n+1} = f'(x^*)y_n.
+x_n &amp; = x^* + y_n, \quad |y_N|\ll 1 \\
+\Rightarrow y_{n+1} = f&rsquo;(x^*)y_n.
 \end{aligned}
 $$
 To understand this we need to know how linear maps behave.</p>
@@ -974,7 +983,7 @@ $$
 Also we can find the steady state:
 $$
 \begin{aligned}
-x^* &amp; = \lambda x^* + \mu \\<br>
+x^* &amp; = \lambda x^* + \mu \\
 \Rightarrow x^* &amp; = \frac{\mu}{1-\lambda}
 \end{aligned}
 $$
@@ -997,14 +1006,14 @@ This gives us four types of behaviour:</p>
 <li>Continue this until you reach a steady state or it appears to go off to infinity.</li>
 </ul>
 <p>Below is an illustration for some arbitrary example</p>
-<p><img src="cobweb.png" alt="cobweb diagram"></p>
+<p><img alt="cobweb diagram" src="/tutoring/week7/cobweb.png"></p>
 <h3 id="bifurcations-logistic-map">Bifurcations: logistic map</h3>
-<p>In the lectures you were given an example of the Ricker map, but here I&rsquo;ll mention a similar model called the logistic map. This is defined as 
+<p>In the lectures you were given an example of the Ricker map, but here I&rsquo;ll mention a similar model called the logistic map. This is defined as
 $$
 x_{n+1} = \mu x_n(1-x_n)
 $$
 This is a really famous example and there&rsquo;s a fantastic <a href="%22https://www.youtube.com/watch?v=ETrYE4MdoLQ%22">numberphile video</a> on it which I&rsquo;d encourage you to watch if you&rsquo;re interested and have a go at mapping yourself. Ben Sparks who is in the video is actually part of the University of Bath too!</p>
-<p><img src="map.png" alt="logistic map"></p>
+<p><img alt="logistic map" src="/tutoring/week7/map.png"></p>
 
     </div>
 
@@ -1017,7 +1026,7 @@ This is a really famous example and there&rsquo;s a fantastic <a href="%22https:
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tag/dynamical-systems/">dynamical systems</a>
+  <a class="badge badge-light" href="/tag/dynamical-systems/">Dynamical Systems</a>
   
 </div>
 
@@ -1054,7 +1063,7 @@ This is a really famous example and there&rsquo;s a fantastic <a href="%22https:
 
     <div class="media-body">
       <h5 class="card-title"><a href="https://jeremyworsfold.github.io/">Jeremy Worsfold</a></h5>
-      <h6 class="card-subtitle">PhD in Applied Mathematics and Collective Behaviour</h6>
+      <h6 class="card-subtitle">Postdoctoral Fellow</h6>
       <p class="card-text">My research interests include Collective Behaviour, speficially swarming models and interacting particles Systems. I also have interests in Reinforcement Learning and Scientific Computing.</p>
       <ul class="network-icon" aria-hidden="true">
   
@@ -1068,8 +1077,38 @@ This is a really famous example and there&rsquo;s a fantastic <a href="%22https:
     
     
     <li>
-      <a href="mailto:jw3286@bath.ac.uk" >
+      <a href="mailto:j.worsfold@unsw.edu.au" >
         <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=ErEVXaAAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-3252-9454" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
       </a>
     </li>
   
@@ -1288,7 +1327,7 @@ This is a really famous example and there&rsquo;s a fantastic <a href="%22https:
     
     
     
-    <script src="/js/wowchemy.min.f192673d93a074955e78b132019ebb84.js"></script>
+    <script src="/js/wowchemy.min.7b59b76e23b8a2e32d88a6e0fea20f98.js"></script>
 
     
 
