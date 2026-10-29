@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inverse Problems | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/category/inverse-problems/</link>
-      <atom:link href="https://jeremyworsfold.github.io/category/inverse-problems/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/category/inverse-problems/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/category/inverse-problems/index.xml" rel="self" type="application/rss+xml" />
     <description>Inverse Problems</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 18 Feb 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Inverse Problems</title>
-      <link>https://jeremyworsfold.github.io/category/inverse-problems/</link>
+      <link>https://jeremyworsfold.co.uk/category/inverse-problems/</link>
     </image>
     
     <item>
       <title>Inverse Problems, Krylov Methods, and Dog Pictures</title>
-      <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
+      <link>https://jeremyworsfold.co.uk/pss/sebscott/</link>
       <pubDate>Thu, 18 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/sebscott/</guid>
       <description>&lt;p&gt;By the end of this PSS talk you should:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Understand how inverse problems may arise and why they can be finicky to deal with&lt;/li&gt;

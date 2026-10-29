@@ -2,21 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/author/jeremy-worsfold/</link>
-      <atom:link href="https://jeremyworsfold.github.io/author/jeremy-worsfold/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/author/jeremy-worsfold/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/author/jeremy-worsfold/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Worsfold</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Sun, 14 May 2023 09:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Jeremy Worsfold</title>
-      <link>https://jeremyworsfold.github.io/author/jeremy-worsfold/</link>
+      <link>https://jeremyworsfold.co.uk/author/jeremy-worsfold/</link>
     </image>
     
     <item>
+      <title>Stochastically bistable growth and decay in the Togashi–Kaneko model</title>
+      <link>https://jeremyworsfold.co.uk/publication/sbgd-2025/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/sbgd-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collective synchronization through noise cancellation</title>
+      <link>https://jeremyworsfold.co.uk/publication/cstnc-2024/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/cstnc-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stay in your lane: Density fluctuations in multi-lane traffic</title>
+      <link>https://jeremyworsfold.co.uk/publication/siyl-2024/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/siyl-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Binary Synchronisation of Randomly Forced Oscillators</title>
-      <link>https://jeremyworsfold.github.io/post/siamds23/</link>
+      <link>https://jeremyworsfold.co.uk/post/siamds23/</link>
       <pubDate>Sun, 14 May 2023 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/siamds23/</guid>
+      <guid>https://jeremyworsfold.co.uk/post/siamds23/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Synchronisation of non-locally coupled oscillators has been extensively studied since Kuramoto’s model of oscillators was proposed in 1975. From fireflies to pedestrians on a bridge, this model is widely applicable in modelling the collective behaviour of large groups of individuals. This and other traditional models of synchronisation are predicated on deterministic forcing between individuals. Intrinsic randomness of oscillators has been incorporated into the Kuramoto model but this invariably causes a decrease in synchronization. In this talk we will show that, while noise usually creates disorder, systems can reach order through randomness. We propose and analyse a model that reproduces many of the common features of the Kuramoto model around the incoherent state but exhibits binary phase locking instead of full coherence. Using recently developed methods we are able to find exact solutions for the stationary, synchronized state. We also find approximate low dimensional dynamics for this model which qualitatively describes the full system of oscillators.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2303.14224&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Binary synchronisation of noise-coupled oscillators&lt;/a&gt;.&lt;/p&gt;
@@ -34,34 +58,34 @@
     
     <item>
       <title>Week 11: 04/05/22</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week11/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week11/</link>
       <pubDate>Mon, 01 May 2023 11:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week11/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week11/</guid>
       <description>&lt;p&gt;I extended week 7 to cover two weeks so we didn&amp;rsquo;t get too far ahead of the lecture notes. I&amp;rsquo;ve linked to my solutions to an example question on the book keeping method from the 2017 Q2 past paper which I covered in one of the tutorials.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Week 10: 27/04/23</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week10/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week10/</link>
       <pubDate>Thu, 27 Apr 2023 11:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week10/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week10/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Week 9: 20/04/23</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week9/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week9/</link>
       <pubDate>Wed, 19 Apr 2023 10:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week9/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week9/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Binary Synchronisation of Randomly Forced Oscillators</title>
-      <link>https://jeremyworsfold.github.io/post/bamc2023/</link>
+      <link>https://jeremyworsfold.co.uk/post/bamc2023/</link>
       <pubDate>Sun, 02 Apr 2023 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/bamc2023/</guid>
+      <guid>https://jeremyworsfold.co.uk/post/bamc2023/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Synchronisation of non-locally coupled oscillators has been extensively studied since Kuramoto’s model of oscillators was proposed in 1975. From fireflies to pedestrians on a bridge, this model is widely applicable in modelling the collective behaviour of large groups of individuals. This and other traditional models of synchronisation are predicated on deterministic forcing between individuals. Intrinsic randomness of oscillators has been incorporated into the Kuramoto model but this invariably causes a decrease in synchronization. In this talk we will show that, while noise usually creates disorder, systems can reach order through randomness. We propose and analyse a model that reproduces many of the common features of the Kuramoto model around the incoherent state but exhibits binary phase locking instead of full coherence. Using recently developed methods we are able to find exact solutions for the stationary, synchronized state. We also find approximate low dimensional dynamics for this model which qualitatively describes the full system of oscillators.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2303.14224&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Binary synchronisation of noise-coupled oscillators&lt;/a&gt;.&lt;/p&gt;
@@ -79,9 +103,9 @@
     
     <item>
       <title>Week 8: 30/03/22</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week8/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week8/</link>
       <pubDate>Sat, 25 Mar 2023 11:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week8/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week8/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
@@ -108,8 +132,8 @@
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 &lt;p&gt;For the first two parts, remember that you&amp;rsquo;re drawing a diagram of discrete iterations $n$ so it doesn&amp;rsquo;t really make sense to draw a continuous line. Instead just draw points for each iteration and maybe connect them up.&lt;/p&gt;
 &lt;p&gt;For parts (d) and (e) in particular, be careful about the initial condition of your &amp;lsquo;cobweb&amp;rsquo;. In all cases $x_0=1$ but I saw many people either not consider where it should be on the line or incorrectly figure out the y and x intercepts. In both cases it didn&amp;rsquo;t change the end result but it is still important and could definitely change the outcome in a nonlinear map. Below are how parts (d) and (e) were meant to look.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Q1d&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week8/q1d.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Q1e&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week8/q1e.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Q1d&#34; src=&#34;https://jeremyworsfold.co.uk/tutoring/week8/q1d.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Q1e&#34; src=&#34;https://jeremyworsfold.co.uk/tutoring/week8/q1e.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 &lt;h4 id=&#34;a&#34;&gt;a)&lt;/h4&gt;
 &lt;p&gt;$$
@@ -159,7 +183,7 @@ If we didn&amp;rsquo;t want to copy the result from the lectures we could find i
 &lt;li&gt;$-$ stuff out&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Here&amp;rsquo;s my attempt to summarise this in a diagram. We have some quantity $x$ in a box $R$ at time $t_0$ then the second box is the stuff in the box at time $t$.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Bookkeeping&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week8/bookkeeping.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Bookkeeping&#34; src=&#34;https://jeremyworsfold.co.uk/tutoring/week8/bookkeeping.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;problem-sheet-b1&#34;&gt;Problem sheet B1&lt;/h2&gt;
 &lt;h3 id=&#34;question-1-1&#34;&gt;Question 1&lt;/h3&gt;
 &lt;p&gt;We assume no radioactive nuclei are created (and that no particles enter or leave the system). So the only way the number of particles can change is from nuclear decay:
@@ -250,9 +274,9 @@ $$&lt;/li&gt;
     
     <item>
       <title>Week 7: 23/03/22</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week7/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week7/</link>
       <pubDate>Thu, 23 Mar 2023 11:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week7/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week7/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
@@ -275,7 +299,7 @@ $$&lt;/li&gt;
 &lt;h2 id=&#34;comments-on-problem-sheet-a4&#34;&gt;Comments on Problem sheet A4&lt;/h2&gt;
 &lt;p&gt;It&amp;rsquo;s really important that you remember to check the allowed values for the parameters and state variables! This caused some problems in both questions.&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
-&lt;p&gt;We were asked to find the condition where it goes from a node to a focus. Recall from &lt;a href=&#34;https://jeremyworsfold.github.io/tutoring/week4/&#34;&gt;week 4&lt;/a&gt; we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are
+&lt;p&gt;We were asked to find the condition where it goes from a node to a focus. Recall from &lt;a href=&#34;https://jeremyworsfold.co.uk/tutoring/week4/&#34;&gt;week 4&lt;/a&gt; we said, for a 2D system with $\dot{\boldsymbol{x}}=A\boldsymbol{x}$ and defining $det(A)=\gamma$ and $tr(A)=\beta$, the eigenvalues are
 $$
 \lambda_i = \frac{1}{2}\left(\beta\pm\sqrt{\beta^2-4\gamma}\right).
 $$
@@ -288,7 +312,7 @@ $$
 \mu=\frac{4\alpha^2}{4\alpha+1}.
 $$
 However, remember that $x&amp;gt;0,y&amp;gt;0$ always so the steady state $(x^*,y^*)=(\frac{\mu}{\alpha},1-\frac{\mu}{\alpha})$ only exists when $\frac{\mu}{\alpha}&amp;lt;1$ and $\mu&amp;gt;0,\alpha&amp;gt;0$ so you need to be careful with the diagram.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Q1phasediagram&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/q1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Q1phasediagram&#34; src=&#34;https://jeremyworsfold.co.uk/tutoring/week7/q1.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 &lt;p&gt;This question was mainly testing the idea of nullclines so the general approach was to first set
 $$
@@ -314,9 +338,9 @@ $$&lt;/p&gt;
 &lt;p&gt;Even without looking at the stability we could draw the nullclines and basically answer the question but the stability helps attempt to sketch the trajectories. It&amp;rsquo;s easy to look at the first case and think the non-trivial steady state is a spiral node but it is in fact this weird looking stable node.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;i)
-&lt;img alt=&#34;Q1i&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/q3i.png&#34;&gt;&lt;/li&gt;
+&lt;img alt=&#34;Q1i&#34; src=&#34;https://jeremyworsfold.co.uk/tutoring/week7/q3i.png&#34;&gt;&lt;/li&gt;
 &lt;li&gt;ii)
-&lt;img alt=&#34;Q1ii&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/q3ii.png&#34;&gt;&lt;/li&gt;
+&lt;img alt=&#34;Q1ii&#34; src=&#34;https://jeremyworsfold.co.uk/tutoring/week7/q3ii.png&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;lecture-content&#34;&gt;Lecture Content&lt;/h2&gt;
 &lt;h3 id=&#34;first-order-maps&#34;&gt;First order maps&lt;/h3&gt;
@@ -380,30 +404,30 @@ This gives us four types of behaviour:&lt;/p&gt;
 &lt;li&gt;Continue this until you reach a steady state or it appears to go off to infinity.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Below is an illustration for some arbitrary example&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;cobweb diagram&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/cobweb.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;cobweb diagram&#34; src=&#34;https://jeremyworsfold.co.uk/tutoring/week7/cobweb.png&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;bifurcations-logistic-map&#34;&gt;Bifurcations: logistic map&lt;/h3&gt;
 &lt;p&gt;In the lectures you were given an example of the Ricker map, but here I&amp;rsquo;ll mention a similar model called the logistic map. This is defined as
 $$
 x_{n+1} = \mu x_n(1-x_n)
 $$
 This is a really famous example and there&amp;rsquo;s a fantastic &lt;a href=&#34;%22https://www.youtube.com/watch?v=ETrYE4MdoLQ%22&#34;&gt;numberphile video&lt;/a&gt; on it which I&amp;rsquo;d encourage you to watch if you&amp;rsquo;re interested and have a go at mapping yourself. Ben Sparks who is in the video is actually part of the University of Bath too!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;logistic map&#34; src=&#34;https://jeremyworsfold.github.io/tutoring/week7/map.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;logistic map&#34; src=&#34;https://jeremyworsfold.co.uk/tutoring/week7/map.png&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Week 6: 16/03/23</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week6/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week6/</link>
       <pubDate>Thu, 16 Mar 2023 15:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week6/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Week 5: 09/03/23</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week5/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week5/</link>
       <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week5/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week5/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
@@ -458,7 +482,7 @@ $$
 \frac{d\mathbf{x}}{dt} = A\mathbf{x}, \quad \mathbf{x} \in \mathbb{R}^2, A\in \mathbb{R}^{2\times2}
 $$
 and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;phase diagram&#34; src=&#34;https://jeremyworsfold.github.io/media/nodephasediagram.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;phase diagram&#34; src=&#34;https://jeremyworsfold.co.uk/media/nodephasediagram.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Example diagrams of these situations can be found in the notes but I have most of them in the notes linked at the top of this page. Also, below I&amp;rsquo;ve put a video of how these phases go from one type of node to the other. On the left is an example of what the trajectories might look like for the $\gamma,\beta$ values shown in the figure on the right.&lt;/p&gt;
 
 
@@ -485,7 +509,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
 &lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-274869531&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-718649523&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -495,7 +519,7 @@ and we denote $\mathrm{Tr}(A)=\gamma$, $\mathrm{det}(A)=\beta$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q1.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-274869531&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-718649523&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -516,7 +540,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-197346825&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-259348617&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -526,7 +550,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-197346825&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-259348617&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -534,7 +558,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
 &lt;h3 id=&#34;question-4-1&#34;&gt;Question 4&lt;/h3&gt;
 
 
-&lt;div id=&#34;chart-731584926&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-894517326&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -544,7 +568,7 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a3q4.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-731584926&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-894517326&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -554,9 +578,9 @@ It may be pretty fiddly getting the bottom line answer but both $R(t)$ and $\the
     
     <item>
       <title>Week 4: 16/02/22</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week4/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week4/</link>
       <pubDate>Thu, 02 Mar 2023 17:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week4/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week4/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
@@ -610,7 +634,7 @@ $$&lt;/p&gt;
 &lt;/ul&gt;
 
 
-&lt;div id=&#34;chart-134762589&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-817956324&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -620,7 +644,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./a1q3.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-134762589&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-817956324&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -629,7 +653,7 @@ $$&lt;/p&gt;
 &lt;h2 id=&#34;outline-of-lecture-content&#34;&gt;Outline of lecture content&lt;/h2&gt;
 &lt;h3 id=&#34;geometric-method&#34;&gt;Geometric Method&lt;/h3&gt;
 &lt;p&gt;This picture should sum up the takeaways from this section in the notes. If $f(x)&amp;gt;0$ then $x$ by definition is increasing and so our system will move towards the right. Conversely if $f(x)&amp;lt;0$ then $x$ decreases and so we draw a left arrow instead. This then tells us the stability of our steady states located at $f(x)=0$. If the arrows point inwards then it&amp;rsquo;s stable and we can show this with a filled circle, if they point outwards then it&amp;rsquo;s unstable and we denote this with a hollow circle.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;geometric method&#34; src=&#34;https://jeremyworsfold.github.io/media/geometricmethod.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;geometric method&#34; src=&#34;https://jeremyworsfold.co.uk/media/geometricmethod.png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;alert alert-&#34;&gt;
   &lt;div&gt;
     What happens if there is a turning point at $f(x)=0$? Is the steady state stable or unstable?
@@ -651,7 +675,7 @@ and the opposite is true for unstable solutions. If we have equality then the st
 &lt;li&gt;We then draw the unstable solutions with dashed lines and the stable ones with filled in lines&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;In the notes which are available at the top of this page, I&amp;rsquo;ve drawn a few examples of some bifurcations we might see. Some are a bit beyond what will be studied in the course but this gives an idea of the standard types of sketches we expect to see. Below is one such example.&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;bifurcation example&#34; src=&#34;https://jeremyworsfold.github.io/media/bifurcation.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;bifurcation example&#34; src=&#34;https://jeremyworsfold.co.uk/media/bifurcation.png&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;alert alert-&#34;&gt;
   &lt;div&gt;
     Notice that in all cases, in the $x$-direction the solutions for $x^*$ will alternate between being stable and unstable. If this wasn&amp;rsquo;t the case then this wouldn&amp;rsquo;t make sense as arrows would be pointing in contradicting directions and the only resolution to this would be for another steady state to exist of the opposite type in between these solutions. Specifically, $f(x)$ will have changed sign at some point between the solutions and so $f(x)=0$ at some point.
@@ -692,7 +716,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
 &lt;p&gt;Below I&amp;rsquo;ve put a heatmap of $f(x;\mu)$, the boundary where it switches from light red to light blue gives us the steady state solutions and we can determine the stability too. Red means $f(x;\mu)&amp;lt;0$ so it&amp;rsquo;s like an arrow pointing down while blue is like an arrow pointing up.&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-579348612&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-964275831&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -702,7 +726,7 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
       clearInterval( a );
 
       Plotly.d3.json(&#34;./bifn.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-579348612&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-964275831&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -712,9 +736,9 @@ Therefore $f(x;\mu)&amp;lt;0$ for $\mu&amp;gt;1/4$ and thus the population goes 
     
     <item>
       <title>Week 3: 23/02/22</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week3/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week3/</link>
       <pubDate>Thu, 23 Feb 2023 17:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week3/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week3/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
@@ -781,9 +805,9 @@ where we&amp;rsquo;ve used an integrating factor. From here we can integrate bot
     
     <item>
       <title>Week 2: 16/02/22</title>
-      <link>https://jeremyworsfold.github.io/tutoring/week2/</link>
+      <link>https://jeremyworsfold.co.uk/tutoring/week2/</link>
       <pubDate>Thu, 16 Feb 2023 17:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/tutoring/week2/</guid>
+      <guid>https://jeremyworsfold.co.uk/tutoring/week2/</guid>
       <description>&lt;h2&gt;Table of Contents&lt;/h2&gt;
 &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
@@ -828,10 +852,18 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Density fluctuations in stochastic kinematic flows</title>
+      <link>https://jeremyworsfold.co.uk/publication/dfskf-2022/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/dfskf-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Before the Continuum Limit</title>
-      <link>https://jeremyworsfold.github.io/post/standrews/</link>
+      <link>https://jeremyworsfold.co.uk/post/standrews/</link>
       <pubDate>Fri, 20 Jan 2023 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/standrews/</guid>
+      <guid>https://jeremyworsfold.co.uk/post/standrews/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;At the macroscopic scale, many important models of collective motion fall into the class of kinematic flows for which both velocity and diffusion terms depend only on particle density. When the total numbers of individuals are fixed and finite, simulations of corresponding microscopic dynamics exhibit stochastic effects which can induce a variety of interesting behaviours not present in the large system limit. In this talk I will show how the fluctuations in a general class of particle models can be characterised and quantified. I will apply this to a variety of phenomena including: models for bacterial swarming; stochastic pattern formation for spatially coupled oscillators; and anomalous bulk sub-diffusion in porous media.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2204.02926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Density Fluctuations in Stochastic Kinematic Flows&lt;/a&gt;.&lt;/p&gt;
@@ -850,9 +882,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Before the Continuum Limit</title>
-      <link>https://jeremyworsfold.github.io/talk/standrews/</link>
+      <link>https://jeremyworsfold.co.uk/talk/standrews/</link>
       <pubDate>Fri, 20 Jan 2023 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/talk/standrews/</guid>
+      <guid>https://jeremyworsfold.co.uk/talk/standrews/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;At the macroscopic scale, many important models of collective motion fall into the class of kinematic flows for which both velocity and diffusion terms depend only on particle density. When the total numbers of individuals are fixed and finite, simulations of corresponding microscopic dynamics exhibit stochastic effects which can induce a variety of interesting behaviours not present in the large system limit. In this talk I will show how the fluctuations in a general class of particle models can be characterised and quantified. I will apply this to a variety of phenomena including: models for bacterial swarming; stochastic pattern formation for spatially coupled oscillators; and anomalous bulk sub-diffusion in porous media.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2204.02926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Density Fluctuations in Stochastic Kinematic Flows&lt;/a&gt;.&lt;/p&gt;
@@ -871,9 +903,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Before the Continuum Limit</title>
-      <link>https://jeremyworsfold.github.io/post/ecmbtposter/</link>
+      <link>https://jeremyworsfold.co.uk/post/ecmbtposter/</link>
       <pubDate>Thu, 01 Sep 2022 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/ecmbtposter/</guid>
+      <guid>https://jeremyworsfold.co.uk/post/ecmbtposter/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;At the macroscopic scale, many important models of collective motion fall into the class of kinematic flows for which both velocity and diffusion terms depend only on particle density. When the total numbers of individuals are fixed and finite, simulations of corresponding microscopic dynamics exhibit stochastic effects which can induce a variety of interesting behaviours not present in the large system limit. In this talk I will show how the fluctuations in a general class of particle models can be characterised and quantified. I will apply this to a variety of phenomena including: models for bacterial swarming; stochastic pattern formation for spatially coupled oscillators; and anomalous bulk sub-diffusion in porous media.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2204.02926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Density Fluctuations in Stochastic Kinematic Flows&lt;/a&gt;.&lt;/p&gt;
@@ -889,17 +921,17 @@ $$&lt;/p&gt;
     
     <item>
       <title>Cars, Pedestrians and Fish as Interacting Brownian Particles</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremywors2/</link>
+      <link>https://jeremyworsfold.co.uk/pss/jeremywors2/</link>
       <pubDate>Thu, 18 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremywors2/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/jeremywors2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to use Python for scientific research</title>
-      <link>https://jeremyworsfold.github.io/slides/python-coding/</link>
+      <link>https://jeremyworsfold.co.uk/slides/python-coding/</link>
       <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/slides/python-coding/</guid>
+      <guid>https://jeremyworsfold.co.uk/slides/python-coding/</guid>
       <description>&lt;h2 id=&#34;how-to-use-python-for-scientific-research&#34;&gt;How to use Python for scientific research&lt;/h2&gt;
 &lt;h3 id=&#34;maintaining-a-personal-python-package-for-scientific-research&#34;&gt;Maintaining a personal Python package for scientific research&lt;/h3&gt;
 &lt;hr&gt;
@@ -939,7 +971,7 @@ $$&lt;/p&gt;
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-437562198&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-364952718&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -949,7 +981,7 @@ $$&lt;/p&gt;
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-437562198&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-364952718&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -960,9 +992,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>MA20221 Week 2</title>
-      <link>https://jeremyworsfold.github.io/slides/ma20221week2/</link>
+      <link>https://jeremyworsfold.co.uk/slides/ma20221week2/</link>
       <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/slides/ma20221week2/</guid>
+      <guid>https://jeremyworsfold.co.uk/slides/ma20221week2/</guid>
       <description>&lt;h1 id=&#34;ma20221-week-2&#34;&gt;MA20221 Week 2&lt;/h1&gt;
 &lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
 &lt;hr&gt;
@@ -1017,9 +1049,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Multi-armed bandits</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremywors/</link>
+      <link>https://jeremyworsfold.co.uk/pss/jeremywors/</link>
       <pubDate>Thu, 29 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremywors/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/jeremywors/</guid>
       <description></description>
     </item>
     

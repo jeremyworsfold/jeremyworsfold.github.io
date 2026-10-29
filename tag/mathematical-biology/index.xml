@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mathematical Biology | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/tag/mathematical-biology/</link>
-      <atom:link href="https://jeremyworsfold.github.io/tag/mathematical-biology/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/tag/mathematical-biology/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/tag/mathematical-biology/index.xml" rel="self" type="application/rss+xml" />
     <description>Mathematical Biology</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 10 Dec 2020 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Mathematical Biology</title>
-      <link>https://jeremyworsfold.github.io/tag/mathematical-biology/</link>
+      <link>https://jeremyworsfold.co.uk/tag/mathematical-biology/</link>
     </image>
     
     <item>
       <title>Modelling hair follicle development and formation of periodic patterns of cells.</title>
-      <link>https://jeremyworsfold.github.io/pss/shahzeb/</link>
+      <link>https://jeremyworsfold.co.uk/pss/shahzeb/</link>
       <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/shahzeb/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/shahzeb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hybrid methods: innovative or a waste of time? You decide!</title>
-      <link>https://jeremyworsfold.github.io/pss/cameron/</link>
+      <link>https://jeremyworsfold.co.uk/pss/cameron/</link>
       <pubDate>Thu, 22 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/cameron/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/cameron/</guid>
       <description></description>
     </item>
     

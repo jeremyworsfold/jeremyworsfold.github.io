@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming PSS Talks | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/pss/</link>
-      <atom:link href="https://jeremyworsfold.github.io/pss/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/pss/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/pss/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming PSS Talks</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 20 May 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Recent &amp; Upcoming PSS Talks</title>
-      <link>https://jeremyworsfold.github.io/pss/</link>
+      <link>https://jeremyworsfold.co.uk/pss/</link>
     </image>
     
     <item>
       <title>Scientific advice in government</title>
-      <link>https://jeremyworsfold.github.io/pss/yyanis/</link>
+      <link>https://jeremyworsfold.co.uk/pss/yyanis/</link>
       <pubDate>Thu, 20 May 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/yyanis/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/yyanis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling Photosensitive Chlorine Dioxide–Iodine–Malonic Acid (CDIMA) Reactions</title>
-      <link>https://jeremyworsfold.github.io/pss/laura/</link>
+      <link>https://jeremyworsfold.co.uk/pss/laura/</link>
       <pubDate>Thu, 13 May 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/laura/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/laura/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Detecting Train Track Faults from an Onboard Camera</title>
-      <link>https://jeremyworsfold.github.io/pss/tina/</link>
+      <link>https://jeremyworsfold.co.uk/pss/tina/</link>
       <pubDate>Thu, 06 May 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/tina/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/tina/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Measuring distances between random processes</title>
-      <link>https://jeremyworsfold.github.io/pss/benr/</link>
+      <link>https://jeremyworsfold.co.uk/pss/benr/</link>
       <pubDate>Thu, 29 Apr 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/benr/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/benr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Circles and Primes and Squares, oh my! : Solving Gauss’ Circle Problem</title>
-      <link>https://jeremyworsfold.github.io/pss/katie/</link>
+      <link>https://jeremyworsfold.co.uk/pss/katie/</link>
       <pubDate>Thu, 25 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/katie/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/katie/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cars, Pedestrians and Fish as Interacting Brownian Particles</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremywors2/</link>
+      <link>https://jeremyworsfold.co.uk/pss/jeremywors2/</link>
       <pubDate>Thu, 18 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremywors2/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/jeremywors2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Joint reconstruction-segmentation on graphs</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremybudd/</link>
+      <link>https://jeremyworsfold.co.uk/pss/jeremybudd/</link>
       <pubDate>Thu, 11 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremybudd/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/jeremybudd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Embedding and Approximation Theorems for Echo State Networks</title>
-      <link>https://jeremyworsfold.github.io/pss/allen/</link>
+      <link>https://jeremyworsfold.co.uk/pss/allen/</link>
       <pubDate>Thu, 04 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/allen/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/allen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mathematics of beauty: How does nature shape river networks?</title>
-      <link>https://jeremyworsfold.github.io/pss/piotr2/</link>
+      <link>https://jeremyworsfold.co.uk/pss/piotr2/</link>
       <pubDate>Thu, 25 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/piotr2/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/piotr2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Inverse Problems, Krylov Methods, and Dog Pictures</title>
-      <link>https://jeremyworsfold.github.io/pss/sebscott/</link>
+      <link>https://jeremyworsfold.co.uk/pss/sebscott/</link>
       <pubDate>Thu, 18 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/sebscott/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/sebscott/</guid>
       <description>&lt;p&gt;By the end of this PSS talk you should:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Understand how inverse problems may arise and why they can be finicky to deal with&lt;/li&gt;
@@ -101,67 +101,67 @@
     
     <item>
       <title>An overview of moving mesh methods</title>
-      <link>https://jeremyworsfold.github.io/pss/simone/</link>
+      <link>https://jeremyworsfold.co.uk/pss/simone/</link>
       <pubDate>Thu, 11 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/simone/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/simone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Highlights from the theory of random growth</title>
-      <link>https://jeremyworsfold.github.io/pss/tomfinn/</link>
+      <link>https://jeremyworsfold.co.uk/pss/tomfinn/</link>
       <pubDate>Thu, 04 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/tomfinn/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/tomfinn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Modelling hair follicle development and formation of periodic patterns of cells.</title>
-      <link>https://jeremyworsfold.github.io/pss/shahzeb/</link>
+      <link>https://jeremyworsfold.co.uk/pss/shahzeb/</link>
       <pubDate>Thu, 10 Dec 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/shahzeb/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/shahzeb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Invitation to Probability Theory</title>
-      <link>https://jeremyworsfold.github.io/pss/yisheng/</link>
+      <link>https://jeremyworsfold.co.uk/pss/yisheng/</link>
       <pubDate>Thu, 03 Dec 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/yisheng/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/yisheng/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Will a Large Complex System be Stable?</title>
-      <link>https://jeremyworsfold.github.io/pss/yvonne/</link>
+      <link>https://jeremyworsfold.co.uk/pss/yvonne/</link>
       <pubDate>Thu, 26 Nov 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/yvonne/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/yvonne/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blowups: An algebraic-geometric approach to resolving singularities</title>
-      <link>https://jeremyworsfold.github.io/pss/mattturner/</link>
+      <link>https://jeremyworsfold.co.uk/pss/mattturner/</link>
       <pubDate>Thu, 19 Nov 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/mattturner/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/mattturner/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Concentrated Vorticity in the Euler equations</title>
-      <link>https://jeremyworsfold.github.io/pss/zoe/</link>
+      <link>https://jeremyworsfold.co.uk/pss/zoe/</link>
       <pubDate>Thu, 12 Nov 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/zoe/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/zoe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What is Measure Theory, and How does it Affect Me?</title>
-      <link>https://jeremyworsfold.github.io/pss/willgraham/</link>
+      <link>https://jeremyworsfold.co.uk/pss/willgraham/</link>
       <pubDate>Thu, 05 Nov 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/willgraham/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/willgraham/</guid>
       <description>&lt;p&gt;The reaction I usually get when I tell people my PhD concerns a large amount of measure theory can be summarised fairly well by the following diagram:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;measure theory meme&#34; src=&#34;https://jeremyworsfold.github.io/media/willgraham.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;measure theory meme&#34; src=&#34;https://jeremyworsfold.co.uk/media/willgraham.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Whilst having an intricate knowledge of the ins and outs of measure theory is by no means a requirement for many applications of maths in the real world; it does secretly underpin a lot of the more familiar (and friendly!) things that we use in applied maths, and probability.
 • Have you ever wondered why PDFs are such a big deal when working in probability?
 • Have you ever used FEM or Fourier transforms to solve a problem?
@@ -172,34 +172,34 @@
     
     <item>
       <title>Multi-armed bandits</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremywors/</link>
+      <link>https://jeremyworsfold.co.uk/pss/jeremywors/</link>
       <pubDate>Thu, 29 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremywors/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/jeremywors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hybrid methods: innovative or a waste of time? You decide!</title>
-      <link>https://jeremyworsfold.github.io/pss/cameron/</link>
+      <link>https://jeremyworsfold.co.uk/pss/cameron/</link>
       <pubDate>Thu, 22 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/cameron/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/cameron/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Curve Shortening Flow</title>
-      <link>https://jeremyworsfold.github.io/pss/ed/</link>
+      <link>https://jeremyworsfold.co.uk/pss/ed/</link>
       <pubDate>Thu, 15 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/ed/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/ed/</guid>
       <description>&lt;p&gt;There will be some equations and overviews of proofs, but it won&amp;rsquo;t be super technical, and there&amp;rsquo;ll also be nice pictures and diagrams so it should be possible to follow the talk without any knowledge of differential geometry at all!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>From alco-rockets and neural networks in a can to international political incidents</title>
-      <link>https://jeremyworsfold.github.io/pss/piotr/</link>
+      <link>https://jeremyworsfold.co.uk/pss/piotr/</link>
       <pubDate>Thu, 08 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/piotr/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/piotr/</guid>
       <description>&lt;p&gt;There will be some equations and overviews of proofs, but it won&amp;rsquo;t be super technical, and there&amp;rsquo;ll also be nice pictures and diagrams so it should be possible to follow the talk without any knowledge of differential geometry at all!&lt;/p&gt;
 </description>
     </item>

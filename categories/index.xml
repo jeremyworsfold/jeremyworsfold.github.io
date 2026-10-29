@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/categories/</link>
-      <atom:link href="https://jeremyworsfold.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/categories/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 20 May 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Categories</title>
-      <link>https://jeremyworsfold.github.io/categories/</link>
+      <link>https://jeremyworsfold.co.uk/categories/</link>
     </image>
     
   </channel>

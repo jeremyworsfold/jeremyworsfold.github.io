@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paul Milewski | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.co.uk/author/paul-milewski/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/author/paul-milewski/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paul Milewski</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
+      <title>Paul Milewski</title>
+      <link>https://jeremyworsfold.co.uk/author/paul-milewski/</link>
+    </image>
+    
+    <item>
+      <title>Density fluctuations in stochastic kinematic flows</title>
+      <link>https://jeremyworsfold.co.uk/publication/dfskf-2022/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/dfskf-2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

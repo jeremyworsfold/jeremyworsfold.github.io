@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adaptation and Self-Organizing Systems | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/tag/adaptation-and-self-organizing-systems/</link>
-      <atom:link href="https://jeremyworsfold.github.io/tag/adaptation-and-self-organizing-systems/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/tag/adaptation-and-self-organizing-systems/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/tag/adaptation-and-self-organizing-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Adaptation and Self-Organizing Systems</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Tue, 14 Feb 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Adaptation and Self-Organizing Systems</title>
-      <link>https://jeremyworsfold.github.io/tag/adaptation-and-self-organizing-systems/</link>
+      <link>https://jeremyworsfold.co.uk/tag/adaptation-and-self-organizing-systems/</link>
     </image>
     
     <item>
-      <title>Density Fluctuations in Stochastic Kinematic Flows</title>
-      <link>https://jeremyworsfold.github.io/publication/dfskf-2022/</link>
+      <title>Density fluctuations in stochastic kinematic flows</title>
+      <link>https://jeremyworsfold.co.uk/publication/dfskf-2022/</link>
       <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/publication/dfskf-2022/</guid>
+      <guid>https://jeremyworsfold.co.uk/publication/dfskf-2022/</guid>
       <description></description>
     </item>
     

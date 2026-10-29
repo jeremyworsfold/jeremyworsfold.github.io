@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Jeremy Worsfold</title>
+    <link>https://jeremyworsfold.co.uk/publication-type/2/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
+      <title>2</title>
+      <link>https://jeremyworsfold.co.uk/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Stochastically bistable growth and decay in the Togashi–Kaneko model</title>
+      <link>https://jeremyworsfold.co.uk/publication/sbgd-2025/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/sbgd-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collective synchronization through noise cancellation</title>
+      <link>https://jeremyworsfold.co.uk/publication/cstnc-2024/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/cstnc-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stay in your lane: Density fluctuations in multi-lane traffic</title>
+      <link>https://jeremyworsfold.co.uk/publication/siyl-2024/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/siyl-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Density fluctuations in stochastic kinematic flows</title>
+      <link>https://jeremyworsfold.co.uk/publication/dfskf-2022/</link>
+      <pubDate>Tue, 14 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://jeremyworsfold.co.uk/publication/dfskf-2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

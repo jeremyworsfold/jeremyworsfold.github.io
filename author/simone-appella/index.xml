@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simone Appella | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/author/simone-appella/</link>
-      <atom:link href="https://jeremyworsfold.github.io/author/simone-appella/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/author/simone-appella/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/author/simone-appella/index.xml" rel="self" type="application/rss+xml" />
     <description>Simone Appella</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 11 Feb 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Simone Appella</title>
-      <link>https://jeremyworsfold.github.io/author/simone-appella/</link>
+      <link>https://jeremyworsfold.co.uk/author/simone-appella/</link>
     </image>
     
     <item>
       <title>An overview of moving mesh methods</title>
-      <link>https://jeremyworsfold.github.io/pss/simone/</link>
+      <link>https://jeremyworsfold.co.uk/pss/simone/</link>
       <pubDate>Thu, 11 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/simone/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/simone/</guid>
       <description></description>
     </item>
     

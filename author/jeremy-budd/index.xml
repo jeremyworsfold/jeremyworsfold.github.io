@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jeremy Budd | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/author/jeremy-budd/</link>
-      <atom:link href="https://jeremyworsfold.github.io/author/jeremy-budd/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/author/jeremy-budd/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/author/jeremy-budd/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremy Budd</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 11 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Jeremy Budd</title>
-      <link>https://jeremyworsfold.github.io/author/jeremy-budd/</link>
+      <link>https://jeremyworsfold.co.uk/author/jeremy-budd/</link>
     </image>
     
     <item>
       <title>Joint reconstruction-segmentation on graphs</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremybudd/</link>
+      <link>https://jeremyworsfold.co.uk/pss/jeremybudd/</link>
       <pubDate>Thu, 11 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremybudd/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/jeremybudd/</guid>
       <description></description>
     </item>
     

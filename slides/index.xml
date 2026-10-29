@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/slides/</link>
-      <atom:link href="https://jeremyworsfold.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/slides/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 14 Dec 2020 21:44:52 +0000</lastBuildDate>
     <item>
       <title>How to use Python for scientific research</title>
-      <link>https://jeremyworsfold.github.io/slides/python-coding/</link>
+      <link>https://jeremyworsfold.co.uk/slides/python-coding/</link>
       <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/slides/python-coding/</guid>
+      <guid>https://jeremyworsfold.co.uk/slides/python-coding/</guid>
       <description>&lt;h2 id=&#34;how-to-use-python-for-scientific-research&#34;&gt;How to use Python for scientific research&lt;/h2&gt;
 &lt;h3 id=&#34;maintaining-a-personal-python-package-for-scientific-research&#34;&gt;Maintaining a personal Python package for scientific research&lt;/h3&gt;
 &lt;hr&gt;
@@ -50,7 +50,7 @@
 &lt;hr&gt;
 
 
-&lt;div id=&#34;chart-437562198&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-364952718&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -60,7 +60,7 @@
       clearInterval( a );
 
       Plotly.d3.json(&#34;./annealing.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-437562198&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-364952718&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -71,9 +71,9 @@
     
     <item>
       <title>MA20221 Week 2</title>
-      <link>https://jeremyworsfold.github.io/slides/ma20221week2/</link>
+      <link>https://jeremyworsfold.co.uk/slides/ma20221week2/</link>
       <pubDate>Mon, 14 Dec 2020 21:44:52 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/slides/ma20221week2/</guid>
+      <guid>https://jeremyworsfold.co.uk/slides/ma20221week2/</guid>
       <description>&lt;h1 id=&#34;ma20221-week-2&#34;&gt;MA20221 Week 2&lt;/h1&gt;
 &lt;h2 id=&#34;definitions&#34;&gt;Definitions&lt;/h2&gt;
 &lt;hr&gt;

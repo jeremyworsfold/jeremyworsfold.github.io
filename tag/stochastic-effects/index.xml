@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stochastic Effects | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/tag/stochastic-effects/</link>
-      <atom:link href="https://jeremyworsfold.github.io/tag/stochastic-effects/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/tag/stochastic-effects/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/tag/stochastic-effects/index.xml" rel="self" type="application/rss+xml" />
     <description>Stochastic Effects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Stochastic Effects</title>
-      <link>https://jeremyworsfold.github.io/tag/stochastic-effects/</link>
+      <link>https://jeremyworsfold.co.uk/tag/stochastic-effects/</link>
     </image>
     
     <item>
       <title>Stay in your lane: Density fluctuations in multi-lane traffic</title>
-      <link>https://jeremyworsfold.github.io/publication/siyl-2024/</link>
+      <link>https://jeremyworsfold.co.uk/publication/siyl-2024/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/publication/siyl-2024/</guid>
+      <guid>https://jeremyworsfold.co.uk/publication/siyl-2024/</guid>
       <description></description>
     </item>
     

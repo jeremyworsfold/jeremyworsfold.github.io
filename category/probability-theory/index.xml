@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Probability Theory | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/category/probability-theory/</link>
-      <atom:link href="https://jeremyworsfold.github.io/category/probability-theory/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/category/probability-theory/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/category/probability-theory/index.xml" rel="self" type="application/rss+xml" />
     <description>Probability Theory</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 04 Feb 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Probability Theory</title>
-      <link>https://jeremyworsfold.github.io/category/probability-theory/</link>
+      <link>https://jeremyworsfold.co.uk/category/probability-theory/</link>
     </image>
     
     <item>
       <title>Highlights from the theory of random growth</title>
-      <link>https://jeremyworsfold.github.io/pss/tomfinn/</link>
+      <link>https://jeremyworsfold.co.uk/pss/tomfinn/</link>
       <pubDate>Thu, 04 Feb 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/tomfinn/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/tomfinn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Invitation to Probability Theory</title>
-      <link>https://jeremyworsfold.github.io/pss/yisheng/</link>
+      <link>https://jeremyworsfold.co.uk/pss/yisheng/</link>
       <pubDate>Thu, 03 Dec 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/yisheng/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/yisheng/</guid>
       <description></description>
     </item>
     

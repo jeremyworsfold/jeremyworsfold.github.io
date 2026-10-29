@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Differential Topology | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/tag/differential-topology/</link>
-      <atom:link href="https://jeremyworsfold.github.io/tag/differential-topology/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/tag/differential-topology/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/tag/differential-topology/index.xml" rel="self" type="application/rss+xml" />
     <description>Differential Topology</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 04 Mar 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Differential Topology</title>
-      <link>https://jeremyworsfold.github.io/tag/differential-topology/</link>
+      <link>https://jeremyworsfold.co.uk/tag/differential-topology/</link>
     </image>
     
     <item>
       <title>Embedding and Approximation Theorems for Echo State Networks</title>
-      <link>https://jeremyworsfold.github.io/pss/allen/</link>
+      <link>https://jeremyworsfold.co.uk/pss/allen/</link>
       <pubDate>Thu, 04 Mar 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/allen/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/allen/</guid>
       <description></description>
     </item>
     

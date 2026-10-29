@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/authors/</link>
-      <atom:link href="https://jeremyworsfold.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/authors/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 26 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Authors</title>
-      <link>https://jeremyworsfold.github.io/authors/</link>
+      <link>https://jeremyworsfold.co.uk/authors/</link>
     </image>
     
   </channel>

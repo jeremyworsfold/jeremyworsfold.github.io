@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/talk/</link>
-      <atom:link href="https://jeremyworsfold.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/talk/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Fri, 20 Jan 2023 09:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://jeremyworsfold.github.io/talk/</link>
+      <link>https://jeremyworsfold.co.uk/talk/</link>
     </image>
     
     <item>
       <title>Before the Continuum Limit</title>
-      <link>https://jeremyworsfold.github.io/talk/standrews/</link>
+      <link>https://jeremyworsfold.co.uk/talk/standrews/</link>
       <pubDate>Fri, 20 Jan 2023 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/talk/standrews/</guid>
+      <guid>https://jeremyworsfold.co.uk/talk/standrews/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;At the macroscopic scale, many important models of collective motion fall into the class of kinematic flows for which both velocity and diffusion terms depend only on particle density. When the total numbers of individuals are fixed and finite, simulations of corresponding microscopic dynamics exhibit stochastic effects which can induce a variety of interesting behaviours not present in the large system limit. In this talk I will show how the fluctuations in a general class of particle models can be characterised and quantified. I will apply this to a variety of phenomena including: models for bacterial swarming; stochastic pattern formation for spatially coupled oscillators; and anomalous bulk sub-diffusion in porous media.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2204.02926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Density Fluctuations in Stochastic Kinematic Flows&lt;/a&gt;.&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Analysis | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/category/data-analysis/</link>
-      <atom:link href="https://jeremyworsfold.github.io/category/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/category/data-analysis/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/category/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 06 May 2021 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Data Analysis</title>
-      <link>https://jeremyworsfold.github.io/category/data-analysis/</link>
+      <link>https://jeremyworsfold.co.uk/category/data-analysis/</link>
     </image>
     
     <item>
       <title>Detecting Train Track Faults from an Onboard Camera</title>
-      <link>https://jeremyworsfold.github.io/pss/tina/</link>
+      <link>https://jeremyworsfold.co.uk/pss/tina/</link>
       <pubDate>Thu, 06 May 2021 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/tina/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/tina/</guid>
       <description></description>
     </item>
     

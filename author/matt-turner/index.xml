@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Matt Turner | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/author/matt-turner/</link>
-      <atom:link href="https://jeremyworsfold.github.io/author/matt-turner/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/author/matt-turner/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/author/matt-turner/index.xml" rel="self" type="application/rss+xml" />
     <description>Matt Turner</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 19 Nov 2020 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Matt Turner</title>
-      <link>https://jeremyworsfold.github.io/author/matt-turner/</link>
+      <link>https://jeremyworsfold.co.uk/author/matt-turner/</link>
     </image>
     
     <item>
       <title>Blowups: An algebraic-geometric approach to resolving singularities</title>
-      <link>https://jeremyworsfold.github.io/pss/mattturner/</link>
+      <link>https://jeremyworsfold.co.uk/pss/mattturner/</link>
       <pubDate>Thu, 19 Nov 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/mattturner/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/mattturner/</guid>
       <description></description>
     </item>
     

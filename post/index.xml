@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/post/</link>
-      <atom:link href="https://jeremyworsfold.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/post/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Sun, 14 May 2023 09:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Posts</title>
-      <link>https://jeremyworsfold.github.io/post/</link>
+      <link>https://jeremyworsfold.co.uk/post/</link>
     </image>
     
     <item>
       <title>Binary Synchronisation of Randomly Forced Oscillators</title>
-      <link>https://jeremyworsfold.github.io/post/siamds23/</link>
+      <link>https://jeremyworsfold.co.uk/post/siamds23/</link>
       <pubDate>Sun, 14 May 2023 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/siamds23/</guid>
+      <guid>https://jeremyworsfold.co.uk/post/siamds23/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Synchronisation of non-locally coupled oscillators has been extensively studied since Kuramoto’s model of oscillators was proposed in 1975. From fireflies to pedestrians on a bridge, this model is widely applicable in modelling the collective behaviour of large groups of individuals. This and other traditional models of synchronisation are predicated on deterministic forcing between individuals. Intrinsic randomness of oscillators has been incorporated into the Kuramoto model but this invariably causes a decrease in synchronization. In this talk we will show that, while noise usually creates disorder, systems can reach order through randomness. We propose and analyse a model that reproduces many of the common features of the Kuramoto model around the incoherent state but exhibits binary phase locking instead of full coherence. Using recently developed methods we are able to find exact solutions for the stationary, synchronized state. We also find approximate low dimensional dynamics for this model which qualitatively describes the full system of oscillators.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2303.14224&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Binary synchronisation of noise-coupled oscillators&lt;/a&gt;.&lt;/p&gt;
@@ -34,9 +34,9 @@
     
     <item>
       <title>Binary Synchronisation of Randomly Forced Oscillators</title>
-      <link>https://jeremyworsfold.github.io/post/bamc2023/</link>
+      <link>https://jeremyworsfold.co.uk/post/bamc2023/</link>
       <pubDate>Sun, 02 Apr 2023 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/bamc2023/</guid>
+      <guid>https://jeremyworsfold.co.uk/post/bamc2023/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;Synchronisation of non-locally coupled oscillators has been extensively studied since Kuramoto’s model of oscillators was proposed in 1975. From fireflies to pedestrians on a bridge, this model is widely applicable in modelling the collective behaviour of large groups of individuals. This and other traditional models of synchronisation are predicated on deterministic forcing between individuals. Intrinsic randomness of oscillators has been incorporated into the Kuramoto model but this invariably causes a decrease in synchronization. In this talk we will show that, while noise usually creates disorder, systems can reach order through randomness. We propose and analyse a model that reproduces many of the common features of the Kuramoto model around the incoherent state but exhibits binary phase locking instead of full coherence. Using recently developed methods we are able to find exact solutions for the stationary, synchronized state. We also find approximate low dimensional dynamics for this model which qualitatively describes the full system of oscillators.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2303.14224&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Binary synchronisation of noise-coupled oscillators&lt;/a&gt;.&lt;/p&gt;
@@ -54,9 +54,9 @@
     
     <item>
       <title>Before the Continuum Limit</title>
-      <link>https://jeremyworsfold.github.io/post/standrews/</link>
+      <link>https://jeremyworsfold.co.uk/post/standrews/</link>
       <pubDate>Fri, 20 Jan 2023 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/standrews/</guid>
+      <guid>https://jeremyworsfold.co.uk/post/standrews/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;At the macroscopic scale, many important models of collective motion fall into the class of kinematic flows for which both velocity and diffusion terms depend only on particle density. When the total numbers of individuals are fixed and finite, simulations of corresponding microscopic dynamics exhibit stochastic effects which can induce a variety of interesting behaviours not present in the large system limit. In this talk I will show how the fluctuations in a general class of particle models can be characterised and quantified. I will apply this to a variety of phenomena including: models for bacterial swarming; stochastic pattern formation for spatially coupled oscillators; and anomalous bulk sub-diffusion in porous media.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2204.02926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Density Fluctuations in Stochastic Kinematic Flows&lt;/a&gt;.&lt;/p&gt;
@@ -75,9 +75,9 @@
     
     <item>
       <title>Before the Continuum Limit</title>
-      <link>https://jeremyworsfold.github.io/post/ecmbtposter/</link>
+      <link>https://jeremyworsfold.co.uk/post/ecmbtposter/</link>
       <pubDate>Thu, 01 Sep 2022 09:00:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/post/ecmbtposter/</guid>
+      <guid>https://jeremyworsfold.co.uk/post/ecmbtposter/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;At the macroscopic scale, many important models of collective motion fall into the class of kinematic flows for which both velocity and diffusion terms depend only on particle density. When the total numbers of individuals are fixed and finite, simulations of corresponding microscopic dynamics exhibit stochastic effects which can induce a variety of interesting behaviours not present in the large system limit. In this talk I will show how the fluctuations in a general class of particle models can be characterised and quantified. I will apply this to a variety of phenomena including: models for bacterial swarming; stochastic pattern formation for spatially coupled oscillators; and anomalous bulk sub-diffusion in porous media.&lt;/p&gt;
 &lt;p&gt;The preprint for this work can be found here: &lt;a href=&#34;https://arxiv.org/abs/2204.02926&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Density Fluctuations in Stochastic Kinematic Flows&lt;/a&gt;.&lt;/p&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recommender Systems | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/tag/recommender-systems/</link>
-      <atom:link href="https://jeremyworsfold.github.io/tag/recommender-systems/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/tag/recommender-systems/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/tag/recommender-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Recommender Systems</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 29 Oct 2020 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Recommender Systems</title>
-      <link>https://jeremyworsfold.github.io/tag/recommender-systems/</link>
+      <link>https://jeremyworsfold.co.uk/tag/recommender-systems/</link>
     </image>
     
     <item>
       <title>Multi-armed bandits</title>
-      <link>https://jeremyworsfold.github.io/pss/jeremywors/</link>
+      <link>https://jeremyworsfold.co.uk/pss/jeremywors/</link>
       <pubDate>Thu, 29 Oct 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/jeremywors/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/jeremywors/</guid>
       <description></description>
     </item>
     

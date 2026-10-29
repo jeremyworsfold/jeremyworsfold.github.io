@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Will Graham | Jeremy Worsfold</title>
-    <link>https://jeremyworsfold.github.io/author/will-graham/</link>
-      <atom:link href="https://jeremyworsfold.github.io/author/will-graham/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jeremyworsfold.co.uk/author/will-graham/</link>
+      <atom:link href="https://jeremyworsfold.co.uk/author/will-graham/index.xml" rel="self" type="application/rss+xml" />
     <description>Will Graham</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-gb</language><lastBuildDate>Thu, 05 Nov 2020 10:15:00 +0000</lastBuildDate>
     <image>
-      <url>https://jeremyworsfold.github.io/media/face.jpg</url>
+      <url>https://jeremyworsfold.co.uk/media/face.jpg</url>
       <title>Will Graham</title>
-      <link>https://jeremyworsfold.github.io/author/will-graham/</link>
+      <link>https://jeremyworsfold.co.uk/author/will-graham/</link>
     </image>
     
     <item>
       <title>What is Measure Theory, and How does it Affect Me?</title>
-      <link>https://jeremyworsfold.github.io/pss/willgraham/</link>
+      <link>https://jeremyworsfold.co.uk/pss/willgraham/</link>
       <pubDate>Thu, 05 Nov 2020 10:15:00 +0000</pubDate>
-      <guid>https://jeremyworsfold.github.io/pss/willgraham/</guid>
+      <guid>https://jeremyworsfold.co.uk/pss/willgraham/</guid>
       <description>&lt;p&gt;The reaction I usually get when I tell people my PhD concerns a large amount of measure theory can be summarised fairly well by the following diagram:&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;measure theory meme&#34; src=&#34;https://jeremyworsfold.github.io/media/willgraham.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;measure theory meme&#34; src=&#34;https://jeremyworsfold.co.uk/media/willgraham.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Whilst having an intricate knowledge of the ins and outs of measure theory is by no means a requirement for many applications of maths in the real world; it does secretly underpin a lot of the more familiar (and friendly!) things that we use in applied maths, and probability.
 • Have you ever wondered why PDFs are such a big deal when working in probability?
 • Have you ever used FEM or Fourier transforms to solve a problem?
